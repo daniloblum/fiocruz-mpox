@@ -1,0 +1,201 @@
+/* BUTTON */
+
+/* Base button */
+
+button,
+.fio-button {
+	cursor: pointer;
+	border-radius: var(--fio-component-button-border-radius);
+	border-style: solid;
+	border-width: var(--fio-component-button-border-width);
+	display: inline-block;
+	font-family: var(--fio-component-button-family);
+	font-size: var(--fio-component-button-size);
+	padding: var(--fio-component-button-padding-y) var(--fio-component-button-padding-x);
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+}
+.fio-button:hover {
+	text-decoration: none;
+	text-transform: none;
+}
+/* Primary button */
+
+.fio-button-primary {
+	background-color: var(--fio-component-button-color-primary);
+	color: var(--fio-component-button-color-white) !important;
+	border-color: var(--fio-component-button-color-primary);
+}
+.fio-button-primary:hover,
+.fio-button-primary:focus {
+	background-color: var(--fio-component-button-color-primary--hover);
+	color: var(--fio-component-button-color-white);
+	border-color: var(--fio-component-button-color-primary--hover);
+}
+/* .fio-button-primary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+	outline-width: 2px;
+	outline-style: solid;
+} */
+.fio-button-primary:active {
+	background-color: var(--fio-component-button-color-primary--active);
+	border-color: var(--fio-component-button-color-primary--active);
+	color: var(--fio-sys-color-neutral-white);
+}
+
+/* Primary outline button */
+
+.fio-button-outline-primary {
+	background-color: transparent;
+	color: var(--fio-component-button-color-primary);
+	border-color: var(--fio-component-button-color-primary);
+}
+.fio-button-outline-primary:hover,
+.fio-button-outline-primary:focus {
+	background-color: var(--fio-component-button-outline-color-primary--hover);
+	color: var(--fio-component-button-color-primary--hover);
+	border-color: var(--fio-component-button-color-primary--hover);
+}
+/* .fio-button-outline-primary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+} */
+.fio-button-outline-primary:active {
+	background-color: var(--fio-component-button-color-primary--active);
+	border-color: var(--fio-component-button-color-primary--active);
+}
+
+/* Primary text button */
+
+.fio-button-text-primary {
+	background-color: transparent;
+	color: var(--fio-component-button-color-primary);
+	border-color: transparent;
+}
+.fio-button-text-primary:hover {
+	background-color: var(--fio-component-button-text-color-primary--hover);
+	color: var(--fio-component-button-color-primary--hover);
+	border-color: transparent;
+}
+/* .fio-button-text-primary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+} */
+.fio-button-text-primary:active {
+	color: var(--fio-component-button-color-primary--active);
+	background-color: var(--fio-component-button-text-color-primary--hover);
+}
+
+/* Secondary button */
+
+.fio-button-secondary {
+	background-color: var(--fio-component-button-color-white);
+	color: var(--fio-component-button-color-primary);
+	border-color: var(--fio-component-button-color-white);
+}
+.fio-button-secondary:hover {
+	background-color: var(--fio-component-button-color-primary--hover);
+	color: var(--fio-component-button-color-white);
+	border-color: var(--fio-component-button-color-white);
+}
+.fio-button-secondary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+}
+.fio-button-secondary:active {
+	background-color: var(--fio-component-button-color-white--active);
+	border-color: var(--fio-component-button-color-white--active);
+}
+
+/* Secondary outline button */
+
+.fio-button-outline-secondary {
+	background-color: transparent;
+	color: var(--fio-component-button-color-white) !important;
+	border-color: var(--fio-component-button-color-white);
+}
+.fio-button-outline-secondary:hover,
+.fio-button-outline-secondary:focus {
+	background-color: var(--fio-component-button-color-primary--hover);
+	color: var(--fio-component-button-color-white);
+	border-color: var(--fio-component-button-color-white);
+}
+/* .fio-button-outline-secondary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+} */
+.fio-button-outline-secondary:active {
+	background-color: var(--fio-component-button-color-primary--active);
+	border-color: var(--fio-component-button-color-white--active);
+}
+
+/* Secondary text button */
+
+.fio-button-text-secondary {
+	background-color: transparent;
+	color: var(--fio-component-button-color-white);
+	border-color: transparent;
+	text-decoration: none;
+}
+.fio-button-text-secondary:hover {
+	background-color: transparent;
+	color: var(--fio-component-button-color-white);
+	border-color: var(--fio-component-button-text-color-white);
+}
+.fio-button-text-secondary:focus {
+	outline-color: var(--fio-component-button-color-border--focus);
+}
+.fio-button-text-secondary:active {
+	background-color: var(--fio-component-button-color-primary--active);
+	color: var(--fio-component-button-color-white);
+}
+
+/* Dropdown button */
+
+.dropdown .dropdown-menu {
+	background-color: var(--fio-sys-color-neutral-white);
+	border-color: var(--fio-sys-color-primary-medium);
+	border-radius: var(--fio-sys-spacing-border-radius-lg);
+	border-width: var(--fio-sys-spacing-border-width-md);
+	padding: var(--fio-sys-spacing-padding-sm) 0;
+}
+.dropdown .dropdown-menu .dropdown-item,
+.dropdown .dropdown-menu .dropdown-item:visited {
+	color: var(--fio-sys-color-accent-dark);
+	padding: var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-md);
+	text-wrap: wrap;
+	font-size: var(--fio-sys-typography-paragraph-size);
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+	background-color: var(--fio-sys-color-accent-dark-contrast);
+	text-decoration: none;
+}
+.dropdown .dropdown-menu .dropdown-item:active {
+	background-color: var(--fio-sys-color-accent-dark);
+	color: var(--fio-sys-color-accent-dark-contrast);
+	text-decoration: none;
+}
+
+/* Disable button */
+
+.fio-button:disabled,
+.fio-button.disabled {
+	background-color: var(--fio-component-button-color-disable);
+	border-color: var(--fio-component-button-color-disable);
+	cursor: not-allowed;
+}
+
+.fio-button:has('outline'):disabled,
+.fio-button.disabled {
+	background-color: var(--fio-component-button-color-disable);
+	border-color: var(--fio-component-button-color-disable);
+}
+
+/* Button size */
+
+.fio-button.button-sm {
+	padding: var(--fio-component-button-sm-padding-y) var(--fio-component-button-sm-padding-x);
+	font-size: var(--fio-component-button-sm-size);
+}
+
+.fio-button.button-lg {
+	padding: var(--fio-component-button-lg-padding-y) var(--fio-component-button-lg-padding-x);
+	font-size: var(--fio-component-button-lg-size);
+}
