@@ -51,7 +51,7 @@ html {
 	font-size: var(--fio-sys-typography-head-lg-size);
 	margin-bottom: 0;
 	text-align: center;
-	text-shadow: 0 2px 4px var(--fio-sys-color-neutral-extra-dark);
+	text-shadow: 0 2px 2px var(--fio-sys-typography-head-color);
 	translate: 0 -20%;
 }
 .hero-title h1 .label {
@@ -68,7 +68,7 @@ html {
 	display: block;
 	color: var(--fio-sys-color-primary-medium-contrast);
 	display: block;
-	font-family: var(--fio-ref-typography-family-secondary-regular);
+	font-family: var(--fio-ref-typography-family-secondary-light);
 	font-weight: var(--fio-ref-typography-weight-normal);
 	font-size: var(--fio-sys-typography-head-md-size);
 	margin-top: var(--fio-sys-spacing-margin-sm);
@@ -172,7 +172,7 @@ section {
 }
 
 #course-program {
-	background: url(../../media/images/home/background-texture.png), var(--fio-sys-color-primary-medium-contrast);
+	background: url(../../media/images/home/background-texture.png), var(--fio-sys-color-secondary-accent-medium-contrast);
 	background-position: center;
 	background-size: contain;
 	position: relative;
@@ -189,13 +189,13 @@ section {
 	background-image: url(../../media/images/home/card-m1.jpg);
 }
 #course-program .card.modulo2 {
-	background-image: url(../../media/images/home/card-m2.jpg);
+	background-image: url(../../media/images/home/card-m1.jpg);
 }
 #course-program .card.modulo3 {
-	background-image: url(../../media/images/home/card-m3.jpg);
+	background-image: url(../../media/images/home/card-m1.jpg);
 }
 #course-program .card.modulo4 {
-	background-image: url(../../media/images/home/card-m4.jpg);
+	background-image: url(../../media/images/home/card-m1.jpg);
 }
 
 #course-program .card .card-header {
@@ -206,8 +206,16 @@ section {
 	font-family: var(--fio-sys-typography-head-family);
 	font-size: var(--fio-sys-typography-head-lg-size);
 	padding: 0;
-	text-shadow: 1px 2px 4px var(--fio-sys-color-neutral-extra-dark);
+	text-shadow: 1px 1px 2px var(--fio-sys-typography-head-color);
 }
+
+#course-program .card .card-header .h4 {
+	font-size: 20px; 
+	color:var(--fio-sys-color-neutral-white); 
+	text-transform:uppercase; font-family: 
+	var(--fio-ref-typography-family-secondary-light);
+}
+
 #course-program .card .card-header::after {
 	background-color: var(--fio-sys-color-secondary-accent-light);
 	content: '';
@@ -225,11 +233,20 @@ section {
 	font-family: var(--fio-ref-typography-family-secondary-regular);
 	font-size: var(--fio-sys-typography-head-xs-size);
 	padding: var(--fio-sys-spacing-margin-sm) 0 var(--fio-sys-spacing-margin-lg);
-	text-shadow: 1px 2px 4px var(--fio-sys-color-neutral-extra-dark);
+	
 }
+
+#course-program .card-body .list-group-item {
+	padding-left: 0;
+	
+}
+
 #course-program .card .card-body :last-child {
 	margin-bottom: 0;
+	color: var(--fio-sys-typography-head-color);
 }
+
+
 #course-program .card .card-footer {
 	background: none;
 	border: none;

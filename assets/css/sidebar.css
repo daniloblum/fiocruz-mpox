@@ -82,7 +82,7 @@
 	display: block;
 	color: var(--fio-sys-color-primary-medium-contrast);
 	display: block;
-	font-family: var(--fio-ref-typography-family-secondary-regular);
+	font-family: var(--fio-ref-typography-family-secondary-light);
 	font-weight: var(--fio-ref-typography-weight-normal);
 	font-size: var(--fio-sys-typography-head-sm-size);
 	margin-top: var(--fio-sys-spacing-margin-sm);

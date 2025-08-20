@@ -2,7 +2,7 @@
 
 .header {
 	align-items: center;
-	background: linear-gradient(180deg, rgba(0, 24, 51, 1), rgba(0, 48, 102, 0));
+	background: linear-gradient(180deg, rgba(79, 33, 21, 80), rgba(0, 48, 102, 0));
 	display: flex;
 	gap: 20px;
 	height: 80px;
