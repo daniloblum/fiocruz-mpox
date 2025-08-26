@@ -13,7 +13,7 @@
 .list .list-group .list-group-item {
 	background: transparent;
 	border: none;
-	border-bottom-color: var(--fio-sys-color-neutral-light);
+	border-bottom-color: var(--fio-ref-color-primary-80);
 	border-bottom-style: solid;
 	border-bottom-width: var(--fio-sys-spacing-border-width-sm);
 	border-radius: 0;
@@ -80,7 +80,7 @@
 	padding-top: 24px;
 }
 .list .list-group .list-group-item > .list-group .sub-item::before {
-	color: var(--fio-sys-color-neutral-medium);
+	color: var(--fio-ref-color-primary-70);
 	text-shadow: 4px 4px 0 var(--fio-sys-color-neutral-extra-light);
 }
 

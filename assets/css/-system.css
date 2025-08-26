@@ -23,7 +23,7 @@
 	--fio-sys-color-accent-dark: var(--fio-ref-color-secondary-30);
 	--fio-sys-color-accent-dark-contrast: var(--fio-ref-color-secondary-90);
 
-	/* Secondary Accent - 10% layout */
+	/* Tertiary Accent - 10% layout */
 	--fio-sys-color-secondary-accent-light: var(--fio-ref-color-tertiary-70);
 	--fio-sys-color-secondary-accent-light-contrast: var(--fio-ref-color-tertiary-20);
 	--fio-sys-color-secondary-accent-medium: var(--fio-ref-color-tertiary-40);

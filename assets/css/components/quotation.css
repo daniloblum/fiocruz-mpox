@@ -5,7 +5,7 @@
 	display: flex;
 	flex-direction: row;
 	font-family: var(--fio-sys-typography-quotation-family);
-	font-size: var(--fio-sys-typography-quotation-family);
+	font-size: var(--fio-sys-typography-head-sm-size);
 	font-weight: var(--fio-sys-typography-quotation-weight);
 	line-height: var(--fio-sys-typography-quotation-line-height);
 	margin: 0;
@@ -30,6 +30,7 @@
 .quotation blockquote .quotation-body p {
 	color: var(--fio-sys-color-primary-dark);
 	font-family: var(--fio-sys-typography-quotation-family);
+	font-size: var(--fio-sys-typography-head-sm-size);
 }
 .quotation blockquote .quotation-autor {
 	color: var(--fio-sys-color-primary-dark);

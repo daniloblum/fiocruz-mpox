@@ -14,8 +14,8 @@
 }
 
 .box .card .card-header {
-	background-color: var(--fio-sys-color-secondary-accent-medium);
-	border-color: var(--fio-sys-color-secondary-accent-medium);
+	background-color: var(--fio-sys-color-primary-medium);
+	border-color: var(--fio-sys-color-primary-medium);
 	border-radius: var(--fio-sys-spacing-border-radius-full);
 	border-style: solid;
 	border-width: var(--fio-sys-spacing-border-width-md);

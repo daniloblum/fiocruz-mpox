@@ -3,7 +3,7 @@
 /*** Destaque Parallax - Alta ênfase ***/
 
 .destaque-parallax {
-	background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url(../../../sources/recursos-visuais/images/bg-destaque.jpg);
+	background: linear-gradient(0deg, rgba(224, 70, 0, 0.9), rgba(224, 70, 0, 0.2)), url(../../../sources/recursos-visuais/images/bg-destaque.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -36,7 +36,6 @@
 
 .destaque-parallax {
 	background-color: transparent;
-	/* background-image: url(images/parallax/parallax-bg.jpg); */
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;

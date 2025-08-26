@@ -5,8 +5,8 @@
 
 	--fio-ref-color-primary: 12, 77%; /* hue, saturation% */
 	--fio-ref-color-secondary: 224, 79%;
-	--fio-ref-color-tertiary: 35, 73%;
-	--fio-ref-color-neutral: 42, 33%;
+	--fio-ref-color-tertiary: 40, 32%;
+	--fio-ref-color-neutral: 0, 6%;
 	--fio-ref-color-text: var(--fio-ref-color-neutral);
 	--fio-ref-color-success: 135, 60%;
 	--fio-ref-color-warning: 50, 100%;
