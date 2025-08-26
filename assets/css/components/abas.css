@@ -47,6 +47,10 @@
 	padding: 1.5rem;
 }
 
+.tab-pane-content{
+	padding: 1.5rem;
+}
+
 .boot-tabs {
 	margin-bottom: 20px !important;
 }

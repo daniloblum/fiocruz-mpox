@@ -249,7 +249,7 @@ Accordion
 	color: var(--primary-color);
 	text-decoration: none !important;
 	padding-right: 60px;
-	font-family: 'Patrick Hands';
+	font-family: 'Jost';
 	font-size: 1.25rem;
 	text-transform: uppercase;
 	line-height: 1.25;
@@ -394,7 +394,7 @@ Cards de Comparação e Diferenciação
 .card .card-header {
 	margin: 0;
 	padding: 0 0 20px 0;
-	font-family: 'Patrick Hands', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 1.5rem;
 	border-bottom: 1px solid #bfb5af;
 	text-transform: uppercase;
@@ -418,7 +418,7 @@ Na pratica
 
 .napratica {
 	padding: 50px;
-	background-color: ##ffefe7;
+	background-color: #ffefe7;
 	font-style: italic;
 	color: var(--secondary-color-dark);
 	text-align: left;
@@ -540,7 +540,7 @@ Destaques
 .olho-de-texto p {
 	color: var(--primary-color);
 	font-size: 2rem;
-	font-family: 'Patrick Hands', sans-serif;
+	font-family: 'Jost', sans-serif;
 	text-align: center;
 }
 
@@ -573,7 +573,7 @@ Destaques
 	display: block;
 	/* font-weight: 500; */
 	color: var(--secondary-color-dark);
-	font-family: 'Patrick Hands';
+	font-family: 'Jost';
 	font-size: 1.5rem;
 	text-transform: uppercase;
 }
@@ -890,7 +890,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button */
 	background-repeat: no-repeat;
 }
 .page-title-parallax[data-parallax='light'] p {
-	font-family: 'Patrick Hands', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 2rem;
 	color: var(--secondary-color);
 }
@@ -1024,7 +1024,7 @@ Flipcards 2.0
 }
 
 .flip-card-front .card-title {
-	font-family: 'Patrick Hands';
+	font-family: 'Jost';
 	color: #000;
 }
 
@@ -1309,7 +1309,7 @@ Modal
 
 .modal .modal-title {
 	margin-top: 0;
-	font-family: 'Patrick Hands', sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 }
@@ -1333,7 +1333,7 @@ Popover
 }
 
 .popover-header {
-	font-family: 'Patrick Hands', sans-serif;
+	font-family: 'Jost', sans-serif;
 	text-transform: uppercase;
 }
 
