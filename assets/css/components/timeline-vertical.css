@@ -17,10 +17,10 @@
 }
 
 .timeline-vertical .card .card-header {
-    background-color:transparent;
+    /*background-color:var(--fio-ref-color-tertiary-90);*/
     border-bottom: none;
     padding: var(--fio-sys-spacing-padding-lg);
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 
 .timeline-vertical .card .card-footer {
