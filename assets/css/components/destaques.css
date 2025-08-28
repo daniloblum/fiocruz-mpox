@@ -18,12 +18,13 @@
 }
 
 .destaque-parallax span:first-child,
-.destaque-parallax p {
+.destaque-parallax p,
+.destaque-parallax li {
 	color: var(--fio-sys-color-neutral-white);
 }
 
 .destaque-parallax p {
-	font-size: var(--fio-sys-typography-head-xs-size);
+	font-size: var(--fio-sys-typography-head-x-size);
 }
 
 .destaque-parallax p:last-child {
