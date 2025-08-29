@@ -84,8 +84,8 @@ figure a[target="_blank"]:not(.no-after):hover {
 #page-content em > a,
 #page-content em > a:visited {
   color: var(--fio-sys-color-accent-medium);
-  font-weight: bold;
-  padding: 0 5px;
+  font-weight: 600;
+  padding: 0 2px;
   text-decoration: underline;
 }
 
