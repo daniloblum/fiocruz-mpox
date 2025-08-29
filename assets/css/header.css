@@ -91,6 +91,10 @@
   color: var(--fio-sys-color-neutral-black);
 }
 
+.header .nav .nav-item .nav-link.active {
+  background-color:transparent;
+}
+
 /* Sticky */
 
 .header.header--sticky {

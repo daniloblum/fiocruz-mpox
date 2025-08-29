@@ -1,8 +1,8 @@
 /* TYPOGRAPHY */
 
 body {
-  color: var(--fio-sys-color-neutral-normal);
-  font-family: var(--fio-sys-typography-family-primary-medium);
+  color: var(--fio-sys-color-neutral-medium);
+  font-family: var(--fio-sys-typography-family-primary-regular);
   /* font-size: var(--fio-sys-typography-paragraph-size); */
 }
 /* @media (min-width: 992px) {
@@ -13,8 +13,7 @@ body {
 
 a,
 a:visited {
-  background-color: var(--fio-sys-color-accent-light);
-  color: var(--fio-sys-color-accent-normal);
+  color: var(--fio-sys-color-accent-medium);
   text-decoration: none;
   text-transform: none;
   overflow-wrap: anywhere;
@@ -31,8 +30,7 @@ a[role="button"] {
 }
 
 a:hover {
-  background-color: var(--fio-sys-color-accent-normal);
-  color: var(--fio-sys-color-accent-contrast);
+  color: var(--fio-sys-color-accent-medium);
   text-decoration: underline;
 }
 
@@ -84,24 +82,20 @@ figure a[target="_blank"]:not(.no-after):hover {
 #page-content strong > a,
 #page-content strong > a:visited,
 #page-content em > a,
-#page-content em > a:visited,
-#page-content table td > a,
-#page-content table td > a:visited,
-#page-content li > a, 
-#page-content li > a:visited {
-  background-color: var(--fio-sys-color-accent-normal);
+#page-content em > a:visited {
+  background-color: var(--fio-sys-color-accent-light);
   color: var(--fio-sys-color-accent-contrast);
   padding: 0 10px;
 }
 
 /* #page-content p > a:visited {
 	background-color:var(--fio-sys-color-accent-light);
-	color: var(--fio-sys-color-accent-normal);
+	color: var(--fio-sys-color-accent-medium);
 } */
 
 #page-content p > a:hover {
   background-color: var(--fio-sys-color-accent-dark);
-  color: var(--fio-sys-color-accent-contrast);
+  color: var(--fio-sys-color-accent-dark-contrast);
   text-decoration: none;
 }
 
@@ -159,11 +153,11 @@ h6,
 }
 
 p {
-  color: var(--fio-sys-color-primary-normal);
+  color: var(--fio-sys-color-neutral-extra-dark);
   font-family: var(--fio-sys-typography-family-primary-regular);
   font-size: var(--fio-sys-typography-size-0);
-  font-weight: var(--fio-sys-typography-weight-normal);
-  letter-spacing: var(--fio-sys-typography-spacing-normal);
+  font-weight: var(--fio-sys-typography-weight-medium);
+  letter-spacing: var(--fio-sys-typography-spacing-medium);
   line-height: 1.75;
   margin-bottom: var(--fio-sys-size-margin-lg);
 }
@@ -182,7 +176,7 @@ small,
 .extra-small {
   display: block;
   font-size: var(--fio-sys-typography-size--2) !important;
-  line-height: var(--fio-sys-typography-spacing-normal) !important;
+  line-height: var(--fio-sys-typography-spacing-medium) !important;
 }
 
 blockquote {

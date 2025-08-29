@@ -18,6 +18,7 @@
 	border-bottom-width: var(--fio-sys-spacing-border-width-sm);
 	border-radius: 0;
 	display: block;
+	font-size:var(--fio-sys-typography-size-0);
 	padding: var(--fio-sys-spacing-padding-md);
 	padding-left: var(--fio-sys-spacing-padding-xl);
 }

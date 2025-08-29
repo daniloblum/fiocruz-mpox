@@ -89,8 +89,8 @@
 					data-bs-target="#modal-creditos">Créditos</a></li>
 			<li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal"
 					data-bs-target="#modal-bibliografia">Bibliografia</a></li>
-			<li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal"
-					data-bs-target="#modal-glossario">Glossário</a></li>
+			<!-- <li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-glossario">Glossário</a></li> -->
 			<li class="nav-item"><button class="fio-button fio-button-primary" data-bs-toggle="modal"
 					data-bs-target="#modal-megamenu">Módulos</button></li>
 			<!-- <li class="nav-item desktop-toggle"><a href="#" class="fio-button fio-button-outline-primary">FAQ</a></li> -->
@@ -217,8 +217,8 @@
 				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
-						<div class="row justify-content-center mb-5">
-							<div class="col-12 col-md-10 col-lg-8">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
 								<div class="heading__block">
 									<span class="heading__before">Tópico 2</span>
 									<h3 class="heading__title">Medidas de prevenção e controle da infecção</h3>
@@ -235,23 +235,103 @@
 
 								<p>Dessa forma, indivíduos que tenham contato com casos suspeitos ou confirmados de
 									Mpox, como familiares e cuidadores, devem: </p>
-
-
 							</div>
 
-							<div class="row justify-content-center mb-5 mt-5">
-								<div class="col-12 col-md-10 col-lg-8">
+							
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<!-- Timeline ZigZag -->
+									<div class="timeline-zigzag">
+										<!--1ª sessão-->
+										<div class="row align-items-center timeline-z-estrutura mb-0 pt-0">
+											<div class="col-2 text-center bottom">
+												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
+											</div>
+											<div class="col-10 col-lg-6 py-5 pl-4">
+												<div class="row align-items-center justify-content-start aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+													<h5>Higienização das mãos</h5>
+													<p>Realizar constantemente a higienização das mãos com água e sabão e <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Processo de eliminação ou inibição do crescimento de microrganismos em tecidos vivos.</p>" data-bs-original-title="Antissepsia">antissepsia</a> com álcool 70%.</p>
+												</div>
+											</div>
+										</div>
 
+										<!--Linha entre 1-2-->
+										<div class="row timeline-z mb-0">
+											<div class="col-2">
+												<div class="corner top-right"></div>
+											</div>
+											<div class="col-8">
+												<hr>
+											</div>
+											<div class="col-2">
+												<div class="corner left-bottom"></div>
+											</div>
+										</div>
 
-									slider com popover
+										<!--2ª sessão -->
+										<div class="row align-items-center justify-content-end timeline-z-estrutura">
+											<div class="col-10 col-lg-6 pr-4 py-5 text-end aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
+												<h5>Uso de máscara</h5>
+												<p>Utilizar máscara, preferencialmente do tipo cirúrgica, realizando a sua troca toda vez que estiver úmida ou danificada. </p>
+											</div>
+											<div class="col-2 text-center full">
+												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
+											</div>
+										</div>
 
+										<!--Linha entre 2-3-->
+										<div class="row timeline-z mb-0">
+											<div class="col-2">
+												<div class="corner right-bottom"></div>
+											</div>
+											<div class="col-8">
+												<hr>
+											</div>
+											<div class="col-2">
+												<div class="corner top-left"></div>
+											</div>
+										</div>
 
+										<!--3ª sessão-->
+										<div class="row align-items-center justify-content-start timeline-z-estrutura mb-0">
+											<div class="col-2 text-center full">
+												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
+											</div>
+											<div class="col-10 col-lg-6 px-0 py-5 pl-4 aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+												<h5>Evitar contato íntimo</h5>
+												<p>Quando possível, evitar contato íntimo e prolongado com o indivíduo com diagnóstico confirmado/suspeito.</p>
+											</div>
+										</div>
+
+										<!--Linha entre 3-4-->
+										<div class="row timeline-z mb-0">
+											<div class="col-2">
+												<div class="corner top-right"></div>
+											</div>
+											<div class="col-8">
+												<hr>
+											</div>
+											<div class="col-2">
+												<div class="corner left-bottom"></div>
+											</div>
+										</div>
+
+										<!--4ª sessão -->
+										<div class="row align-items-center justify-content-end timeline-z-estrutura">
+											<div class="col-10 col-lg-6 pr-4 py-5 text-end aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
+												<h5>Isolamento</h5>
+												<p>Manter o isolamento dessa pessoa em relação aos outros membros da família. Quando não for possível realizar esse isolamento, o recomendado é manter uma distância de pelo menos um metro e manter os ambientes ventilados.</p>
+											</div>
+											<div class="col-2 text-center top">
+												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 
-
-							<div class="row justify-content-center mb-5 mt-5">
-								<div class="col-12 col-md-10 col-lg-8">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
 
 									<p>Em casos graves, como os mencionados anteriormente, ou dependendo das condições
 										de moradia, o médico deverá avaliar a necessidade do isolamento em ambiente
@@ -367,36 +447,44 @@
 								</div>
 							</div>
 
-
 							<div class="row justify-content-center mb-5">
-								<div class="col-12 col-md-10 col-lg-8">
-									<!-- Swipper Effect Card -->
-									<div class="swiper swiper--effect-card card">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<div class="card-body">
-													<p>Dryvax, uma vacina licenciada na década de 1930 pela Administração de Alimentos e Drogas dos EUA (FDA).</p>
-												</div>
+								<div class="col-12 col-md-8 col-lg-6">
+								<!-- Swipper Effect Card -->
+								<div class="swiper swiper--effect-card card">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="card-header">
+												<span class="h6">Dryvax</span>
 											</div>
 
-											<div class="swiper-slide">
-												<div class="card-body">
-													<p>ACAM2000, licenciada em 2007.</p>
-
-												</div>
-											</div>
-
-											<div class="swiper-slide">
-												<div class="card-body">
-													<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque delectus dicta labore? Eaque error maxime voluptatum cumque repudiandae corrupti quibusdam necessitatibus maiores possimus, facilis voluptates architecto totam? Atque, maxime.</p>
-
-													<p>Uma vacina mais recente que foi desenvolvida para a varíola (MVA-BN, também conhecida como Imvanex, Imvamune,ou Jynneos) e aprovada pelas Autoridades Reguladoras Nacionais da União Europeia, Canadá e Estados Unidos para prevenir a varíola e a Mpox (Paho, 2022).</p>
-												</div>
+											<div class="card-body">
+												<p>Dryvax, uma vacina licenciada na década de 1930 pela Administração de Alimentos e Drogas dos EUA (FDA).</p>
 											</div>
 										</div>
-										<div class="swiper-pagination swiper-pagination3"></div>
-									</div>
 
+										<div class="swiper-slide">
+											<div class="card-header">
+												<span class="h6">ACAM2000</span>
+											</div>
+
+											<div class="card-body">
+												<p>ACAM2000, licenciada em 2007. </p>
+
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="card-header">
+												<span class="h6">Imvanex, Imvamune,ou Jynneos</span>
+											</div>
+
+											<div class="card-body">
+												<p>Uma vacina mais recente que foi desenvolvida para a varíola (MVA-BN, também conhecida como Imvanex, Imvamune,ou Jynneos) e aprovada pelas Autoridades Reguladoras Nacionais da União Europeia, Canadá e Estados Unidos para prevenir a varíola e a Mpox (Paho, 2022).</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination swiper-pagination3"></div>
+								</div>
 
 								</div>
 							</div>

@@ -125,7 +125,6 @@
 
 .flipcard .flip-card-front .card-footer .fio-button,
 .flipcard .flip-card-back .card-footer .fio-button {
-	width: 50%;
 	margin: 0 auto;
 	border: transparent;
 	background: var(--fio-sys-color-accent-medium);

@@ -2,6 +2,7 @@
 
 .table {
 	background-color: var(--fio-sys-color-neutral-white);
+	font-size: var(--fio-sys-typography-size-0);
 }
 
 .table > :not(:first-child) {
@@ -13,6 +14,7 @@
 }
 
 .table-responsive table thead th {
+	font-size:var(--fio-sys-typography-size-0);
 	border: none;
 	vertical-align: middle;
 	border: 1px solid var(--fio-sys-color-primary-medium);

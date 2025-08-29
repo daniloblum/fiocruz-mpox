@@ -11,6 +11,7 @@
 	border-style: solid;
 	border-width: var(--fio-sys-spacing-border-width-md);
 	position: relative;
+	overflow: visible;
 }
 
 
@@ -48,6 +49,7 @@
 	vertical-align: middle;
 }
 .box .card .card-header .icone::before {
+	color: var(--fio-sys-color-primary-medium-contrast);
 	border-color: var(--fio-sys-color-primary-medium-contrast);
 	border-right-style: solid;
 	border-right-width: var(--fio-sys-spacing-border-width-sm);
@@ -56,6 +58,7 @@
 	padding-right: var(--fio-sys-spacing-padding-sm);
 }
 .box .card .card-header .label {
+	color:var(--fio-sys-color-primary-medium-contrast);
 	padding-left: var(--fio-sys-spacing-padding-sm);
 	vertical-align: middle;
 }

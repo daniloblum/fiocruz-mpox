@@ -1,8 +1,12 @@
-@import '-reference.css';
-@import '-system.css';
+/* @import '-reference.css'; */
+@import '-reference-new.css';
+/* @import '-system.css'; */
+@import '-system-new.css';
 @import '-component.css';
-@import 'fonts/fonts.css';
-@import 'typography.css';
+@import 'fonts.css';
+/* @import 'fonts/fonts.css'; */
+/* @import 'typography.css'; */
+@import 'typography-new.css';
 @import '../../sources/animate/animate.min.css';
 @import '../../sources/animate/aos/dist/aos.css';
 @import 'sidebar.css';
@@ -33,6 +37,8 @@
 @import 'components/timeline-zigzag.css';
 @import 'components/timeline-horizontal.css';
 @import 'components/video.css';
+@import 'components/media.css';
+@import 'components/exercise.css';
 
 * {
 	margin: 0;

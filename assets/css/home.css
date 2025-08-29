@@ -171,6 +171,11 @@ section {
 	position: relative;
 }
 
+/* Vídeo de abertura */
+.media .media__transcription .transcription-button:hover .transcription-button-label {
+	color:var(--_button-text-color-primary);
+}
+
 #course-program {
 	background: url(../../media/images/home/background-texture.png), var(--fio-sys-color-secondary-accent-medium-contrast);
 	background-position: center;
@@ -185,6 +190,11 @@ section {
 	height: 100%;
 	padding: var(--fio-sys-spacing-padding-lg);
 }
+
+#course-program .card .card-header span {
+	color:#fff;
+}
+
 #course-program .card.modulo1 {
 	background-image: url(../../media/images/home/card-m1.jpg);
 }
@@ -217,7 +227,7 @@ section {
 }
 
 #course-program .card .card-header::after {
-	background-color: var(--fio-sys-color-secondary-accent-light);
+	background-color: var(--fio-sys-color-primary-medium-contrast);
 	content: '';
 	display: block;
 	height: 2px;
