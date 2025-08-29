@@ -69,17 +69,17 @@ figure img {
 	width: 100%;
 }
 figcaption.figure-caption {
-	font-size: 75%;
+	font-size: 85%;
 	color: var(--fio-sys-color-text-light);
-	text-align: right;
+	text-align: center;
 	margin-top: var(--fio-sys-spacing-margin-sm);
 }
 
 .figure-caption .fonte,
 .fonte,
 .video-subtitle {
-	font-size: 75%;
-	color: #6c757d;
+	font-size: 85%;
+	color: var(--fio-sys-color-text-light);
 	text-align: center;
 }
 /* 
