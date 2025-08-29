@@ -13,6 +13,7 @@
 	position: relative;
 }
 
+
 .box .card .card-header {
 	background-color: var(--fio-sys-color-primary-medium);
 	border-color: var(--fio-sys-color-primary-medium);
@@ -31,6 +32,19 @@
 	top: calc(var(--fio-sys-spacing-padding-md) * (-1));
 	box-shadow: var(--fio-sys-elevation-md);
 }
+
+#box-atention .box .card {
+	
+	text-transform: uppercase;
+	font-size: calc(var(--fio-sys-typography-label-sm-size) * 1.25);
+  background: linear-gradient(0deg, rgba(255, 127, 0, 0.3), rgba(255, 255, 255, 0.05)), url(../../../media/templates/bg-box-atencao.svg);
+}
+
+#box-atention .box .card p{
+	color: var(--fio-sys-color-primary-dark);
+}
+
+
 .box .card .card-header .icone {
 	vertical-align: middle;
 }
@@ -51,6 +65,7 @@
 .box[data-box='atenção'] .card .card-header .icone::before {
 	/* content: 'priority_high'; */
 	content: 'priority_high';
+
 }
 /* Curiosidade */
 .box[data-box='curiosidade'] .card .card-header .icone::before {
