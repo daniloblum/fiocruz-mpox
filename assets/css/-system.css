@@ -89,13 +89,24 @@
 	--fio-sys-spacing-margin-lg: var(--fio-ref-size-margin-175);
 	--fio-sys-spacing-margin-xl: var(--fio-ref-size-margin-250);
 
-	/* Border radius */
+	/* Border radius - OLD */
 	--fio-sys-spacing-border-radius-0: var(--fio-ref-size-radius-none);
 	--fio-sys-spacing-border-radius-sm: var(--fio-ref-size-radius-025);
 	--fio-sys-spacing-border-radius-md: var(--fio-ref-size-radius-050);
 	--fio-sys-spacing-border-radius-lg: var(--fio-ref-size-radius-075);
 	--fio-sys-spacing-border-radius-xl: var(--fio-ref-size-radius-100);
 	--fio-sys-spacing-border-radius-full: var(--fio-ref-size-radius-full);
+
+	/* Border radius - NOVAS CLASSES */
+	--fio-sys-size-radius-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-radius-0: var(--fio-ref-size-0);
+	--fio-sys-size-radius-xs: var(--fio-ref-size-4);
+	--fio-sys-size-radius-sm: var(--fio-ref-size-8);
+	--fio-sys-size-radius-md: var(--fio-ref-size-12);
+	--fio-sys-size-radius-lg: var(--fio-ref-size-16);
+	--fio-sys-size-radius-xl: var(--fio-ref-size-24);
+	--fio-sys-size-radius-full: var(--fio-ref-size-160);
 
 	/* Border width */
 	--fio-sys-spacing-border-width-0: var(--fio-ref-size-0);

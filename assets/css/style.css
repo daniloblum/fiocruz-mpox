@@ -1,8 +1,8 @@
-@import '-reference-new.css';
-@import '-system-new.css';
+@import '-reference.css';
+@import '-system.css';
 @import '-component.css';
-@import 'fonts.css';
-@import 'typography-new.css';
+@import 'fonts/fonts.css';
+@import 'typography.css';
 @import '../../sources/animate/animate.min.css';
 @import '../../sources/animate/aos/dist/aos.css';
 @import 'sidebar.css';

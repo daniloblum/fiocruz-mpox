@@ -20,7 +20,7 @@
 	border-radius: var(--fio-sys-spacing-border-radius-full);
 	border-style: solid;
 	border-width: var(--fio-sys-spacing-border-width-md);
-	color: var(--fio-sys-color-secondary-accent-medium-contrast);
+	color: var(--fio-sys-color-primary-medium-contrast);
 	font-family: var(--fio-sys-typography-label-family);
 	font-size: var(--fio-sys-typography-label-sm-size);
 	left: var(--fio-sys-spacing-padding-lg);
@@ -49,7 +49,7 @@
 	vertical-align: middle;
 }
 .box .card .card-header .icone::before {
-	border-color: var(--fio-sys-color-secondary-accent-medium-contrast);
+	border-color: var(--fio-sys-color-primary-medium-contrast);
 	border-right-style: solid;
 	border-right-width: var(--fio-sys-spacing-border-width-sm);
 	display: block;
