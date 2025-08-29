@@ -2,46 +2,46 @@
 
 /* Primary - Color */
 .color-primary-light {
-	color: var(--fio-sys-color-primary-light);
+	color: var(--fio-sys-color-primary-light) !important;
 }
 .color-primary-light-contrast {
-	color: var(--fio-sys-color-primary-light-contrast);
+	color: var(--fio-sys-color-primary-light-contrast) !important;
 }
 .color-primary-medium {
-	color: var(--fio-sys-color-primary-medium);
+	color: var(--fio-sys-color-primary-medium) !important;
 }
 .color-primary-medium-contrast {
-	color: var(--fio-sys-color-primary-medium-contrast);
+	color: var(--fio-sys-color-primary-medium-contrast) !important;
 }
 .color-primary-dark {
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-dark) !important;
 }
 .color-primary-dark-contrast {
-	color: var(--fio-sys-color-primary-dark-contrast);
+	color: var(--fio-sys-color-primary-dark-contrast) !important;
 }
 
 /* Primary - Background */
 .background-primary-light {
-	background-color: var(--fio-sys-color-primary-light);
+	background-color: var(--fio-sys-color-primary-light) !important;
 }
 .background-primary-light-contrast {
-	background-color: var(--fio-sys-color-primary-light-contrast);
+	background-color: var(--fio-sys-color-primary-light-contrast) !important;
 }
 .background-primary-medium {
-	background-color: var(--fio-sys-color-primary-medium);
+	background-color: var(--fio-sys-color-primary-medium) !important;
 }
 .background-primary-medium-contrast {
-	background-color: var(--fio-sys-color-primary-medium-contrast);
+	background-color: var(--fio-sys-color-primary-medium-contrast) !important;
 }
 .background-primary-dark {
-	background-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-primary-dark) !important;
 }
 .background-primary-dark-contrast {
-	background-color: var(--fio-sys-color-primary-dark-contrast);
+	background-color: var(--fio-sys-color-primary-dark-contrast) !important;
 }
 
 .background-primary-lighter {
-	background-color: var(--fio-sys-color-primary-background-light);
+	background-color: var(--fio-sys-color-primary-background-light) !important;
 }
 
 /* Accent - Color */

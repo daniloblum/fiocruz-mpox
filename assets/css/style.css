@@ -1,8 +1,8 @@
-@import '-reference.css';
-@import '-system.css';
+@import '-reference-new.css';
+@import '-system-new.css';
 @import '-component.css';
-@import 'fonts/fonts.css';
-@import 'typography.css';
+@import 'fonts.css';
+@import 'typography-new.css';
 @import '../../sources/animate/animate.min.css';
 @import '../../sources/animate/aos/dist/aos.css';
 @import 'sidebar.css';
@@ -25,6 +25,8 @@
 @import 'components/list.css';
 @import 'components/popover.css';
 @import 'components/modal.css';
+@import "components/swiper-bundle.min.css";
+@import "components/swiper.css";
 @import 'components/slider.css';
 @import 'components/tabela.css';
 @import 'components/timeline-vertical.css';
