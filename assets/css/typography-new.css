@@ -17,7 +17,7 @@ a:visited {
   text-decoration: none;
   text-transform: none;
   overflow-wrap: anywhere;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 /* a:visited {
@@ -30,7 +30,9 @@ a[role="button"] {
 }
 
 a:hover {
-  color: var(--fio-sys-color-accent-medium);
+  background-color:var(--fio-sys-color-accent-medium);
+  color:#fff;
+  /* color: var(--fio-sys-color-accent-medium); */
   text-decoration: underline;
 }
 
@@ -47,7 +49,7 @@ a[target="_blank"]:not(.no-after):after {
   margin-left: 5px;
   margin-right: 5px;
   font-size: 80%;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a[target="_blank"]:after :hover {
   text-decoration: none;
@@ -59,7 +61,8 @@ figure a[target="_blank"]:not(.no-after):after {
 
 figure a[target="_blank"]:not(.no-after) {
   transition: 0.5s;
-  opacity: 1;
+  text-decoration: underline;
+  /* opacity: 1; */
 }
 
 /*Aqui é para tirar o padding e o fundo quando o link com target blank estiver em imagens*/
@@ -72,9 +75,9 @@ figure.link-image a[target="_blank"]::after {
   display: none;
 }
 
-figure a[target="_blank"]:not(.no-after):hover {
+/* figure a[target="_blank"]:not(.no-after):hover {
   opacity: 0.7;
-}
+} */
 
 /* LINKS QUE ESTIVEREM EM TEXTO CORRIDO */
 #page-content p > a,
