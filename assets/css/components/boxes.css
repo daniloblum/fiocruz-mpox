@@ -120,6 +120,7 @@
 .box .card .card-body {
 	padding: var(--fio-sys-spacing-padding-lg);
 	padding-top: var(--fio-sys-spacing-padding-xl);
+	overflow: hidden;
 }
 
 .box .card .card-body span.h6 {
