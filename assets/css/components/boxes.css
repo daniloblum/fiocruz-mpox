@@ -35,7 +35,7 @@
 }
 
 #box-atention .box .card {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size: calc(var(--fio-sys-typography-label-sm-size) * 1.25);
   background: linear-gradient(0deg, rgba(255, 127, 0, 0.3), rgba(255, 255, 255, 0.05)), url(../../../media/templates/bg-box-atencao.svg) no-repeat right;
 }

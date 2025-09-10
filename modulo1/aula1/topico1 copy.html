@@ -93,17 +93,102 @@
 				</a>
 			</div>
 			<div class="sidebar__inner">
-				<div class="sidebar__hide" title="Recolher painel lateral" style="cursor:pointer;position: absolute; width: 60px; height: 60px; top: 100px; left: 100%; background-image: linear-gradient(90deg, var(--fio-ref-color-primary-30), var(--fio-ref-color-primary-20)); display: flex;justify-content: center;align-items: center; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
-					<span class="material-symbols-rounded" style="font-size: 36px; color: white;">left_panel_close</span>
+				<div class="sidebar__hide open d-none d-lg-block" title="Recolher painel lateral" style="cursor:pointer;position: absolute; width: 60px; height: 60px; top: 100px; left: 100%; background-image: linear-gradient(90deg, var(--fio-ref-color-primary-30), var(--fio-ref-color-primary-20)); display: flex;justify-content: center;align-items: center; border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+					<span class="material-symbols-rounded to-close" style="font-size: 36px; color: white;">left_panel_close</span>
+					<span class="material-symbols-rounded to-open" style="font-size: 36px; color: white;">left_panel_open</span>
 				</div>
-				<section class="sidebar__title">
-					<span class="label">Módulo 1</span>
-					<h1 class="title">
-						<span class="h4" style="text-transform: uppercase">Conceitos básicos sobre a Mpox</span>
-					</h1>
+				<section class="sidebar__section">
+					<div class="sidebar__title">
+						<span class="label">Módulo 1</span>
+						<h1 class="title">
+							<span class="h4" style="text-transform: uppercase">Conceitos básicos sobre a Mpox</span>
+						</h1>
+					</div>
 				</section>
-				<section class="sidebar__section py-2">
-					<a href="../apresentacao.html" class="sidebar__btn"> <span class="material-symbols-rounded" aria-hidden="true">flag</span>Boas-vindas ao Módulo 1 </a>
+				<section class="sidebar__section">
+
+				</section>
+				<section class="sidebar__section">
+					<div class="section-accordion">
+						<div class="accordion accordion-modulo" id="accordion-sidebar-modulo">
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc-sidebar-modulo-collapse-1" aria-expanded="true" aria-controls="acc-sidebar-modulo-collapse-1">
+										Módulo 1
+									</button>
+								</h2>
+								<div id="acc-sidebar-modulo-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-sidebar-modulo">
+									<div class="accordion-body">
+										<div class="section-button">
+											<a href="../apresentacao.html" class="sidebar__btn"> <span class="material-symbols-rounded" aria-hidden="true">flag</span>Boas-vindas ao Módulo 1 </a>
+										</div>
+										<div class="accordion" id="accordion-sidebar-aula">
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														Accordion Item #1
+													</button>
+												</h2>
+												<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-sidebar-aula">
+													<div class="accordion-body">
+														<strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														Accordion Item #2
+													</button>
+												</h2>
+												<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-sidebar-aula">
+													<div class="accordion-body">
+														<strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+														Accordion Item #3
+													</button>
+												</h2>
+												<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-sidebar-aula">
+													<div class="accordion-body">
+														<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-sidebar-modulo-collapse-2" aria-expanded="false" aria-controls="acc-sidebar-modulo-collapse-2">
+										Accordion Item #2
+									</button>
+								</h2>
+								<div id="acc-sidebar-modulo-collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordion-sidebar-modulo">
+									<div class="accordion-body">
+										<strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-sidebar-modulo-collapse-3" aria-expanded="false" aria-controls="acc-sidebar-modulo-collapse-3">
+										Accordion Item #3
+									</button>
+								</h2>
+								<div id="acc-sidebar-modulo-collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordion-sidebar-modulo">
+									<div class="accordion-body">
+										<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</section>
 				<section class="header-nav mobile-only">
 					<ul class="nav nav-pills">
@@ -187,7 +272,7 @@
 									<span class="heading__before">TÓPICO 1</span>
 									<h3 class="heading__title">Histórico: origem da doença e do nome</h3>
 								</div>
-								<p>Para começarmos, vamos entender um pouco da história da Mpox, conhecendo os motivos por trás da mudança do nome de "varíola dos macacos" para "Mpox" e como isso contribui para a conscientização sobre prevenção e respeito. O impacto dessa simples alteração na nomenclatura trouxe maior conscientização na luta contra a doença e sua estigmatização. Assista ao vídeo com informações importantes sobre a evolução do nome e compreensão da Mpox.</p>
+								<p>Para começarmos, vamos entender um pouco da história da Mpox, conhecendo os motivos por trás da mudança do nome de "varíola dos macacos" para "Mpox" e como isso contribui para a conscientização sobre prevenção e respeito. O impacto dessa simples alteração na nomenclatura trouxe maior conscientização na luta contra a doença e sua estigmatização. Assista ao vídeo com informações importantes sobre a evolução do nome e compreensão da Mpox..</p>
 							</div>
 
 							<div class="row justify-content-center mb-5 mt-5">
