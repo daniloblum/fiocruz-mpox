@@ -1,6 +1,7 @@
 //Type 1: Swiper Navigation
 var swiper = new Swiper(".swiper--navigation", {
     direction: 'horizontal',
+    allowTouchMove: false,
     loop: false,
     slidesPerView: 1,
     spaceBetween: 0,
@@ -29,7 +30,7 @@ var swiper = new Swiper(".swiper--navigation", {
    // Scrollbar (if needed)
     scrollbar: {
         el: '.swiper-scrollbar',
-    },
+    }
 });
 
 
