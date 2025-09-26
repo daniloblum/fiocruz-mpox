@@ -163,8 +163,8 @@ const modalInfos = {
 					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
 
 					<div class="mb-5">
-						<p class="mb-1">Nísia Trindade Lima</p>
-						<p class="small text-muted"><em>Ministra</em></p>
+						<p class="mb-1">Alexandre Padilha</p>
+						<p class="small text-muted"><em>Ministro</em></p>
 					</div>
 
 					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
@@ -172,7 +172,7 @@ const modalInfos = {
 					<div class="mb-5">
 						<p class="mb-1">Mario Moreira</p>
 						<p class="small text-muted"><em>Presidente</em></p>
-						<p class="mb-1">Cristiani Vieira Machado</p>
+						<p class="mb-1">Marly Cruz</p>
 						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
 					</div>
 
@@ -181,17 +181,17 @@ const modalInfos = {
 					<div class="mb-5">
 
 						<p class="mb-1">Ana Cristina da Matta Furniel</p>
-						<p class="small text-muted"><em>Coordenadora-geral</em></p>
+						<p class="small text-muted"><em>Coordenadora geral</em></p>
 						<p class="mb-1">Rosane Mendes</p>
-						<p class="small text-muted"><em>Coordenadora-adjunta</em></p>
-						<p class="mb-1">Adélia Araújo</p>
-						<p class="small text-muted"><em>Coordenadora de produção</em></p>
+						<p class="small text-muted"><em>Coordenadora adjunta</em></p>
 						<p class="mb-1">Renata Bernardes David</p>
 						<p class="small text-muted"><em>Gerente de produção</em></p>
+						<p class="mb-1">Juliana Dutra</p>
+						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
 					
-						<p class="mb-1">Fernanda Sousa</p>
+						<p class="mb-1">Roberta Saboya</p>
 						<p class="small text-muted"><em>Designer Educacional</em></p>
 					
 						<span class="h6 mb-3 d-block">Design de Interface</span>
@@ -207,22 +207,17 @@ const modalInfos = {
 						
 						<p class="mb-1">Teo Venerando</p>
 						<p class="small text-muted"><em>Edição audiovisual</em></p>
-						
-						<span class="h6 mb-3 d-block">Animação</span>
 
-						<p class="mb-1">Bruno Athaydes</p>
-						<p class="small text-muted"><em>Motion designer</em></p>
-						<p class="mb-1">Rose Renovato</p>
-						<p class="small text-muted"><em>Locutora</em></p>
-											
 						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
 						
+						<p class="mb-1">Maria Clara Pontes</p>
+						<p class="small text-muted"><em>Designer Educacional</em></p>
 						<p class="mb-1">Carmélia Brito</p>
 						<p class="small text-muted"><em>Bibliotecária</em></p>
 						<p class="mb-1">Natália Rasina</p>
 						<p class="small text-muted"><em>Audiodescrição</em></p>
-						<p class="mb-1">Maria Angélica Marcondes Drska</p>
-						<p class="small text-muted"><em>Revisão de Português	</em></p>
+						<p class="mb-1">Janaina Vieira</p>
+						<p class="small text-muted"><em>Revisão de Português</em></p>
 						
 						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
 					
@@ -238,91 +233,76 @@ const modalInfos = {
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
 					</div>
 
-					<span class="h5 mb-3 d-block">Instituto Nacional de Infectologia - INI/FIOCRUZ</span>
+					<span class="h5 mb-3 d-block">Coordenação do projeto</span>
 					
 					<div class="mb-5">
-						<p class="mb-1">Valdiléa Gonçalves Veloso dos Santos</p>
-						<p class="small text-muted"><em>Diretora</em></p>
+						<p class="mb-1">Maurício Monken</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
 
-						<span class="h6 mb-3 d-block">Coordenadora geral</span>
+						<p class="mb-1">Fernanda de Oliveira Bottino Ribeiro</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">Carlos Eduardo Colpo Batistella</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
+
 						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="small text-muted"><em>Plataforma de Pesquisa Clínica INI/ Fiocruz</em></p>
-						
-						<span class="h6 mb-3 d-block">Coordenadores acadêmicos</span>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto </p>
-						<p class="small text-muted"><em>Plataforma de Pesquisa Clínica INI/Fiocruz</em></p>
-					
 						<span class="h6 mb-3 d-block">Conteudistas</span>
+						<p class="mb-1">Anamaria D'Andrea Corbo</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
 
-						<p class="small"><strong>Módulo 1 | Conceitos, histórico e diretrizes</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-						
-						<p class=" small"><strong>Módulo 2 | Regulamentação e Fluxos de Tramitação</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Marcella Feitosa da Silva Barboza</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-						
-						<p class="small"><strong>Moçambique</strong></p>
-						
-						<p class="mb-1">Alcina Zitha Tauancha</p>
-						<p class="small text-muted"><em>Farmacêutica-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="mb-1">Anchelda Santinho Mulimela</p>
-						<p class="small text-muted"><em>Revisão Linguistica-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>						
-						
-						<p class="mb-1">Igor Doby</p>
-						<p class="small text-muted"><em>Médico-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
+						<p class="mb-1">Bianca Borges da Silva Leandro</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
 
-						<p class="small"><strong>Módulo 3 | Atores em pesquisa clínica</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
+						<p class="mb-1">Camila Furlanetti Borges</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
 
-						<p class="mb-1">Ferão Américo Mandlate</p>
-						<p class="small text-muted"><em>Psicólogo-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
+						<p class="mb-1">Carlos Eduardo Colpo Batistella</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
 
-						<p class="mb-1">Jaciara Nissai Sallé Mussa</p>
-						<p class="small text-muted"><em>Psicológa-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="mb-1">Yolanda Veronica Feliciano Manganhe</p>
-						<p class="small text-muted"><em>Antropóloga-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="small"><strong>Módulo 4 | Eventos adversos</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-					
-						<span class="h6 mb-3 d-block">Avaliação Final</span>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto </p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-					
-						<span class="h6 mb-3 d-block">Revisores Técnicos</span>
-						
-						<p class="mb-1">Valdiléa Gonçalves Veloso dos Santos</p>
-						<p class="small text-muted"><em>Diretora do Instituto Nacional de Infectologia Evandro Chagas - INI/FIOCRUZ</em></p>
+						<p class="mb-1">Cynthia Macedo Dias</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">Edilene Menezes Pereira</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">Fernanda de Oliveira Bottino Ribeiro</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">Ingrid D'avilla Freire Pereira</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">João Roberto Cavalcante</p>
+						<p class="small text-muted"><em>Pesquisador do Centro Brasil de Saúde Global</em></p>
+
+						<p class="mb-1">José Mauro da Conceição Pinto</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
+
+						<p class="mb-1">Marcia Cavalcanti Raposo Lopes</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
+
+						<p class="mb-1">Maurício Monken</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
+
+						<p class="mb-1">Pedro Henrique Mattos Ferreira</p>
+						<p class="small text-muted"><em>Assessor técnico do Ministério da Saúde</em></p>
+
+						<p class="mb-1">Reinaldo de Araujo Dantas Lopes</p>
+						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
 					</div>
 					
-					<div class="">
-						<p class="mb-1"><strong>A inclusão do conteúdo referente à regulamentação de Moçambique é resultado de uma parceria no âmbito do Programa Coopbras (Programa de Cooperação em Ensino e Pesquisa Internacional), apoiada pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior/Brasil/CAPES (código de financiamento 001)</strong></p>
-					</div>
+					<span class="h6 mb-3 d-block">Apoio em Tecnologia Educacional</span>
+						<p class="mb-1">Tarcisio Pereira de Souza</p>
+						<p class="small text-muted"><em>Tecnologista da EPSJV</em></p>
+
+					<span class="h6 mb-3 d-block">Revisão Técnica</span>
+						<p class="mb-1">Martha Peçanha Sharapin</p>
+						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV </em></p>
+
+						<p class="mb-1">Mayara Secco Torres da Silva </p>
+						<p class="small text-muted"><em>Pesquisadora do INI</em></p>
+
+						<p class="mb-1">Matheus Oliveira Bastos</p>
+						<p class="small text-muted"><em>Pesquisador do INI</em></p>
 				</div>
 			</div>
 		`,
@@ -333,195 +313,362 @@ const modalInfos = {
 		modalTitle: 'Bibliografia',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
-				<div class="col-12 col-md-11">
-					<div class="mb-5">
-						<!-- Accordion -->
-						<div class="accordion accordion-flush" id="accordionExample2">
-							<div class="accordion-item">
-								<h5 class="accordion-header" id="heading1-item1">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Módulo 1</button>
-								</h5>
-								<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-									<div class="accordion-body">
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANDRADE, M. V. <em>et al.</em> Indicadores e medidas em saúde: conceitos e aplicações para as informações disponíveis no Brasil. <em>In</em>: SALDANHA, R. F.; PEDROSO, M. M.; MAGALHÃES, M. A. F. M. <strong>Avaliação de impacto das políticas de saúde</strong>: um guia para o SUS. Brasil: Ministério da Saúde, Secretaria de Ciência, Tecnologia, Inovação e Complexo da Saúde, 2023. cap. 3, p. 81-123. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/avaliacao_impacto_politicas_saude_guia_sus.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/avaliacao_impacto_politicas_saude_guia_sus.pdf</a>. Acesso em: 09 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARRETO, M. L. Desigualdades em saúde: uma perspectiva global. <strong>Ciência & Saúde Coletiva</strong>, v. 22, n. 7, p. 2097-2108, 2017. Disponível em: <a href="https://www.scielo.br/j/csc/a/XLS4hCMT6k5nMQy8BJzJhHx/" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csc/a/XLS4hCMT6k5nMQy8BJzJhHx/</a>. Acesso em: 09 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Constituição (1988)</strong>. Constituição da República Federativa do Brasil. Brasília, DF: Senado, 1988.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Lei n° 8.080, de 19 de setembro de 1990. Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. <strong>Diário Oficial da União</strong>, Brasília, DF, 20 set. 1990a. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8080.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l8080.htm</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAVALCANTE, R. B.; PINHEIRO, M. M. K. Contexto atual da construção da Política Nacional de Informação e Informática em Saúde (PNIIS). <strong>Tendências da Pesquisa Brasileira em Ciência da Informação</strong>, v. 7, n. 1, p. 45-59, 2014. Disponível em: <a href="https://revistas.ancib.org/index.php/tpbci/article/view/347/347" target="_blank" rel="noopener noreferrer">https://revistas.ancib.org/index.php/tpbci/article/view/347/347</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COELHO-NETO, G. C.; CHIORO, A. Afinal, quantos Sistemas de Informação em Saúde de base nacional existem no Brasil? <strong>Cadernos de Saúde Pública</strong>, v. 37, n. 7, 2021. Disponível em: <a href="https://www.scielo.br/j/csp/a/RzNmvjHqmLhPHZp6gfcdC6H/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csp/a/RzNmvjHqmLhPHZp6gfcdC6H/?format=pdf&lang=pt</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COELI, C. M. <em>et al.</em> Sistemas de Informação em Saúde. <em>In</em>: MEDRONHO, R. A. (org.). <strong>Epidemiologia</strong>. 2. ed. São Paulo: Atheneu, 2009. cap. 29, p. 525-534.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FARIA, L. L. F. <strong>Saúde digital nas cidades inteligentes no Brasil</strong>: abordagens, articulações possíveis, avanços e desafios. 2023. 178 f. Dissertação (Mestrado em Saúde Pública) - Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz, Rio de Janeiro, 2023. Disponível em: <a href="https://www.arca.fiocruz.br/handle/icict/62767" target="_blank" rel="noopener noreferrer">https://www.arca.fiocruz.br/handle/icict/62767</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">JANNUZZI, P. M. Estatísticas e políticas públicas orientadas por evidências no Brasil: caso das políticas de desenvolvimento social nos anos 2000. <strong>Revista Brasileira de Geografia</strong>, v. 64, n. 1, p. 37-54, 2019.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MORAES, I. H. S. <strong>Política, tecnologia e informação em saúde</strong>: a utopia da emancipação. Salvador: Instituto de Saúde Coletiva/UFBa e Casa da Qualidade, 2002.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MORAES, I. H. S.; FORNAZIN, M. Nem tecnoforia nem tecnofobia: abordagem crítica da incorporação das tecnologias digitais na saúde. <em>In</em>: PAIM, Jairnilson Silva; ALMEIDA-FILHO, Naomar (org.). <strong>Saúde coletiva</strong>: teoria e prática. 2. ed. Rio de Janeiro: Medbook, 2022. v. 1, p. 670-691.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MORAES, I.; GOMEZ, M. Informação e informática em saúde: caleidoscópio contemporâneo da saúde. <strong>Ciência & Saúde Coletiva</strong>, v. 12, n. 3, p. 553-565, 2007. Disponível em: <a href="https://www.scielo.br/j/csc/a/45Nb5fbzVr3YDqJRKLhbvWk/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csc/a/45Nb5fbzVr3YDqJRKLhbvWk/?format=pdf&lang=pt</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PROADESS. <strong>Projeto de Avaliação do Desempenho do Sistema de Saúde</strong>. Laboratório de Informação em Saúde. Instituto de Comunicação e Informação Científica e Tecnológica em Saúde. Fundação Oswaldo Cruz). Rio de Janeiro: Fiocruz, 2024. Disponível em: <a href="https://www.proadess.icict.fiocruz.br/index.php" target="_blank" rel="noopener noreferrer">https://www.proadess.icict.fiocruz.br/index.php</a>. Acesso em: 09 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIBEIRO, M. C. S. A.; BARATA, R. B. Condições de saúde da população brasileira. <em>In</em>: GIOVANELLA, L. (org.). <strong>Políticas e sistema de saúde no Brasil</strong>. 2. ed. rev. e ampliada. Rio de Janeiro: Editora Fiocruz: Centro Brasileiro de Estudos da Saúde, 2012. cap. 5, p. 143-181.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REDE INTERAGENCIAL DE INFORMAÇÕES PARA A SAÚDE - RIPSA. (org.). <strong>Indicadores básicos para a saúde no Brasil</strong>: conceitos e aplicações. 2. ed. Brasília: Organização Pan-Americana da Saúde, Escritório Regional para as Américas da Organização Mundial da Saúde, 2008. Disponível em: <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf" target="_blank" rel="noopener noreferrer">http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf</a>. Acesso em: 08 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RISI, J. B. Informação em saúde no Brasil: a contribuição da Ripasa. <strong>Ciência & Saúde Coletiva</strong>, v. 11, p. 1049-1053, 2006. Disponível em: <a href="https://www.scielo.br/j/csc/a/YntJzFbXMN69KJkfsNvfMNn/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csc/a/YntJzFbXMN69KJkfsNvfMNn/?format=pdf&lang=pt</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ROUQUAYROL, M. Z. Contribuição da epidemiologia. <em>In</em>: CAMPOS, G. W. S. <em>et al.</em> (org.). <strong>Tratado de saúde coletiva</strong>. 2. ed. São Paulo: Hucitec, 2021. p. 343-398.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">VIANA, A. L. d’A.; BAPTISTA, T. W. F. Análise de políticas de saúde. <em>In</em>: GIOVANELLA, L. (org.). <strong>Políticas e sistema de saúde no Brasil</strong>. 2. ed. rev. ampliada. Rio de Janeiro: Editora Fiocruz: Centro Brasileiro de Estudos da Saúde, 2012. cap. 2, p. 59-88.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">VERMELHO, L. L.; COSTA, A. J. L.; KALE, P. L. Indicadores de saúde. <em>In</em>: MEDRONHO, R. A. (editor-chefe). <strong>Epidemiologia</strong>. 2. ed. São Paulo: Atheneu, 2009. cap. 3, p. 31-82.</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+    <div class="col-12 col-md-11">
+        <div class="mb-5">
+            <!-- Accordion -->
+            <div class="accordion accordion-flush" id="accordionBibliografia">
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="heading1-item1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Módulo 1</button>
+                    </h5>
+                    <div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
+                        <div class="accordion-body">
+                            <span class='d-block'><strong>Aula 1</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CHADHA, J. <em>et al</em>. Insights into the monkeypox virus: making of another pandemic within the pandemic? <strong>Environmental Microbiology</strong>. v. 24, out 2022. DOI: 10.1111/1462-2920.16174.</li>
 
-							<div class="accordion-item">
-								<h5 class="accordion-header" id="heading1-item2">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Módulo 2</button>
-								</h5>
-								<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-									<div class="accordion-body">
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGUIAR, A. C. Informação e atividades de desenvolvimento científico, tecnológico e industrial: tipologia proposta com base em análise funcional. <strong>Ci. Inf</strong>., Brasília, DF, v. 20, n. 1, p. 8, jan./jun. 1991.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ARAÚJO, C. A. A. Correntes teóricas da ciência da informação. <strong>Ci. Inf</strong>., Brasília, DF, v. 38, n. 3, p. 192-204, set./dez., 2009. Disponível em <a href="https://doi.org/10.1590/S0100-19652009000300013" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/S0100-19652009000300013</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BAPTISTA, P. I. C. F. <strong>Do papiro ao e-book</strong>: uma história social dos suportes da informação. 2014. 48 f. Monografia de conclusão de curso (Graduação em Biblioteconomia e Gestão de Unidade de Informação). Universidade Federal do Rio de Janeiro, Rio de Janeiro. Disponível em: <a href="https://pantheon.ufrj.br/bitstream/11422/265/1/Pedro%20Ivo%20BiblioTCCpdf.pdf" target="_blank" rel="noopener noreferrer">https://pantheon.ufrj.br/bitstream/11422/265/1/Pedro%20Ivo%20BiblioTCCpdf.pdf</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MENEZES, Sabrina. Fonte de informação: definição, tipologia e confiabilidade. <strong>Blog da BIBENG</strong>, 10 ago. 2021. Disponível em: <a href="https://www.ufrgs.br/bibeng/fontes-de-informacao-definicao-tipologia-confiabilidade/#:~:text=Fontes%20de%20informa%C3%A7%C3%A3o%20s%C3%A3o%20essenciais,localizar%20informa%C3%A7%C3%B5es%20e%20dados%20confi%C3%A1veis" target="_blank" rel="noopener noreferrer">https://www.ufrgs.br/bibeng/fontes-de-informacao-definicao-tipologia-confiabilidade/#:~:text=Fontes%20de%20informa%C3%A7%C3%A3o%20s%C3%A3o%20essenciais,localizar%20informa%C3%A7%C3%B5es%20e%20dados%20confi%C3%A1veis</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAFEZEIRO, I.; COSTA, L. C.; KUBRUSLY, R. S. Ciência da Computação, Ciência da Informação, Sistemas de Informação: uma reflexão sobre o papel da informação e da interdisciplinaridade na configuração das tecnologias e das ciências. <strong>Perspec. Ci. Inf</strong>., v. 21, n. 3, p. 111–133, jul. 2016. Disponível em: <a href="https://doi.org/10.1590/1981-5344/2681" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/1981-5344/2681</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAMPELLO, B. Aula Fontes de Informação I. <em>In</em>: <strong>Curso de Bacharelado em Biblioteconomia na Modalidade a Distância</strong> - Departamento de Biblioteconomia. UAB: Brasília/DF, 2018. </li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GOMES, L. B. <em>et al.</em> As origens do pensamento sistêmico: das partes para o todo. <strong>Pensando fam.</strong>, Porto Alegre, v. 18, n. 2, p. 3-16, dez. 2014.Disponível em: <a href="http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1679-494X2014000200002&lng=pt&nrm=iso" target="_blank" rel="noopener noreferrer">http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1679-494X2014000200002&lng=pt&nrm=iso</a>. Acesso em: 09 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GUIMARÃES, M. C. S.; SILVA, C. H.; SANTANA, R. A. L. Uma abordagem de educação para saúd e a partir da informação científica e tecnológica. <strong>R. Eletr. de Com. Inf. Inov. Saúde</strong>. Rio de Janeiro, v. 6, n. 2, jun., 2012. Disponível em <a href="www.reciis.icict.fiocruz.br" target="_blank" rel="noopener noreferrer">www.reciis.icict.fiocruz.br</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LE COADIC, Y. F. <strong>A Ciência da informação</strong>. 2. ed. Brasília: Briquet de Lemos, 2004.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REDE INTERAGENCIAL DE INFORMAÇÕES PARA A SAÚDE – RIPSA. <strong>Indicadores básicos de saúde no Brasil</strong>: conceitos e aplicações. Brasília: Organização Pan-Americana da Saúde, 2002.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SARACEVIC, T. Ciência da informação: origem, evolução e relações <strong>Perspec. Ci. Inf.</strong>, Belo Horizonte, v. 1, n. 1, p. 41-62, jan./jun. 1996.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SENRA, N. C. <strong>A Coordenação da Estatística Nacional</strong>. O Equilíbrio entre o Desejável e o Possível. 1998. Tese (Doutorado em Ciência da Informação) - Escola de Comunicação – ECO, Universidade Federal do Rio de Janeiro – UFRJ e Instituto Brasileiro de Informação em Ciência e Tecnologia – IBICT, Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq, Rio de Janeiro, 1998. Disponível em: <a href="https://ridi.ibict.br/bitstream/123456789/665/1/nelsonsenra1998.pdf" target="_blank" rel="noopener noreferrer">https://ridi.ibict.br/bitstream/123456789/665/1/nelsonsenra1998.pdf</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, C. H. S. <strong>Fontes em Informação Científica e Tecnológica em Saúde</strong> - ICTS - Aula no curso de especialização em ICTS, FIOCRUZ, Rio de Janeiro, junho 2022. </li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUENO, S. B.; BLATMANN, U. Fontes de Informação on-line no contexto da área de ciências da saúde. <strong>Pesquisa Brasileira em Ciência da Informação e Biblioteconomia</strong>, v 1, n 1, 2006. Disponível em: <a href="https://brapci.inf.br/#/v/238971" target="_blank" rel="noopener noreferrer">https://brapci.inf.br/#/v/238971</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUENO, S. B.; BLATMANN, U. Fontes de Informação online no contexto da área de ciências da saúde. <strong>RDBCI:Revista Digital de Biblioteconomia e Ciência da Informação</strong>, v 3, n 1, 2005. Disponível em: <a href="https://brapci.inf.br/#/v/40186" target="_blank" rel="noopener noreferrer">https://brapci.inf.br/#/v/40186</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUSH, V. As We May Think. <strong>The Atlantic Monthly</strong>, July1945. Disponível em: <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank" rel="noopener noreferrer">https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAMPELLO, B. S.; CENDÓN, B. V.; KREMER, J. M. (org.). <strong>Fontes de Informação para pesquisadores e profissionais</strong>. Belo Horizonte: Ed. UFMG, 2000.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAMPELLO, Bernadete. Enciclopédias. <em>In</em>: CAMPELLO, B.; CALDEIRA, P. T. (org.). <strong>Introdução às Fontes de Informação</strong>. 2. ed. Belo Horizonte: Autêntica, 2008. (Coleção Ciência da Informação; v. 2).</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GOMEZ, M. N. G.; CANONGIA, C. (org.). <strong>Contribuição para políticas de ICT</strong>. Brasília, DF: IBICT,2001.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OLIVEIRA, A. R. F.; ALENCAR, M. S. M. O uso de aplicativos de saúde para dispositivos móveis como fontes de informação e educação em saúde. <strong>Revista Digital de Biblioteconomia e Ciência da Informação</strong>, v. 15, n.1, 2017. Disponível em: <a href="https://brapci.inf.br/#/v/40893" target="_blank" rel="noopener noreferrer">https://brapci.inf.br/#/v/40893</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OLIVEIRA, C. M.; <em>et al.</em> Typology of health information soucers: decision making support. <strong>Asklepion: Informação em Saúde</strong>, v. 2, n.1, 2022. Disponível em: <a href="https://asklepionrevista.info/asklepion/article/view/38" target="_blank" rel="noopener noreferrer">https://asklepionrevista.info/asklepion/article/view/38</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ROBREDO, J. Do documento impresso à informação nas nuvens: reflexões. <strong>Liinc em Revista</strong>, v. 7, n.1, p. 19-42, 2011. Disponível em: <a href="http://www.ibict.br/liinc" target="_blank" rel="noopener noreferrer">http://www.ibict.br/liinc</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SANTANA, R. A. L. <strong>Sistema Nacional de Informações Tóxico-Farmacológicas</strong>: o desafio da padronização dos dados. 2005. Dissertação (Mestrado em Saúde Pública) - Escola Nacional de Saúde Pública, Fundação Oswaldo Cruz, Rio de Janeiro, 2005.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SANTOS, V. P. S.; COELHO, M. T. A. D.; RODRIGUES JUNIOR, N. M. Fontes de Informação em Saúde. <strong>Revista Fontes Documentais</strong>, v. 3, n. 1, 2020. Disponível em: <a href="https://brabci.info.br/index/php/res/v/15116" target="_blank" rel="noopener noreferrer">https://brabci.info.br/index/php/res/v/15116</a>.</li>
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SANTOS, V. P. S.; COELHO, M. T. A. D.; RODRIGUES JUNIOR, N. M. Fontes de Informação em Saúde: influenciam no conhecimento do HVi/AIDS? <strong>Revista Fontes Documentais</strong>, v 3, n. Ed Especial, 2020. Disponível em: <a href="https://periodicos.ufba.br/index.php/RFD/article/view/57818" target="_blank" rel="noopener noreferrer">https://periodicos.ufba.br/index.php/RFD/article/view/57818</a>.</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CHO, C. T.; HERBERT, A. W. Monkeypox Virus. <strong>Bacteriological Reviews</strong>. Mar, 1973, p. 1-18.</li>
 
-							<div class="accordion-item">
-								<h5 class="accordion-header" id="heading1-item3">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Módulo 3</button>
-								</h5>
-								<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-									<div class="accordion-body">
-										<span class='d-block'><strong>Aula 1</strong></span>
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-													data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº
-														6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em:<a
-														href=' https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms'
-														target='_blank' rel="noopener noreferrer">
-														https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>.
-													Acesso em: 10 jan. 2025.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KOONIN, E. V.; DOLJA, V. V.; KRUPOVIC, M; VARSANI, A.; WOLF, Y. I.; YUTIN, N.; ZERBINI, M.; KUHN, J. H. <strong>Create a megataxonomic framework, filling all principal taxonomic ranks, for DNA viruses encoding vertical jelly roll-type major capsid proteins</strong>. EC 51, Berlin, Germany. 2019. Disponível em: <a href='https://ictv.global/taxonomy/taxondetails?taxnode_id=202104771' target='_blank' rel="noopener noreferrer">https://ictv.global/taxonomy/taxondetails?taxnode_id=202104771</a>. Acesso em: 26 out. 2023.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-													data-aos-easing="ease-out" data-aos-duration="1200">MONTERASTELLI, A. O que se sabe sobre a varíola do
-													macaco em homens bi e homossexuais. <strong>Outra Saúde</strong>, São Paulo, 04/07/2022. Seção Saúde Global.
-													Disponível em: <a
-														href='https://outraspalavras.net/outrasaude/o-que-se-sabe-sobre-a-variola-dos-macacos-em-homens-gays-e-bissexuais/'
-														target='_blank'
-														rel="noopener noreferrer">https://outraspalavras.net/outrasaude/o-que-se-sabe-sobre-a-variola-dos-macacos-em-homens-gays-e-bissexuais/</a>.
-													Acesso em: 10 jan. 2025. </li>
-											</ul>
-										</div>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOORE, M. J.; BALRAM, R; ZAHRA, F. Mpox (Monkeypox). <strong>Treasure Island</strong> (FL): StatPearls Publishing; 2023 Jan. Disponível em: <a href='https://www.ncbi.nlm.nih.gov/books/NBK574519/' target='_blank' rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/books/NBK574519/</a>. Acesso em: 26 out. 2023.</li>
 
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REY, L. <strong>Dicionário da saúde e da prevenção de seus riscos</strong>. Rio de Janeiro: Guanabara Koogan, 2006. ISBN: 85-277-1195-8. </li>
+                                </ul>
+                            </div>
 
+                            <span class='d-block'><strong>Aula 2</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    
 
-										<span class='d-block'><strong>Aula 2</strong></span>
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-													data-aos-easing="ease-out" data-aos-duration="1200">CYRINO, A. P.; TEIXEIRA, R. R. Saúde pública, mudança de comportamento e criação: da educação sanitária à emergência da inteligência coletiva em saúde. <em>In:</em> BERTUCCI, L. M. <strong>Saúde e Educação</strong>: um encontro plural. Rio de Janeiro: Editora Fiocruz, 2017.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>. Acesso em: 20 out. 2023.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MIZUKAMI, M. <strong>Ensino:</strong> as abordagens do processo. São Paulo: EPU, 1986.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). Guidance on Clinical Suspicion and Differential Diagnosis of Monkeypox. <strong>Provisional Technical Note</strong>, 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf</a>. Acesso em: 28 nov. 2023.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOREL, C.; LOPES, M.; PEREIRA, I. <em>In:</em> MOREL, C.; PEREIRA, I.; LOPES, M. (orgs.). <strong>Educação em saúde:</strong> material didático para formação técnica de agentes comunitários de saúde. Rio de Janeiro: EPSJV, 2020. p. 71-78.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Mpox (monkeypox)</strong>. 2024. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/monkeypox' target='_blank' rel="noopener noreferrer">https://www.who.int/news-room/fact-sheets/detail/monkeypox</a>. Acesso em: 28 nov. 2023.</li>
+                                </ul>
+                            </div>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NESPOLI, G. Da educação sanitária à educação popular em saúde. <em>In:</em> BORNSTEIN, V. et al. (org.). <strong>Curso de Aperfeiçoamento em Educação Popular em Saúde:</strong> textos de apoio. Rio de Janeiro: EPSJV, 2016. p. 47-51.</li>
-											</ul>
-										</div>
+                            <span class='d-block'><strong>Aula 3</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA (Anvisa). <strong>Voto nº 64/2023/SEI/DIRE2/ANVISA</strong>. 2023. Disponível em: <a href='https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/' target='_blank' rel="noopener noreferrer">https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/</a>. Acesso em: 30 out. 2023.</li>
 
-										<span class='d-block'><strong>Aula 3</strong></span>
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-													data-aos-easing="ease-out" data-aos-duration="1200">ARAÚJO, R. S. de; CRUZ, P. J. S. C. <strong>Educação popular como prática social e profissional</strong>.  João Pessoa, PB: Editora do CCTA, 2018. Disponível em: <a href='http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/livroweb.pdf' target='_blank' rel="noopener noreferrer">http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/livroweb.pdf</a>f. Acesso em:2 dez. 2024.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view</a>. Acesso em: 30 out. 2023.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BONETTI, O. P.; ODEH, M. M.; CARNEIRO, F. F. Questioning the Institutionalization of Popular Education in Health in the Unified Health System (SUS – acronym in Portuguese). <strong>Interface</strong> (Botucatu). 18 Supl 2:1413-1426, 2014.  Disponível em: <a href='https://www.scielo.br/j/icse/a/zFggwz3TY3nRfkvFDzvNt6H/?format=pdf&lang=pt' target='_blank' rel="noopener noreferrer">https://www.scielo.br/j/icse/a/zFggwz3TY3nRfkvFDzvNt6H/?format=pdf&lang=pt</a>. Acesso em: 8 dez. 2024. </li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COUTINHO, C. <em>et al</em>. <strong>Characteristics of women diagnosed with mpox infection compared to men:</strong> a case series from Brazil. Travel medicine and infectious disease v. 56 (2023): 102663. Doi: 10.1016/j.tmaid.2023.102663</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. <strong>Plano de contingência Nacional para Monkeypox:</strong> Centro de Operações de Emergência em Saúde Pública: COE Monkeypox. Versão 2. [Internet]. Brasília, DF: MS, 2022 [citado 29 de março de 2023]. 32 p. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/svsa/resposta-a-emergencias/coes/monkeypox/plano-de-contingencia/plano-de-contingencia/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/svsa/resposta-a-emergencias/coes/monkeypox/plano-de-contingencia/plano-de-contingencia/view</a>. Acesso em: 15 dez. 2024.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). <strong>Mpox:</strong> perguntas e respostas. Disponível em: <a href='https://www.paho.org/pt/mpox-perguntas-e-respostas' target='_blank' rel="noopener noreferrer">https://www.paho.org/pt/mpox-perguntas-e-respostas</a>. Acesso em: 20 out. 2023.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DANTAS, V. L.; LINHARES, A. M. B. Círculos de cultura: problematização da realidade e protagonismo popular. <strong>Caderno de Educação Popular em Saúde</strong>, Brasília, DF. Ministério da Saúde, [<em>s. d.</em>].</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Multi-country outbreak of Mpox External Situation Report 22</strong>, published 11 May 2023 Data as received by WHO national authorities by 17:00 CEST, 8 May 2023. <a href='https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023</a>. Acesso em: 23 out. 2023.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREIRE, P. <strong>Pedagogia do oprimido</strong>. 17. ed. Rio de Janeiro: Paz e Terra, 1987.</li>
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="heading1-item2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Módulo 2</button>
+                    </h5>
+                    <div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
+                        <div class="accordion-body">
+                            <span class='d-block'><strong>Aula 1</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">ALMEIDA FILHO, N. de; ROUQUAYROL, M. Z. <strong>Introdução à epidemiologia</strong>. 4. ed., rev. e ampl. Rio de Janeiro: MEDSI, 2006.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MINISTÉRIO DA SAÚDE. Secretaria de Gestão Estratégica e Participativa. Departamento de Apoio à Gestão Participativa. <strong>Manual para equipes de saúde:</strong> o trabalho educativo nos grupos. Brasília, DF: MS, 2007. <a href='http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/caderno-educacao-popular-saude-p1.pdf' target='_blank' rel="noopener noreferrer">http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/caderno-educacao-popular-saude-p1.pdf</a>. Acesso em: 10 jan. 2025.</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria Nacional de Ações Básicas de Saúde. Divisão Nacional de Epidemiologia. <strong>Guia de Vigilância Epidemiológica:</strong> normas e instruções. 2. Ed., revisada e atualizada, 138p, Brasília; DF: MS, 1986</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REDEPOP. <strong>Educação popular e saúde no brasil e os coletivos de educação popular e saúde:</strong> contextos históricos. Rio de Janeiro: REDEPOP, [<em>s. d.</em>].</li>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COELI, C. M. <em>et al</em>. Sistema de Informação em Saúde. <em>In:</em> MEDRONHO, R. de A. <em>et al</em>. <strong>Epidemiologia</strong>. 2. ed. São Paulo: Atheneu, 2009. cap. 29, p. 525–534.</li>
 
-												<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. <strong>Clinical management and infection prevention and control for monkeypox:</strong> interim rapid response guidance [online]. Geneva: WHO; 2022a [citado 27 de março de 2023]. 56 p. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Clinical-and-IPC-2022.1' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Clinical-and-IPC-2022.1</a>. Acesso em: 10 dez. 2024.</li>
-											</ul>
-										</div>
-										
-									</div>
-								</div>
-							</div>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MEDRONHO, R. de A. <em>et al.</em> <strong>Epidemiologia.</strong> 2. ed. São Paulo: Atheneu, 2009.</li>
 
-							<div class="accordion-item">
-								<h5 class="accordion-header" id="heading1-item4">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Módulo 4</button>
-								</h5>
-								<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
-									<div class="accordion-body">
-										<div class="list">
-											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Lei no 8080, de 19 de setembro de 1990. Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. <strong>Diário Oficial da União</strong>, 20 set. 1990. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8080.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l8080.htm</a>. Acesso em 7 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Lei nº 8.142, de 28 de dezembro de 1990. Dispõe sobre a participação da comunidade na gestão do Sistema Único de Saúde (SUS) e sobre as transferências intergovernamentais de recursos financeiros na área da saúde e dá outras providências. <strong>Diário Oficial da União</strong>, 31 dez. 1990. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8142.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l8142.htm</a>. Acesso em 7 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Decreto nº 100, de 16 de abril de 1991</strong> [Revogado]. Institui a Fundação Nacional de Saúde e dá outras providências. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d0100.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d0100.htm</a>. Acesso em 7 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Gabinete do Ministro. <strong>Portaria nº 589, de 20 de maio de 2015</strong>. Institui a Política Nacional de Informação e Informática em Saúde (PNIIS). Disponível em:  <a href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt0589_20_05_2015.html" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt0589_20_05_2015.html</a>. Acesso em 10 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Gabinete do Ministro. Portaria nº 1.768, de 30 de julho de 2021. Altera o Anexo XLII da Portaria de Consolidação GM/MS nº 2, de 28 de setembro de 2017, para dispor sobre a Política Nacional de Informação e Informática em Saúde (PNIIS). <strong>Diário Oficial da União</strong>: Seção 1, Brasília, DF, n. 144, p. 45, 02 ago. 2021. Disponível em: <a href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-1.768-de-30-de-julho-de-2021-335472332" target="_blank" rel="noopener noreferrer">https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-1.768-de-30-de-julho-de-2021-335472332</a>. Acesso em: 10 de jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria-Executiva. Departamento de Monitoramento e Avaliação do SUS. <strong>Política Nacional de Informação e Informática em Saúde</strong>. Brasília: Ministério da Saúde, 2016. 56 p. Disponível em: <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/publicacoes/pniis-2016.pdf/view" target="_blank" rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/seidigi/publicacoes/pniis-2016.pdf/view</a>. Acesso em: 15 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Gabinete do Ministro. Portaria nº 1.434, de 28 de maio de 2020. Institui o Programa Conecte SUS e altera a Portaria de Consolidação nº 1/GM/MS, de 28 de setembro de 2017, para instituir a Rede Nacional de Dados em Saúde e dispor sobre a adoção de padrões de interoperabilidade em saúde. <strong>Diário Oficial da União</strong>: Seção 1, Brasília, DF, n. 102, p. 231, 29 maio 2020. Disponível em: <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-1.434-de-28-de-maio-de-2020-259143327" target="_blank" rel="noopener noreferrer">https://www.in.gov.br/en/web/dou/-/portaria-n-1.434-de-28-de-maio-de-2020-259143327</a>. Acesso em: 7 de jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Gabinete do Ministro. <strong>Portaria nº 545, de 20 de maio de 1993</strong>. Estabelece normas e procedimentos reguladores do processo de descentralização da gestão das ações e serviços de saúde, através da Norma Operacional Básica - SUS 01/93. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/1993/prt0545_20_05_1993.html" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/saudelegis/gm/1993/prt0545_20_05_1993.html</a>. Acesso em 7 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>A experiência brasileira em sistemas de informação em saúde</strong>. Ministério da Saúde, Organização Pan-Americana da Saúde, Fundação Oswaldo Cruz. Brasília: Editora do Ministério da Saúde, 2009. (Série B. Textos Básicos de Saúde).</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria Executiva. Departamento de Informática do SUS. <strong>DATASUS Trajetória 1991-2002</strong>. Brasília: Ministério da Saúde, 2002. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/trajetoria_datasus.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/trajetoria_datasus.pdf</a>. Acesso em: 10 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Decreto n° 4.194, de 11 de abril de 2002</strong> [Revogado]. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/decreto/2002/d4194.htm#:~:text=DECRETO%20N%C2%BA%204.194%2C%20DE%2011%20DE%20ABRIL%20DE%202002.&text=Aprova%20a%20Estrutura%20Regimental%20e,que%20lhe%20confere%20o%20art" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/decreto/2002/d4194.htm#:~:text=DECRETO%20N%C2%BA%204.194%2C%20DE%2011%20DE%20ABRIL%20DE%202002.&text=Aprova%20a%20Estrutura%20Regimental%20e,que%20lhe%20confere%20o%20art</a>. Acesso em: 10 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria Executiva. Departamento de Informação e Informática do SUS. <strong>Política Nacional de Informação e Informática em Saúde Proposta Versão 2.0</strong>. Brasília, 29 mar. 2024.  Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/PoliticaInformacaoSaude29_03_2004.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/PoliticaInformacaoSaude29_03_2004.pdf</a>. Acesso em: 15 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAVALCANTE, R. B.; PINHEIRO, M. M. K. Política Nacional de Informação e Informática em Saúde: avanços e limites atuais. <strong>Perspectivas em Gestão & Conhecimento</strong>, v. 1, n. 2, p. 91–104, 2011. Disponível em: <a href="https://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/10487" target="_blank" rel="noopener noreferrer">https://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/10487</a>. Acesso em: 15 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FONSECA, F. C. S. Sistemas de Informação da Atenção à Saúde: da fragmentação à interoperabilidade. <em>In</em>: BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Regulação, Avaliação e Controle. <strong>Sistemas de Informação da Atenção à Saúde</strong>: contextos históricos, avanços e perspectivas no SUS. Organização Pan-Americana da Saúde: Brasília, 2015. p. 9-22.166 p. Disponível em: <a href="https://www.escoladesaude.pr.gov.br/arquivos/File/sistemas_informacao_atencao_saude_contextos_historicos.pdf" target="_blank" rel="noopener noreferrer">https://www.escoladesaude.pr.gov.br/arquivos/File/sistemas_informacao_atencao_saude_contextos_historicos.pdf</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAVALCANTE, R. B.; PINHEIRO, M. M. K. Política Nacional de Informação e Informática em Saúde: avanços e limites atuais. <strong>Perspectivas em Gestão & Conhecimento</strong>, v. 1, n. 2, p. 91-104, 2011. Disponível em: <a href="https://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/10487" target="_blank" rel="noopener noreferrer">https://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/10487</a>. Acesso em: 10 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COELHO NETO, G. C.; CHIORO, A. Afinal, quantos Sistemas de Informação em Saúde de base nacional existem no Brasil?. <strong>Cadernos de Saúde Pública</strong>, v. 37, n. 7, 2021. Disponível em: <a href="https://www.scielo.br/j/csp/a/RzNmvjHqmLhPHZp6gfcdC6H/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csp/a/RzNmvjHqmLhPHZp6gfcdC6H/?format=pdf&lang=pt</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CONFERÊNCIA NACIONAL DE SAÚDE. <strong>Relatório Final da 5ª Conferência Nacional de Saúde</strong> (CNS). Brasília, 1975. Disponível em: <a href="https://www.gov.br/conselho-nacional-de-saude/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio-final-da-5a-conferencia-nacional-de-saude/view#:~:text=A%205%C2%AA%20Confer%C3%AAncia%20Nacional%20de,Nacional%20de%20Vigil%C3%A2ncia%20Epidemiol%C3%B3gica%3B%204" target="_blank" rel="noopener noreferrer">https://www.gov.br/conselho-nacional-de-saude/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio-final-da-5a-conferencia-nacional-de-saude/view#:~:text=A%205%C2%AA%20Confer%C3%AAncia%20Nacional%20de,Nacional%20de%20Vigil%C3%A2ncia%20Epidemiol%C3%B3gica%3B%204</a>. Acesso em 10 de julh. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">JANNNUZZI, P. M. Estatísticas e Políticas Públicas orientadas por evidências no Brasil: o caso das Políticas de Desenvolvimento Social nos anos 2000. <strong>Revista Brasileira de Geografia</strong>, v. 64, n. 1, p. 37-54, 2019. Disponível em: <a href="https://rbg.ibge.gov.br/index.php/rbg/article/view/2096" target="_blank" rel="noopener noreferrer">https://rbg.ibge.gov.br/index.php/rbg/article/view/2096</a>. Acesso em: 7 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">JORGE, M. H. P.; LAURENTI, R.; GOTLIEB, S. L. D. O sistema de Informações sobre Mortalidade – SIM: Concepção, Implantação e Avaliação. <em>In</em>: BRASIL. Ministério da Saúde. <strong>A experiência brasileira em sistemas de informação em saúde</strong>. Ministério da Saúde, Organização Pan-Americana da Saúde, Fundação Oswaldo Cruz. Brasília: Editora do Ministério da Saúde, 2009.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MARIN, H. F. Sistemas de informação em saúde: considerações gerais. <strong>J. Health Inform.</strong>, v. 2, n. 1, p. 20-4, 2010. Disponível em: <a href="https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/4/52" target="_blank" rel="noopener noreferrer">https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/4/52</a>. Acesso em: 7 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MENICUCCI, T. M. G. História da reforma sanitária brasileira e do Sistema Único de Saúde: mudanças, continuidades e a agenda atual. <strong>História, Ciências, Saúde-Manguinhos</strong>, Rio de Janeiro, v. 21, n. 1, p. 77–92, jan. 2014. Disponível em: <a href="https://www.scielo.br/j/hcsm/a/bVMCvZshr9RxtXpdh7YPC5x/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/hcsm/a/bVMCvZshr9RxtXpdh7YPC5x/?format=pdf&lang=pt</a></li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REZENDE, F. A. V. S.; SOARES, M. F.; REIS, A. C. Os sistemas de informação em Saúde no Sistema Único de Saúde. <em>In</em>: LEANDRO, B. D. S.; REZENDE, F. A. V. S; PINTO, J. M. C. <strong>Informações e registros em saúde e seus usos no SUS</strong>. Rio de Janeiro: Editora Fiocruz, 2020.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RISI JUNIOR, J. B. Informação e Saúde no Brasil: a contribuição da Ripsa. <strong>Ciência & Saúde Coletiva</strong>, v. 11, n. 4, p. 1049-1053, 2006. Disponível em: <a href="http://www.scielo.br/pdf/csc/v11n4/32340.pdf" target="_blank" rel="noopener noreferrer">http://www.scielo.br/pdf/csc/v11n4/32340.pdf</a>. Acesso em: 7 jul. 2024.</li>
-												<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">VIACAVA, F. Informações em saúde: a importância dos inquéritos populacionais. <strong>Ciência & Saúde Coletiva</strong>, v. 7, n. 4, p. 607-621, 2002. Disponível em: <a href="https://www.scielo.br/j/csc/a/j8mV4fvjSk7K9brzbdCj77J/?format=pdf&lang=pt" target="_blank" rel="noopener noreferrer">https://www.scielo.br/j/csc/a/j8mV4fvjSk7K9brzbdCj77J/?format=pdf&lang=pt</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Fim do Accordion -->
-					</div>
-					
-				</div>
-			</div>
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MORAES, I. H. S. Sistemas de informações em saúde: patrimônio da sociedade brasileira. <em>In:</em> PAIM, J. S.; ALMEIDA-FILHO, N. (orgs.). <strong>Saúde Coletiva:</strong> teoria e prática. Rio de Janeiro: MedBook, 2014.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REZENDE, F. A. V. S.; SOARES, M. F.; REIS, A. C. Os sistemas de informação em saúde no Sistema Único de Saúde. <em>In:</em> LEANDRO, B. B. S, REZENDE, F. A. V. S.; PINTO, J. M. C. (orgs). <strong>Informações e registros em saúde e seus usos no SUS</strong>. Rio de Janeiro: Editora Fiocruz, 2020. (Fazer Saúde coleção).</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SHARAPIN, M. P.; LEANDRO, B. B. S. Informações e registros em saúde: conceito e usos <em>In:</em> Leandro, B.B.S, REZENDE, F.A.VS., & PINTO, J.M.C. (orgs.). <strong>Informações e registros em saúde e seus usos no SUS</strong>. Rio de Janeiro: Editora Fiocruz, 2020. (Fazer Saúde coleção).</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, L. P.; CHEQUER, P. J. Sistema de informação em saúde e a vigilância epidemiológica. <strong>Guia de Vigilância Epidemiológica</strong>. Ministério da Saúde, Fundação Nacional de Saúde, Centro Nacional de Epidemiologia, Brasília, Brasil, 1994.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUZA, W. V.; DOMINGUES, C.M. A. S. Notificação Compulsória de Doenças e Agravos no Brasil: um breve histórico sobre a criação do Sistema de Informação de Agravos de Notificação – Sinan.  <em>In:</em> Brasil. Ministério da Saúde. <strong>A experiência brasileira em sistemas de informação em saúde</strong>. Ministério da Saúde, Organização Pan-Americana da Saúde, Fundação Oswaldo Cruz. Brasília, DF: Editora do Ministério da Saúde, 2009. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/experiencia_brasileira_sistemas_saude_volume1.pdf#page=39' target='_blank' rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/experiencia_brasileira_sistemas_saude_volume1.pdf#page=39</a>. Acesso em: 20 out. 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">TEIXEIRA, M. da G. <em>et al</em> . Seleção das doenças de notificação compulsória: critérios e recomendações para as três esferas de governo. <strong>Inf. Epidemiol. SUS</strong>,  Brasília ,  v. 7, n. 1, p. 7-28,  mar.  1998 .  Disponível em <a href='http://scielo.iec.gov.br/scielo.php?script=sci_arttext&pid=S0104-16731998000100002&lng=pt&nrm=iso' target='_blank' rel="noopener noreferrer">http://scielo.iec.gov.br/scielo.php?script=sci_arttext&pid=S0104-16731998000100002&lng=pt&nrm=iso</a>. Acesso em: 18 set. 2023. http://dx.doi.org/10.5123/S0104-16731998000100002 </li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 2</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALBUQUERQUE, M. I. N. DE ., CARVALHO, E. M. F. DE ., & LIMA, L. P. (2002). Vigilância epidemiológica: conceitos e institucionalização.<strong> Revista Brasileira de Saúde Materno Infantil</strong>, 2, 2002 2(1) ). Disponível em: <a href='https://doi.org/10.1590/S1519-38292002000100002' target='_blank' rel="noopener noreferrer">https://doi.org/10.1590/S1519-38292002000100002</a>. Acesso em: 10 out. 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. <strong>Lei nº 8.080, de 19 de setembro de 1990</strong>. Dispõe sobre as condições para a promoção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outra providências. DOU 20/9/90. Seção I p.18055-18059</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Ficha individual de notificação mpox</strong>. e-SUS Sinan. Sistema de Informações de Agravos de Notificação. Versão 01/03/2023. 2023a. Disponível em: <a href='http://plataforma.saude.gov.br/esussinan/ficha-investigacao-monkeypox-esussinan.pdf' target='_blank' rel="noopener noreferrer">http://plataforma.saude.gov.br/esussinan/ficha-investigacao-monkeypox-esussinan.pdf</a>. Acesso em: 3 dez 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">HAMMANN; LAGUARDIA. Reflexões sobre a vigilância epidemiológica: mais além da notificação compulsória. <strong>Informe Epidemiológico do SUS</strong>, 9 (3): 211 – 219, 2000.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MEDRONHO R.; BLOCH, K. V.; LUIZ, R. R.; WERNECK, G. L. (eds.). <strong>Epidemiologia</strong>. 2. ed. São Paulo: Atheneu, 2009.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MORAES, I. H. S. Sistemas de Informação em Saúde: Patrimônio da Sociedade Brasileira. <em>In:</em> PAIM, J. S, ALMEIRA-FILHO, N. (orgs.). <strong>Saúde coletiva:</strong> teoria e prática. Rio de Janeiro: Medbook, 2014. Disponível em: <a href='http://plataforma.saude.gov.br/esussinan/ficha-investigacao-monkeypox-esussinan.pdf' target='_blank' rel="noopener noreferrer">http://plataforma.saude.gov.br/esussinan/ficha-investigacao-monkeypox-esussinan.pdf</a>. Acesso em: 10 nov. 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">IMAGEM POLIOMIELITE. <a href='https://www.gov.br/saude/pt-br/assuntos/noticias/2023/marco/ha-34-anos-ultimo-caso-de-poliomielite-foi-registrado-no-brasil' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/assuntos/noticias/2023/marco/ha-34-anos-ultimo-caso-de-poliomielite-foi-registrado-no-brasil</a>.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">IMAGEM DENGUE. <a href='https://g1.globo.com/rj/rio-de-janeiro/noticia/2023/07/21/casos-de-dengue-aumentam-em-300percent-durante-inverno-no-rj.ghtml' target='_blank' rel="noopener noreferrer">https://g1.globo.com/rj/rio-de-janeiro/noticia/2023/07/21/casos-de-dengue-aumentam-em-300percent-durante-inverno-no-rj.ghtml</a>.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">IMAGEM EBOLA. <a href='https://g1.globo.com/jornal-hoje/noticia/2014/10/primeiro-caso-suspeito-de-ebola-no-brasil-e-registrado-no-sul-do-pais.html#:~:text=O%20Brasil%20registrou%20o%20primeiro,tosse%2C%20mas%20n%C3%A3o%20teve%20hemorragia' target='_blank' rel="noopener noreferrer">https://g1.globo.com/jornal-hoje/noticia/2014/10/primeiro-caso-suspeito-de-ebola-no-brasil-e-registrado-no-sul-do-pais.html#:~:text=O%20Brasil%20registrou%20o%20primeiro,tosse%2C%20mas%20n%C3%A3o%20teve%20hemorragia</a></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">IMAGEM GAL: <a href='https://gal.riodejaneiro.sus.gov.br/' target='_blank' rel="noopener noreferrer">https://gal.riodejaneiro.sus.gov.br/</a></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">IMAGEM PEC: <a href='https://sisaps.saude.gov.br/esus/' target='_blank' rel="noopener noreferrer">https://sisaps.saude.gov.br/esus/</a></li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 3</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ASSOCIAÇÃO DOS ARQUIVISTAS DE SÃO PAULO (ARQ-SP). <strong>Projeto Como fazer</strong>. Disponível em: <a href='https://arqsp.org.br/biblioteca-digital-da-arq-sp/' target='_blank' rel="noopener noreferrer">https://arqsp.org.br/biblioteca-digital-da-arq-sp/</a>. Acesso em: 10 nov. 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CAMARGO, A. M. de A.; BELLOTTO, H. L. <strong>Dicionário de terminologia arquivística</strong>. São Paulo: Associação dos Arquivistas Brasileiros - Núcleo Regional de São Paulo: Secretaria de Estado da Cultura. 1996.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INDOLFO, A. C. <em>et al</em>. <strong>Gestão de Documentos:</strong> conceitos e procedimentos básicos. Ana Celeste Indolfo, Ana Maria Varela Cascardo Campos, Maria Izabel de Oliveira, Mônica Medrado da Costa (e) Verone Gonçalves Cauville. - Rio de Janeiro: Arquivo Nacional, 1993. (Série Publicações Técnicas - Arquivo Nacional; n. 47). Disponível em: <a href='https://bdan.an.gov.br/handle/123456789/72' target='_blank' rel="noopener noreferrer">https://bdan.an.gov.br/handle/123456789/72</a>. Acesso em: 20 out. 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LOPES, L. C. <strong>A informação e os arquivos:</strong> teorias e práticas. Niterói: EDUFF; São Carlos: EDUFSCar, 1996.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MARTINS <em>et al</em>. A conformação da informação na gestão de documentos em saúde. <em>In:</em> MARTINS, F.; MUNCK, S. <strong>Uma experiência de qualificação de trabalhadores do SUS:</strong> diagnóstico da gestão de documentos e informações em saúde no Piauí. Rio de Janeiro: EPSJV, 2019.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PINTO, J. M. da C.; MUNCK, S. A gestão de documentos nos serviços de saúde. <em>In:</em> LEANDRO, B. B. da S.; REZENDE, F. A. V. S.; PINTO, J. M. da C. (orgs). <strong>Informações e Registros em Saúde e seus usos no SUS</strong> [livro eletrônico]. Rio de Janeiro: Editora da Fiocruz, 2020.</li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 4</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANGELO, J. R.; LEANDRO, B. B. DA S.; PÉRISSÉ, A. R. S. Monitoramento da Covid-19 nas favelas cariocas: vigilância de base territorial e produção compartilhada de conhecimento. <strong>Saúde em Debate</strong>, v. 45, n. spe2, p. 123–141, dez. 2021.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. <strong>Boletim Epidemiológico Especial – Mpox – 01/06/2023 a 30/06/2023</strong> n. 24. 2023b. Brasília, DF: MS, 2023. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-24-coe-1/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-24-coe-1/view</a>. Acesso em: 3 dez 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LEANDRO, B. B. S.; PINTO, J. M. C.; LOPES, R. A. D.; RANGEL, J. F.; SANTOS, I. D. M.; FERREIRA, P. H. M.; MARTINS, F. N. <strong>Sistematização das rodas de conversa virtuais:</strong> dialogando com Agentes Comunitários de Saúde e Docentes. Projeto Informações e Registros em Saúde para a formação do Agente Comunitário de Saúde: produção de e-book interativo – Programa Inova Fiocruz. Rio de Janeiro: EPSJV/Fiocruz. Agosto, 2021. Disponível em: <a href='www.epsjv.fiocruz.br/informacao-registro-acs' target='_blank' rel="noopener noreferrer">www.epsjv.fiocruz.br/informacao-registro-acs</a>. Acesso em: 3 dez 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OLIVEIRA, R. P. Análise descritiva dos casos confirmados de Monkeypox notificados na Área Programática 3.2 no município do Rio de Janeiro nas semanas epidemiológicas 24 a 43 de 2022. <strong>Boletim Epidemiológico</strong>. EpiSUS Fundamental. Rio de Janeiro/RJ. 2022.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="heading1-item3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Módulo 3</button>
+                    </h5>
+                    <div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
+                        <div class="accordion-body">
+                            <span class='d-block'><strong>Aula 1</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº
+                                            6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em:<a
+                                            href=' https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms'
+                                            target='_blank' rel="noopener noreferrer">
+                                            https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>.
+                                        Acesso em: 10 jan. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">MONTERASTELLI, A. O que se sabe sobre a varíola do
+                                        macaco em homens bi e homossexuais. <strong>Outra Saúde</strong>, São Paulo, 04/07/2022. Seção Saúde Global.
+                                        Disponível em: <a
+                                            href='https://outraspalavras.net/outrasaude/o-que-se-sabe-sobre-a-variola-dos-macacos-em-homens-gays-e-bissexuais/'
+                                            target='_blank'
+                                            rel="noopener noreferrer">https://outraspalavras.net/outrasaude/o-que-se-sabe-sobre-a-variola-dos-macacos-em-homens-gays-e-bissexuais/</a>.
+                                        Acesso em: 10 jan. 2025. </li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 2</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">CYRINO, A. P.; TEIXEIRA, R. R. Saúde pública, mudança de comportamento e criação: da educação sanitária à emergência da inteligência coletiva em saúde. <em>In:</em> BERTUCCI, L. M. <strong>Saúde e Educação</strong>: um encontro plural. Rio de Janeiro: Editora Fiocruz, 2017.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MIZUKAMI, M. <strong>Ensino:</strong> as abordagens do processo. São Paulo: EPU, 1986.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOREL, C.; LOPES, M.; PEREIRA, I. <em>In:</em> MOREL, C.; PEREIRA, I.; LOPES, M. (orgs.). <strong>Educação em saúde:</strong> material didático para formação técnica de agentes comunitários de saúde. Rio de Janeiro: EPSJV, 2020. p. 71-78.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NESPOLI, G. Da educação sanitária à educação popular em saúde. <em>In:</em> BORNSTEIN, V. et al. (org.). <strong>Curso de Aperfeiçoamento em Educação Popular em Saúde:</strong> textos de apoio. Rio de Janeiro: EPSJV, 2016. p. 47-51.</li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 3</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">ARAÚJO, R. S. de; CRUZ, P. J. S. C. <strong>Educação popular como prática social e profissional</strong>.  João Pessoa, PB: Editora do CCTA, 2018. Disponível em: <a href='http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/livroweb.pdf' target='_blank' rel="noopener noreferrer">http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/livroweb.pdf</a>f. Acesso em:2 dez. 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BONETTI, O. P.; ODEH, M. M.; CARNEIRO, F. F. Questioning the Institutionalization of Popular Education in Health in the Unified Health System (SUS – acronym in Portuguese). <strong>Interface</strong> (Botucatu). 18 Supl 2:1413-1426, 2014.  Disponível em: <a href='https://www.scielo.br/j/icse/a/zFggwz3TY3nRfkvFDzvNt6H/?format=pdf&lang=pt' target='_blank' rel="noopener noreferrer">https://www.scielo.br/j/icse/a/zFggwz3TY3nRfkvFDzvNt6H/?format=pdf&lang=pt</a>. Acesso em: 8 dez. 2024. </li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. <strong>Plano de contingência Nacional para Monkeypox:</strong> Centro de Operações de Emergência em Saúde Pública: COE Monkeypox. Versão 2. [Internet]. Brasília, DF: MS, 2022 [citado 29 de março de 2023]. 32 p. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/svsa/resposta-a-emergencias/coes/monkeypox/plano-de-contingencia/plano-de-contingencia/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/svsa/resposta-a-emergencias/coes/monkeypox/plano-de-contingencia/plano-de-contingencia/view</a>. Acesso em: 15 dez. 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DANTAS, V. L.; LINHARES, A. M. B. Círculos de cultura: problematização da realidade e protagonismo popular. <strong>Caderno de Educação Popular em Saúde</strong>, Brasília, DF. Ministério da Saúde, [<em>s. d.</em>].</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREIRE, P. <strong>Pedagogia do oprimido</strong>. 17. ed. Rio de Janeiro: Paz e Terra, 1987.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MINISTÉRIO DA SAÚDE. Secretaria de Gestão Estratégica e Participativa. Departamento de Apoio à Gestão Participativa. <strong>Manual para equipes de saúde:</strong> o trabalho educativo nos grupos. Brasília, DF: MS, 2007. <a href='http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/caderno-educacao-popular-saude-p1.pdf' target='_blank' rel="noopener noreferrer">http://www.edpopsus.epsjv.fiocruz.br/sites/default/files/conteudo/midia/arquivos/caderno-educacao-popular-saude-p1.pdf</a>. Acesso em: 10 jan. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REDEPOP. <strong>Educação popular e saúde no brasil e os coletivos de educação popular e saúde:</strong> contextos históricos. Rio de Janeiro: REDEPOP, [<em>s. d.</em>].</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. <strong>Clinical management and infection prevention and control for monkeypox:</strong> interim rapid response guidance [online]. Geneva: WHO; 2022a [citado 27 de março de 2023]. 56 p. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Clinical-and-IPC-2022.1' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Clinical-and-IPC-2022.1</a>. Acesso em: 10 dez. 2024.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="heading1-item4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Módulo 4</button>
+                    </h5>
+                    <div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+                        <div class="accordion-body">
+                            <span class='d-block'><strong>Aula 1</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">ARCE, V. A. R.; SOUSA, M. F. DE . Integralidade do cuidado: representações sociais das equipes de Saúde da Família do Distrito Federal. <strong>Saúde e Sociedade</strong>, v. 22, n. 1, p. 109–123, jan. 2013. </li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
+                                        data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M.; BATISTELLA, C. E. C. Vigilância em Saúde (verbete). <em>In:</em> PEREIRA, Isabel Brasil; LIMA, Júlio César França. <strong>Dicionário da educação profissional em saúde</strong>. 2.ed. rev. ampl. Rio de Janeiro: EPSJV, 2008.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Monkeypox multi-country outbreak response</strong>. Region of the Americas. Report n. 7, 3rd March, 2023.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">TEIXEIRA, Carmem Fontes; PAIM, Jairnilson Silva; VILASBOAS, Ana Luiza. SUS, modelos assistenciais e vigilância da saúde. <strong>Inf. Epidemiol. Sus</strong> [online]. 1998, v. 7, n. 2, p. 7-28.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. Surveillance, case investigation and contact tracing for mpox (monkeypox). <strong>Interim guidance</strong>, 22 december 2022. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4</a>. Acesso em: 10 jan. 2025.</li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 2</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância das Doenças Transmissíveis. G<strong>uia para Investigações de Surtos ou Epidemias</strong>. Brasília, DF: Ministério da Saúde, 2018. 64 p. : il.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUTANTAN. <strong>Entenda o que é uma pandemia e as diferenças entre surto, epidemia e endemia</strong>. Portal do Butantan. Disponível em: <a href='https://butantan.gov.br/covid/butantan-tira-duvida/tira-duvida-noticias/entenda-o-que-e-uma-pandemia-e-as-diferencas-entre-surto-epidemia-e-endemia' target='_blank' rel="noopener noreferrer">https://butantan.gov.br/covid/butantan-tira-duvida/tira-duvida-noticias/entenda-o-que-e-uma-pandemia-e-as-diferencas-entre-surto-epidemia-e-endemia</a>. Acesso em: 10 mar. 2024.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Orientações sobre o uso de vacinas contra a varíola símia</strong>. Edição corrigida. Washington, D.C.: OPAS, -1, 2024. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/59559/OPASCIM230010_por.pdf?sequence=1&isAllowed=y' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/59559/OPASCIM230010_por.pdf?sequence=1&isAllowed=y</a>. Acesso em: 10 jan. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Painel da OPAS/OMS sobre Mpox na Região das Américas</strong>, maio de 2023. Washington, D.C.: OPAS/OMS; 2023. Disponível em: <a href='https://shiny.paho-phe.org/mpox/' target='_blank' rel="noopener noreferrer">https://shiny.paho-phe.org/mpox/</a>. Acesso em: 22 jan. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Vigilância, investigação de casos e rastreamento de contatos da varíola dos macacos</strong>: orientação provisória. 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/57085/OPASWBRAPHEMonkeypox220043_por.pdf?sequence=3&isAllowed=y.' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/57085/OPASWBRAPHEMonkeypox220043_por.pdf?sequence=3&isAllowed=y.</a> Acesso em: 26 fev. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SUAREZ, J. (1992) - Contribuição ao marco teórico para o desenvolvimento da ação intersetorial. <strong>Saúde Educ. Méd</strong>. 26(2): 225-241.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">UNIVERSIDADE DE SÃO PAULO. USP. Deficiências imunológicas são mais graves na infância: especialista explica tipos de imunodeficiências que podem necessitar de transplante de medula. <strong>Jornal da USP no Ar</strong>, Rádio USP, Atualidades. USP, 2018. Disponível em: <a href='https://jornal.usp.br/?p=164782' target='_blank' rel="noopener noreferrer">https://jornal.usp.br/?p=164782</a>. Acesso em: 12 fev. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. <strong>Surveillance, case investigation and contact tracing for mpox (monkeypox)</strong>. Interim guidance, 22 december 2022. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4</a>. Acesso em: 5 fev. 2025.</li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 3</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARTHES, R. <strong>Elementos de Semiologia</strong>. São Paulo: Cultrix, 1972.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FERREIRA, V. S. C.; SILVA, L. M. V. Intersetorialidade em saúde: um estudo de caso. <em>In:</em> HARTZ, Z. M. A.; SILVA, L. M. V. (orgs.). <strong>Avaliação em saúde:</strong> dos modelos teóricos à prática na avaliação de programas e sistemas de saúde [online]. Salvador: EDUFBA; Rio de Janeiro: Editora FIOCRUZ, 2005, p. 103-150. ISBN: 978-85-7541-516-0. </li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GONDIM, G. M. M; MONKEN, M. Território e Territorialização. <em>In:</em> MIRANDA, G. M.; GONDIM, G. M.; CHRISTÓFARO, M. A. C.; MIYASHIRO, G.M. (orgs.)<strong>Técnico de vigilância em saúde:</strong> contexto e identidade. v. 1. Rio de Janeiro: EPSJV, 2017. 308 p.: il. ISBN: 978-85-98768-98-4 1</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GUIRAUD, P. <strong>A semântica</strong>. 3.ed. Rio de Janeiro: Difel, 1980.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MATUS, Carlos. <strong>Pensamento Estratégico e Lógica de programação: o caso da saúde</strong>. São Paulo/Rio de Janeiro: HUCITEC/ABRASCO,1996. Disponível em:
+<a href='https://www.gov.br/saude/pt-br/composicao/saps/programa-cuida-mais-brasil/regioes-de-saude' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/programa-cuida-mais-brasil/regioes-de-saude</a>. ACESSO EM 21/02/2025 . Acesso em: 15 fev. 2025.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M.; GONDIM, G. M. Território: o lugar onde a vida acontece. <em>In:</em>Curso de BORNSTEIN, V. J. <em>et al</em>. <strong>Aperfeiçoamento em Educação Popular em Saúde:</strong> textos de apoio. Rio de Janeiro: EPSJV, 2016. 164 p.</li>
+                                </ul>
+                            </div>
+
+                            <span class='d-block'><strong>Aula 4</strong></span>
+                            <div class="list">
+                                <ul class="list-group">
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARCELLOS, C.; PEITER, P. The Covid-19 pandemic: possible lessons for international health and security. <em>In:</em> CZYMMECK, A. (org.). <strong>Threats without borders:</strong> Are we apt to cope with the challenges? Rio de Janeiro: Fundação Konrad Adenauer, 2022, v. 1, p. 150-165.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BORGES JÚNIOR, V.; GRELLE, C. E. V. Qual a relação entre conservação da natureza e doenças tropicais? <strong>Jornal O eco</strong>, 2023. Disponível em: <a href='https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/' target='_blank' rel="noopener noreferrer">https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/</a>.</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M; PEREIRA, E. M. <strong>Território, Participação e Comunicação Popular em Saúde.</strong> Material Didático do Programa de Formação de Agentes Educadoras e Educadores Populares de Saúde. 2024. (No Prelo)</li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+
+                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do Accordion -->
+        </div>
+        
+    </div>
+</div>
 		`,
 	},
 	glossario: {
