@@ -87,15 +87,21 @@
 	</header>
 	<div class="main">
 		<div class="sidebar" role="navigation">
-
-			<div class="mobile-toggle-close mobile-only" tabindex="0">
-				<a class="mobile-toggle__button" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
 			<div class="sidebar__inner">
+				<section class="sidebar__section mobile-only">
+					<div class=" sidebar__section-header">
+						<div class=" course-name">
+							<h2>Mpox: Vigilância, Informação e Educação em Saúde</h2>
+						</div>
+						<div class="mobile-toggle-close">
+							<a class="mobile-toggle__button" role="button" tabindex="0">
+								<span class="icon material-symbols-rounded">read_more</span>
+							</a>
+						</div>
+					</div>
+				</section>
 				<section class="sidebar__section">
-					<div class="section-accordion">
+					<div class="sidebar__section-accordion">
 
 					</div>
 				</section>
@@ -139,95 +145,70 @@
 									Mpox, como familiares e cuidadores, devem: </p>
 							</div>
 
-
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<!-- Timeline ZigZag -->
-									<div class="timeline-zigzag">
-										<!--1ª sessão-->
-										<div class="row align-items-center timeline-z-estrutura mb-0 pt-0">
-											<div class="col-2 text-center bottom">
-												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
+									<!-- Swiper Navigation -->
+									<div class="swiper swiper--navigation card">
+										<!-- Additional required wrapper -->
+										<div class="swiper-wrapper">
+											<!-- Slides -->
+											<div class="swiper-slide">
+												<div class="card-header">
+													<span class="h6">Higienização das mãos</span>
+												</div>
+
+												<div class="card-body">
+													<p>Realizar constantemente a higienização das mãos com água e sabão
+														e <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Processo de eliminação ou inibição do crescimento de microrganismos em tecidos vivos.</p>" data-bs-original-title="Antissepsia">antissepsia</a> com
+														álcool 70%.</p>
+												</div>
 											</div>
-											<div class="col-10 col-lg-6 py-5 pl-4">
-												<div class="row align-items-center justify-content-start aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-													<h5>Higienização das mãos</h5>
-													<p>Realizar constantemente a higienização das mãos com água e sabão e <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Processo de eliminação ou inibição do crescimento de microrganismos em tecidos vivos.</p>" data-bs-original-title="Antissepsia">antissepsia</a> com álcool 70%.</p>
+
+											<div class="swiper-slide">
+												<div class="card-header">
+													<span class="h6">Uso de máscara</span>
+												</div>
+
+												<div class="card-body">
+													<p>Utilizar máscara, preferencialmente do tipo cirúrgica, realizando
+														a sua troca toda vez que estiver úmida ou danificada. </p>
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="card-header">
+													<span class="h6">Evitar contato íntimo</span>
+												</div>
+
+												<div class="card-body">
+													<p>Quando possível, evitar contato íntimo e prolongado com o
+														indivíduo com diagnóstico confirmado/suspeito.</p>
+												</div>
+											</div>
+
+											<div class="swiper-slide">
+												<div class="card-header">
+													<span class="h6">Isolamento</span>
+												</div>
+
+												<div class="card-body">
+													<p>Manter o isolamento dessa pessoa em relação aos outros membros da
+														família. Quando não for possível realizar esse isolamento, o
+														recomendado é manter uma distância de pelo menos um metro e
+														manter os ambientes ventilados. </p>
 												</div>
 											</div>
 										</div>
 
-										<!--Linha entre 1-2-->
-										<div class="row timeline-z mb-0">
-											<div class="col-2">
-												<div class="corner top-right"></div>
-											</div>
-											<div class="col-8">
-												<hr>
-											</div>
-											<div class="col-2">
-												<div class="corner left-bottom"></div>
-											</div>
-										</div>
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
 
-										<!--2ª sessão -->
-										<div class="row align-items-center justify-content-end timeline-z-estrutura">
-											<div class="col-10 col-lg-6 pr-4 py-5 text-end aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
-												<h5>Uso de máscara</h5>
-												<p>Utilizar máscara, preferencialmente do tipo cirúrgica, realizando a sua troca toda vez que estiver úmida ou danificada. </p>
-											</div>
-											<div class="col-2 text-center full">
-												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
-											</div>
-										</div>
+										<!-- If we need navigation buttons -->
+										<div class="swiper-button-prev"></div>
+										<div class="swiper-button-next"></div>
 
-										<!--Linha entre 2-3-->
-										<div class="row timeline-z mb-0">
-											<div class="col-2">
-												<div class="corner right-bottom"></div>
-											</div>
-											<div class="col-8">
-												<hr>
-											</div>
-											<div class="col-2">
-												<div class="corner top-left"></div>
-											</div>
-										</div>
-
-										<!--3ª sessão-->
-										<div class="row align-items-center justify-content-start timeline-z-estrutura mb-0">
-											<div class="col-2 text-center full">
-												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
-											</div>
-											<div class="col-10 col-lg-6 px-0 py-5 pl-4 aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-												<h5>Evitar contato íntimo</h5>
-												<p>Quando possível, evitar contato íntimo e prolongado com o indivíduo com diagnóstico confirmado/suspeito.</p>
-											</div>
-										</div>
-
-										<!--Linha entre 3-4-->
-										<div class="row timeline-z mb-0">
-											<div class="col-2">
-												<div class="corner top-right"></div>
-											</div>
-											<div class="col-8">
-												<hr>
-											</div>
-											<div class="col-2">
-												<div class="corner left-bottom"></div>
-											</div>
-										</div>
-
-										<!--4ª sessão -->
-										<div class="row align-items-center justify-content-end timeline-z-estrutura">
-											<div class="col-10 col-lg-6 pr-4 py-5 text-end aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
-												<h5>Isolamento</h5>
-												<p>Manter o isolamento dessa pessoa em relação aos outros membros da família. Quando não for possível realizar esse isolamento, o recomendado é manter uma distância de pelo menos um metro e manter os ambientes ventilados.</p>
-											</div>
-											<div class="col-2 text-center top">
-												<div class="circle-timeline-z"><span class="material-symbols-rounded">target</span></div>
-											</div>
-										</div>
+										<!-- If we need scrollbar -->
+										<!-- <div class="swiper-scrollbar"></div> -->
 									</div>
 								</div>
 							</div>
@@ -342,7 +323,8 @@
 												</div>
 
 												<div class="card-body">
-													<p>Dryvax, uma vacina licenciada na década de 1930 pela Administração de Alimentos e Drogas dos EUA (FDA).</p>
+													<p>Dryvax, uma vacina licenciada na década de 1930 pela
+														Administração de Alimentos e Drogas dos EUA (FDA).</p>
 												</div>
 											</div>
 
@@ -363,7 +345,11 @@
 												</div>
 
 												<div class="card-body">
-													<p>Uma vacina mais recente que foi desenvolvida para a varíola (MVA-BN, também conhecida como Imvanex, Imvamune,ou Jynneos) e aprovada pelas Autoridades Reguladoras Nacionais da União Europeia, Canadá e Estados Unidos para prevenir a varíola e a Mpox (Paho, 2022).</p>
+													<p>Uma vacina mais recente que foi desenvolvida para a varíola
+														(MVA-BN, também conhecida como Imvanex, Imvamune,ou Jynneos) e
+														aprovada pelas Autoridades Reguladoras Nacionais da União
+														Europeia, Canadá e Estados Unidos para prevenir a varíola e a
+														Mpox (Paho, 2022).</p>
 												</div>
 											</div>
 										</div>
@@ -395,7 +381,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th class="text-center" colspan="4"><strong> Descrição do risco de exposição e recomendação para vacinação preventiva pós-exposição (PEPV) de contatos para prevenção da varíola dos macacos (19 de agosto de 2022)</strong></th>
+													<th class="text-center" colspan="4"><strong> Descrição do risco de
+															exposição e recomendação para vacinação preventiva
+															pós-exposição (PEPV) de contatos para prevenção da varíola
+															dos macacos (19 de agosto de 2022)</strong></th>
 												</tr>
 
 												<tr class="text-center">
@@ -410,19 +399,37 @@
 												<tr class="text-left">
 													<td class="text-center"><strong>Alto</strong></td>
 
-													<td>Exposição direta da pele ou membranas mucosas à pele ou secreções respiratórias de uma pessoa com varíola dos macacos confirmada, provável ou suspeita, seus fluidos corporais [por exemplo, lesão vesicular ou fluido pustuloso) ou material potencialmente infeccioso (incluindo vestimentas ou roupas de cama] se não estiver sendo usado EPI adequado. Isso inclui:<br />
+													<td>Exposição direta da pele ou membranas mucosas à pele ou
+														secreções respiratórias de uma pessoa com varíola dos macacos
+														confirmada, provável ou suspeita, seus fluidos corporais [por
+														exemplo, lesão vesicular ou fluido pustuloso) ou material
+														potencialmente infeccioso (incluindo vestimentas ou roupas de
+														cama] se não estiver sendo usado EPI adequado. Isso
+														inclui:<br />
 														<ul>
-															<li>Inalação de gotículas ou poeira da limpeza de quartos contaminados.</li>
+															<li>Inalação de gotículas ou poeira da limpeza de quartos
+																contaminados.</li>
 
-															<li>Exposição da mucosa devido a respingos de fluidos corporais.</li>
+															<li>Exposição da mucosa devido a respingos de fluidos
+																corporais.</li>
 
-															<li>Contato físico com alguém que tenha varíola dos macacos, incluindo contato direto durante atividades sexuais. Isso inclui contato presencial, pele a pele ou boca a pele ou exposição a fluidos corporais ou materiais ou objetos contaminados (fômites).</li>
+															<li>Contato físico com alguém que tenha varíola dos macacos,
+																incluindo contato direto durante atividades sexuais.
+																Isso inclui contato presencial, pele a pele ou boca a
+																pele ou exposição a fluidos corporais ou materiais ou
+																objetos contaminados (fômites).</li>
 
-															<li>Normalmente compartilhando uma residência (permanente ou ocasionalmente) durante o período de incubação presumido com uma pessoa que foi diagnosticada com varíola dos macacos, ou um ferimento penetrante por material perfurocortante contaminado ou através de luvas contaminadas.</li>
+															<li>Normalmente compartilhando uma residência (permanente ou
+																ocasionalmente) durante o período de incubação presumido
+																com uma pessoa que foi diagnosticada com varíola dos
+																macacos, ou um ferimento penetrante por material
+																perfurocortante contaminado ou através de luvas
+																contaminadas.</li>
 														</ul>
 													</td>
 
-													<td><strong>Recomenda-se</strong> a PEPV com vacina apropriada para cada indivíduo</td>
+													<td><strong>Recomenda-se</strong> a PEPV com vacina apropriada para
+														cada indivíduo</td>
 
 													<td>ACAM2000 LC16 MVA-BN</td>
 												</tr>
@@ -431,11 +438,17 @@
 													<td class="text-center"><strong>Médio</strong></td>
 													<td>
 														<ul>
-															<li>Sem contato direto, mas próximo na mesma sala ou espaço físico interno com um paciente sintomático com varíola dos macacos confirmada, se não estiver sendo usado EPI adequado (ver orientação provisória sobre Manejo clínico da varíola dos macacos e prevenção e controle de infeção).</li>
+															<li>Sem contato direto, mas próximo na mesma sala ou espaço
+																físico interno com um paciente sintomático com varíola
+																dos macacos confirmada, se não estiver sendo usado EPI
+																adequado (ver orientação provisória sobre Manejo clínico
+																da varíola dos macacos e prevenção e controle de
+																infeção).</li>
 														</ul>
 													</td>
 
-													<td><strong>Recomenda-se </strong>a PEPV com vacina apropriada para cada indivíduo</td>
+													<td><strong>Recomenda-se </strong>a PEPV com vacina apropriada para
+														cada indivíduo</td>
 
 													<td>ACAM2000 LC16 MVA-BN</td>
 												</tr>
@@ -445,11 +458,22 @@
 
 													<td>
 														<ul>
-															<li>Contato com uma pessoa com varíola dos macacos confirmada, provável ou suspeita ou um local que possa estar contaminado com o vírus da varíola dos macacos, usando EPI apropriado e sem quaisquer violações conhecidas do uso do EPI e dos procedimentos de colocação e retirada do EPI.</li>
+															<li>Contato com uma pessoa com varíola dos macacos
+																confirmada, provável ou suspeita ou um local que possa
+																estar contaminado com o vírus da varíola dos macacos,
+																usando EPI apropriado e sem quaisquer violações
+																conhecidas do uso do EPI e dos procedimentos de
+																colocação e retirada do EPI.</li>
 
-															<li>Contato comunitário, como estar em um local externo com um caso sintomático sem proximidade ou contato físico.</li>
+															<li>Contato comunitário, como estar em um local externo com
+																um caso sintomático sem proximidade ou contato físico.
+															</li>
 
-															<li>Nenhum contato conhecido com um caso sintomático de varíola dos macacos nos últimos 21 dias, ou pessoal de laboratório que manuseia amostras clínicas de sangue de rotina ou outras amostras não diretamente relacionadas com testes diagnósticos específicos.</li>
+															<li>Nenhum contato conhecido com um caso sintomático de
+																varíola dos macacos nos últimos 21 dias, ou pessoal de
+																laboratório que manuseia amostras clínicas de sangue de
+																rotina ou outras amostras não diretamente relacionadas
+																com testes diagnósticos específicos.</li>
 														</ul>
 													</td>
 
@@ -460,9 +484,12 @@
 											</tbody>
 										</table>
 
-										<span class="figcaption d-block fonte">Fonte: Adaptação de <a href='https://iris.paho.org/bitstream/handle/10665.2/56482/OPASWBRAPHEMonkeypox220031_por.pdf?sequence=1&isAllowed=y#:~:text=O%20objetivo%20geral%20da%20resposta,macacos%20onde%20ela%20esteja%20ocorrendo%20' target='_blank'>Vacinas e imunização contra varíola dos macacos: orientação provisória (2025)</a>.</span>
+										<span class="figcaption d-block fonte">Fonte: Adaptação de <a href='https://iris.paho.org/bitstream/handle/10665.2/56482/OPASWBRAPHEMonkeypox220031_por.pdf?sequence=1&isAllowed=y#:~:text=O%20objetivo%20geral%20da%20resposta,macacos%20onde%20ela%20esteja%20ocorrendo%20' target='_blank'>Vacinas e imunização contra varíola dos macacos:
+												orientação provisória (2025)</a>.</span>
 
-										<span class="figcaption d-block fonte">CREATIVE COMMONS: © Organização Pan-Americana da Saúde, 2022. Alguns direitos reservados. Este trabalho é disponibilizado sob licença CC BY-NC-SA 3.0 IGO</span>
+										<span class="figcaption d-block fonte">CREATIVE COMMONS: © Organização
+											Pan-Americana da Saúde, 2022. Alguns direitos reservados. Este trabalho é
+											disponibilizado sob licença CC BY-NC-SA 3.0 IGO</span>
 									</div>
 								</div>
 							</div>
@@ -493,10 +520,10 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos">
 								<li class="realizacao">
-									<img class="img-fluid" src="../../media/images/marcas/fiocruz-campus-virtual.png" height="Logo do Campus Visrtual Fiocruz" />
+									<img class="img-fluid" src="../../media/images/marcas/epsjv.png" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/ini.png" alt="Logo do Instituto de Infectologia Evandro Chagas" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/fiocruz-campus-virtual.png" height="" alt="Logo do Campus Visrtual Fiocruz" />
 								</li>
 							</ul>
 						</div>
@@ -509,10 +536,10 @@
 									<img class="img-fluid" src="../../media/images/marcas/fiocruz.png" alt="Logo da Fiocruz" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/sus.png" alt="Logo do SUS" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/brasil-bem-cuidado.png" alt="Logo do Brasil Bem Cuidado" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/capes.png" alt="Logo do Capes" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/sus.png" alt="Logo do SUS" height="" />
 								</li>
 								<li>
 									<img class="img-fluid" src="../../media/images/marcas/ministerio-saude.png" alt="Logo do Ministério da Saúde" height="" />
@@ -572,18 +599,22 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo1/apresentacao.html"><strong>Boas vindas ao módulo
+													1</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/topico1.html"><strong>Aula 1</strong> | Mpox: a
+											<a href="../../modulo1/aula1/introducao.html"><strong>Aula 1</strong> |
+												Mpox: a
 												doença, o vírus e a epidemiologia</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Transmissão,
+											<a href="../../modulo1/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span> Transmissão,
 												sinais e sintomas e diagnóstico</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Tratamento e
+											<a href="../../modulo1/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> Tratamento e
 												prevenção</a>
 										</li>
 									</ul>
@@ -599,22 +630,27 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="../modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo2/apresentacao.html"><strong>Boas vindas ao módulo
+													2</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | O registro da Mpox no
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 1</strong> | O
+												registro da Mpox no
 												sistema de informação em saúde</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Como realizar
+											<a href="../../modulo2/aula3/introducao.html"><strong>Aula 2</strong>
+												|</span> Como realizar
 												o processo de notificação da Mpox</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Aspectos
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 3</strong>
+												|</span> Aspectos
 												éticos no registro da Mpox com ênfase nos ambientes digitais</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula4.html"><strong>Aula 4</strong> |</span> O protagonismo
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 4</strong>
+												|</span> O protagonismo
 												dos profissionais de Nível Médio no registro e informação sobre a
 												Mpox</a>
 								</div>
@@ -631,19 +667,24 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo3/apresentacao.html"><strong>Boas vindas ao módulo
+													3</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | revenção e o papel
-												dos profissionais de saúde na suspeita, encaminhamento e acompanhamento
-												de casos</a>
+											<a href="../../modulo3/aula1/introducao.html"><strong>Aula 1</strong> |
+												Prevenção e o
+												papel dos profissionais de saúde na suspeita, encaminhamento e
+												acompanhamento de casos</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Educação em
+											<a href="../../modulo3/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span> Educação
+												em
 												saúde </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Educação
+											<a href="../../modulo3/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> Educação
 												popular em saúde e o planejamento de atividades educativas</a>
 										</li>
 									</ul>
@@ -658,22 +699,29 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo4/apresentacao.html"><strong>Boas vindas ao módulo
+													4</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | Vigilância em
+											<a href="../../modulo4/aula1/introducao.html"><strong>Aula 1</strong> |
+												Vigilância em
 												Saúde</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Informações na
+											<a href="../../modulo4/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span>
+												Informações na
 												gestão de risco da Mpox</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> A vigilância
+											<a href="../../modulo4/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> A
+												vigilância
 												da Mpox no território</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula4.html"><strong>Aula 4</strong> |</span> Ações
+											<a href="../../modulo4/aula4/introducao.html"><strong>Aula 4</strong>
+												|</span> Ações
 												educativas e comunicativas de vigilância em saúde</a>
 								</div>
 								</li>

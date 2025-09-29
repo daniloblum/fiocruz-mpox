@@ -39,3 +39,7 @@
 	border-top-left-radius: var(--fio-sys-spacing-border-radius-xl);
 	border-top-right-radius: var(--fio-sys-spacing-border-radius-xl);
 }
+
+.modal .modal-body {
+	padding: var(--fio-sys-spacing-padding-lg);
+}

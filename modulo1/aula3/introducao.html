@@ -87,15 +87,21 @@
 	</header>
 	<div class="main">
 		<div class="sidebar" role="navigation">
-
-			<div class="mobile-toggle-close mobile-only" tabindex="0">
-				<a class="mobile-toggle__button" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
 			<div class="sidebar__inner">
+				<section class="sidebar__section mobile-only">
+					<div class=" sidebar__section-header">
+						<div class=" course-name">
+							<h2>Mpox: Vigilância, Informação e Educação em Saúde</h2>
+						</div>
+						<div class="mobile-toggle-close">
+							<a class="mobile-toggle__button" role="button" tabindex="0">
+								<span class="icon material-symbols-rounded">read_more</span>
+							</a>
+						</div>
+					</div>
+				</section>
 				<section class="sidebar__section">
-					<div class="section-accordion">
+					<div class="sidebar__section-accordion">
 
 					</div>
 				</section>
@@ -132,29 +138,30 @@
 									saber desmistificar informações equivocadas, evitando a propagação de estigmas que
 									prejudicam o trabalho de prevenção.</p>
 
-
+								<p>Os casos confirmados e prováveis de Mpox no Brasil tem seguido um perfil
+									sociodemográfico semelhante ao que se vê no restante do mundo</p>
 							</div>
 
-							<div class="row justify-content-center mt-5">
-								<div class="col-12 col-md-10 col-lg-8">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-8 col-lg-6 mb-5">
+									<div class="list">
+										<ul class="list-group">
+											<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">segundo a variável “sexo de nascimento”, a
+												frequência é maior no masculino.</li>
 
-
-									<!-- Box de Para Assistir -->
-									<div class="box" data-box="para assistir">
-										<div class="card ">
-											<div class="card-header">
-												<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-												<span class="label">Para Assistir</span>
-											</div>
-											<div class="card-body">
-												<div class="ratio ratio-16x9">
-													<iframe width="560" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-
-												</div>
-											</div>
-										</div>
+											<li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">e segundo a variável
+												“orientação e comportamento sexual”, a frequência é maior entre homens
+												cisgênero que fazem sexo com homens.</li>
+										</ul>
 									</div>
-									<!-- Fim do Box de Para Assistir -->
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8">
+									<p>Essa predominância inicial de casos confirmados tem levado a algumas compreensões
+										errôneas que todo trabalhador da saúde pública deve saber desmistificar para
+										evitar a propagação de estigmas que prejudicam o trabalho de prevenção.</p>
 								</div>
 							</div>
 
@@ -205,7 +212,8 @@
 
 									<p>Por exemplo, na década de 1980, quando os primeiros casos de HIV/AIDS foram
 										identificados no hemisfério norte, foram associados a homossexuais masculinos e,
-										em seguida, a haitianos, a hemofílicos e a usuários de drogas injetáveis, como aS
+										em seguida, a haitianos, a hemofílicos e a usuários de drogas injetáveis, como
+										aS
 										heroína. Como esses grupos já eram marginalizados e associados a práticas
 										sociais “fora da norma”, foram identificados como “grupos de risco”. </p>
 
@@ -277,107 +285,97 @@
 								</div>
 							</div>
 
-							<div class="row justify-content-center mb-5">
-								<div class="col-12 col-md-10 col-lg-8">
-									<!-- Abas -->
-									<div class="aba">
-										<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-											<li class="nav-item" role="presentation">
-												<button class="nav-link active" id="pills-atores-tab" data-bs-toggle="pill" data-bs-target="#pills-atores" type="button" role="tab" aria-controls="pills-atores" aria-selected="true">Agosto/2022</button>
-											</li>
-											<li class="nav-item" role="presentation">
-												<button class="nav-link" id="pills-seguranca-tab" data-bs-toggle="pill" data-bs-target="#pills-seguranca" type="button" role="tab" aria-controls="pills-seguranca" aria-selected="false">Junho/2022 - Janeiro/2024</button>
-											</li>
-										</ul>
-										<div class="tab-content p-0" id="pills-tabContent">
-											<!-- Aba 1 -->
-											<div class="tab-pane fade show active" id="pills-atores" role="tabpanel" aria-labelledby="pills-atores-tab">
-												<div class="tab-pane-content">
-													<!-- Tabela -->
-													<div class="table-responsive aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-														<table class="table table-bordered">
-															<thead>
-																<tr>
-																	<th class="text-center" colspan="3"><strong>Casos confirmados e prováveis de Mpox (AGO/2022)</strong></th>
-																</tr>
-																<tr class="text-center">
-																	<th>Sexo de nascimento</th>
-																	<th>N (%)</th>
-																</tr>
-															</thead>
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-5 col-lg-6 mb-5">
+									<!-- Tabela -->
+									<div class="table-responsive aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+										<table class="table table-bordered">
+											<thead>
+												<tr>
+													<th class="text-center" colspan="3"><strong>Casos
+															confirmados e prováveis de Mpox
+															(AGO/2022)</strong></th>
+												</tr>
+												<tr class="text-center">
+													<th>Sexo de nascimento</th>
+													<th>N (%)</th>
+												</tr>
+											</thead>
 
-															<tbody>
-																<tr class="text-center">
-																	<td>Masculino</td>
-																	<td>2.108 (95%)</td>
-																</tr>
+											<tbody>
+												<tr class="text-center">
+													<td>Masculino</td>
+													<td>2.108 (95%)</td>
+												</tr>
 
-																<tr class="text-center">
-																	<td>Feminino</td>
-																	<td>111 (5%)</td>
-																</tr>
-															</tbody>
-														</table>
+												<tr class="text-center">
+													<td>Feminino</td>
+													<td>111 (5%)</td>
+												</tr>
+											</tbody>
+										</table>
 
-														<span class="figcaption d-block">* N = 2.219</span>
-														<span class="figcaption d-block fonte">Fonte: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-7-coe' target='_blank'>Ministério da Saúde - Boletim Epidemológico 7</a></span>
+										<span class="figcaption d-block">* N = 2.219</span>
+										<span class="figcaption d-block fonte">Fonte: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-7-coe' target='_blank'>Ministério da Saúde - Boletim
+												Epidemológico 7</a></span>
 
-														<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
-													</div>
-												</div>
-											</div>
-											<!-- Aba 2-->
-											<div class="tab-pane fade" id="pills-seguranca" role="tabpanel" aria-labelledby="pills-seguranca-tab">
-												<div class="tab-pane-content">
-													<!-- Tabela -->
-													<div class="table-responsive aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-														<table class="table table-bordered">
-															<thead>
-																<tr>
-																	<th class="text-center" colspan="3"><strong>Casos confirmados e prováveis de Mpox (JUN/2022 a JAN/2024)</strong></th>
-																</tr>
-																<tr class="text-center">
-																	<th>Sexo de nascimento</th>
-																	<th>N (%)</th>
-																</tr>
-															</thead>
+										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o
+											conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons
+												Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
+									</div>
+								</div>
 
-															<tbody>
-																<tr class="text-center">
-																	<td>Masculino</td>
-																	<td>10.578 (90,9%)</td>
-																</tr>
+								<div class="col-12 col-md-5 col-lg-6 mb-5">
+									<!-- Tabela -->
+									<div class="table-responsive aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+										<table class="table table-bordered">
+											<thead>
+												<tr>
+													<th class="text-center" colspan="3"><strong>Casos
+															confirmados e prováveis de Mpox (JUN/2022 a
+															JAN/2024)</strong></th>
+												</tr>
+												<tr class="text-center">
+													<th>Sexo de nascimento</th>
+													<th>N (%)</th>
+												</tr>
+											</thead>
 
-																<tr class="text-center">
-																	<td>Feminino</td>
-																	<td>1.035 (8,9%)</td>
-																</tr>
+											<tbody>
+												<tr class="text-center">
+													<td>Masculino</td>
+													<td>10.578 (90,9%)</td>
+												</tr>
 
-																<tr class="text-center">
-																	<td>Intersexo</td>
-																	<td>4 (0,1%)</td>
-																</tr>
+												<tr class="text-center">
+													<td>Feminino</td>
+													<td>1.035 (8,9%)</td>
+												</tr>
 
-																<tr class="text-center">
-																	<td>Sem informação</td>
-																	<td>20 (0,1%)</td>
-																</tr>
-															</tbody>
-														</table>
-														<span class="figcaption d-block">* N = 11.637</span>
-														<span class="figcaption d-block fonte">Fonte: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-25/view' target='_blank'>Ministério da Saúde - Boletim Epidemológico 25</a></span>
+												<tr class="text-center">
+													<td>Intersexo</td>
+													<td>4 (0,1%)</td>
+												</tr>
 
-														<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
-													</div>
-												</div>
-											</div>
-										</div>
+												<tr class="text-center">
+													<td>Sem informação</td>
+													<td>20 (0,1%)</td>
+												</tr>
+											</tbody>
+										</table>
+										<span class="figcaption d-block">* N = 11.637</span>
+										<span class="figcaption d-block fonte">Fonte: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/variola-dos-macacos/boletim-epidemiologico-de-monkeypox-no-25/view' target='_blank'>Ministério da Saúde - Boletim
+												Epidemológico 25</a></span>
+
+										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o
+											conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons
+												Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
 									</div>
 								</div>
 							</div>
 
-							<div class="row justify-content-center mb-5">
-								<div class="col-12 col-md-10 col-lg-8">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
 									<p>Observando as variáveis de orientação e comportamento sexual, no mesmo período
 										houve diminuição da frequência de casos confirmados e prováveis entre pessoas do
 										sexo masculino que fazem sexo com homens: nos dados coletados até 06/08/2022,
@@ -386,14 +384,17 @@
 								</div>
 							</div>
 
-							<div class="row justify-content-center mb-5">
-								<div class="col-12 col-md-10 col-lg-8">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
 									<!-- Tabela -->
 									<div class="table-responsive aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th class="text-center" colspan="4"><strong>Casos confirmados e prováveis de monkeypox segundo a orientação e o comportamento sexual por sexo ao nascimento, até 6 de agosto de 2022, Brasil (n = 2.219)</strong></th>
+													<th class="text-center" colspan="4"><strong>Casos confirmados e
+															prováveis de monkeypox segundo a orientação e o
+															comportamento sexual por sexo ao nascimento, até 6 de agosto
+															de 2022, Brasil (n = 2.219)</strong></th>
 												</tr>
 												<tr class="text-center" rowspan="1">
 													<th>Variáveis</th>
@@ -470,8 +471,11 @@
 												</tr>
 											</tbody>
 										</table>
-										<span class="figcaption d-block fonte">Fonte: COE Monkeypox, até 6/8/2022.</span>
-										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
+										<span class="figcaption d-block fonte">Fonte: COE Monkeypox, até
+											6/8/2022.</span>
+										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste
+											site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não
+												Adaptada</a>. </span>
 									</div>
 								</div>
 							</div>
@@ -483,7 +487,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th class="text-center" colspan="4"><strong>Casos confirmados e prováveis de mpox segundo a orientação sexual por sexo ao nascimento, de 1° de junho de 2022 até 28 de fevereiro de 2023, Brasil (n= 10.632*)</strong></th>
+													<th class="text-center" colspan="4"><strong>Casos confirmados e
+															prováveis de mpox segundo a orientação sexual por sexo ao
+															nascimento, de 1° de junho de 2022 até 28 de fevereiro de
+															2023, Brasil (n= 10.632*)</strong></th>
 												</tr>
 												<tr class="text-center" rowspan="1">
 													<th>Variáveis</th>
@@ -541,8 +548,12 @@
 											</tbody>
 										</table>
 										<span class="figcaption d-block fonte">Fonte: COE MPOX, 1/3/2023</span>
-										<span class="figcaption d-block fonte">*Quantitativo referente somente aos casos confirmados e prováveis do sexo masculino ou feminino, nao analisados os dados de intersexo ou sem informação.</span>
-										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>. </span>
+										<span class="figcaption d-block fonte">*Quantitativo referente somente aos casos
+											confirmados e prováveis do sexo masculino ou feminino, nao analisados os
+											dados de intersexo ou sem informação.</span>
+										<span class="figcaption d-block fonte">CREATIVE COMMONS: Todo o conteúdo deste
+											site está publicado sob a licença <a href='https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR' target='_blank'>Creative Commons Atribuição-SemDerivações 3.0 Não
+												Adaptada</a>. </span>
 									</div>
 								</div>
 							</div>
@@ -554,7 +565,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th class="text-center" colspan="4"><strong>Casos confirmados e prováveis de mpox segundo a orientação sexual e o sexo no nascimento, 1° de junho de 2022 a 30 de janeiro de 2024 - Brasil (n = 11.613*)</strong></th>
+													<th class="text-center" colspan="4"><strong>Casos confirmados e
+															prováveis de mpox segundo a orientação sexual e o sexo no
+															nascimento, 1° de junho de 2022 a 30 de janeiro de 2024 -
+															Brasil (n = 11.613*)</strong></th>
 												</tr>
 												<tr class="text-center" rowspan="1">
 													<th>Variáveis</th>
@@ -618,7 +632,8 @@
 												</tr>
 											</tbody>
 										</table>
-										<span class="figcaption d-block fonte">*Dados referentes aos casos confirmados e prováveis que informaram sexo de nascimento masculino ou feminino.</span>
+										<span class="figcaption d-block fonte">*Dados referentes aos casos confirmados e
+											prováveis que informaram sexo de nascimento masculino ou feminino.</span>
 										<span class="figcaption d-block fonte">Fonte: Dathi/SVSA/MS, 30/1/2024.</span>
 									</div>
 								</div>
@@ -632,7 +647,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr>
-													<th class="text-center" colspan="4"><strong>Casos confirmados e prováveis de mpox segundo a orientação sexual por sexo ao nascimento, de 1° de junho de 2022 até 28 de fevereiro de 2023, Brasil (n = 10.632*) </strong></th>
+													<th class="text-center" colspan="4"><strong>Casos confirmados e
+															prováveis de mpox segundo a orientação e o comportamento
+															sexual por sexo ao nascimento, até 6 de agosto de 2022,
+															Brasil (n=2.219)</strong></th>
 												</tr>
 												<tr class="text-center" rowspan="1">
 													<th>Variáveis</th>
@@ -714,7 +732,8 @@
 												</tr>
 											</tbody>
 										</table>
-										<span class="figcaption d-block fonte">Fonte: COE Monkeypox, até 6/8/2022.</span>
+										<span class="figcaption d-block fonte">Fonte: COE Monkeypox, até
+											6/8/2022.</span>
 									</div>
 								</div>
 							</div>
@@ -726,7 +745,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr class="text-center">
-													<th class="text-center" colspan="7"><strong>Casos confirmados e prováveis de mpox segundo a orientação sexual por sexo ao nascimento, de 1º de junho de 2022 até 28 de fevereiro de 2023, Brasil (n = 10.632*)</strong></th>
+													<th class="text-center" colspan="7"><strong>Casos confirmados e
+															prováveis de mpox segundo a orientação sexual por sexo ao
+															nascimento, de 1º de junho de 2022 até 28 de fevereiro de
+															2023, Brasil (n = 10.632*)</strong></th>
 												</tr>
 
 												<tr class="text-center">
@@ -796,7 +818,9 @@
 											</tbody>
 										</table>
 										<span class="figcaption d-block text-center">Fonte: COE MPOX, 1/3/2023</span>
-										<span class="figcaption d-block text-center">* Quantitativo referente somente aos casos confirmados e prováveis do sexo masculino ou feminino, não analisados os dados de intersexo ou sem informação.</span>
+										<span class="figcaption d-block text-center">* Quantitativo referente somente
+											aos casos confirmados e prováveis do sexo masculino ou feminino, não
+											analisados os dados de intersexo ou sem informação.</span>
 
 									</div>
 								</div>
@@ -809,7 +833,10 @@
 										<table class="table table-bordered">
 											<thead>
 												<tr class="text-center">
-													<th class="text-center" colspan="7"><strong>Casos confirmados e prováveis de mpox segundo a orientação sexual e o sexo no nascimento, 1º de junho de 2022 a 30 de janeiro de 2024 – Brasil (n = 11.613*)</strong></th>
+													<th class="text-center" colspan="7"><strong>Casos confirmados e
+															prováveis de mpox segundo a orientação sexual e o sexo no
+															nascimento, 1º de junho de 2022 a 30 de janeiro de 2024 –
+															Brasil (n = 11.613*)</strong></th>
 												</tr>
 
 												<tr class="text-center">
@@ -888,7 +915,9 @@
 												</tr>
 											</tbody>
 										</table>
-										<span class="figcaption d-block text-center">* Dados referentes aos casos confirmados e prováveis que informaram sexo de nascimento masculino ou feminino.</span>
+										<span class="figcaption d-block text-center">* Dados referentes aos casos
+											confirmados e prováveis que informaram sexo de nascimento masculino ou
+											feminino.</span>
 										<span class="figcaption d-block text-center">Fonte: COE MPOX, 1/3/2023</span>
 									</div>
 								</div>
@@ -980,7 +1009,8 @@
 													contaminadas. Existem diversos tipos de infecções sexualmente
 													transmissíveis. </p>
 
-												<p class="fonte">Fonte: <a href="https://www.saude.mg.gov.br/sexoseguro" target="_blank" rel="noopener noreferrer">https://www.saude.mg.gov.br/sexoseguro</a></p>
+												<p class="fonte">Fonte: <a href="https://www.saude.mg.gov.br/sexoseguro" target="_blank" rel="noopener noreferrer">https://www.saude.mg.gov.br/sexoseguro</a>
+												</p>
 											</div>
 										</div>
 									</div>
@@ -993,11 +1023,15 @@
 							<div class="row justify-content-center mb-5">
 								<div class="col-12 col-md-10 col-lg-8">
 
-									<p>Um importante desafio está relacionado à orientação para prevenção da doença: <strong>a
-											transmissão da Mpox se dá por contato direto com alguma pessoa com diagnóstico
-											confirmado, inclusive por intermédio da prática sexual.</strong></p>
+									<p>Um importante desafio está relacionado à orientação para prevenção da doença:
+										<strong>a
+											transmissão da Mpox se dá por contato direto com alguma pessoa com
+											diagnóstico
+											confirmado, inclusive por intermédio da prática sexual.</strong>
+									</p>
 
-									<p>Por um lado, é importante ter em mente que a exposição ao <em>Orthopoxvirus monkeypox</em>
+									<p>Por um lado, é importante ter em mente que a exposição ao <em>Orthopoxvirus
+											monkeypox</em>
 										não se limita a pessoas sexualmente ativas, ao mesmo tempo deve-se buscar
 										entender em cada caso as vulnerabilidades daquela pessoa para Mpox e IST, ou
 										seja, deve-se considerar uma abordagem de prevenção combinada. Afinal, é um
@@ -1072,10 +1106,10 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos">
 								<li class="realizacao">
-									<img class="img-fluid" src="../../media/images/marcas/fiocruz-campus-virtual.png" height="Logo do Campus Visrtual Fiocruz" />
+									<img class="img-fluid" src="../../media/images/marcas/epsjv.png" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/ini.png" alt="Logo do Instituto de Infectologia Evandro Chagas" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/fiocruz-campus-virtual.png" height="" alt="Logo do Campus Visrtual Fiocruz" />
 								</li>
 							</ul>
 						</div>
@@ -1088,10 +1122,10 @@
 									<img class="img-fluid" src="../../media/images/marcas/fiocruz.png" alt="Logo da Fiocruz" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/sus.png" alt="Logo do SUS" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/brasil-bem-cuidado.png" alt="Logo do Brasil Bem Cuidado" height="" />
 								</li>
 								<li>
-									<img class="img-fluid" src="../../media/images/marcas/capes.png" alt="Logo do Capes" height="" />
+									<img class="img-fluid" src="../../media/images/marcas/sus.png" alt="Logo do SUS" height="" />
 								</li>
 								<li>
 									<img class="img-fluid" src="../../media/images/marcas/ministerio-saude.png" alt="Logo do Ministério da Saúde" height="" />
@@ -1147,18 +1181,22 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo1/apresentacao.html"><strong>Boas vindas ao módulo
+													1</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/topico1.html"><strong>Aula 1</strong> | Mpox: a
+											<a href="../../modulo1/aula1/introducao.html"><strong>Aula 1</strong> |
+												Mpox: a
 												doença, o vírus e a epidemiologia</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Transmissão,
+											<a href="../../modulo1/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span> Transmissão,
 												sinais e sintomas e diagnóstico</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Tratamento e
+											<a href="../../modulo1/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> Tratamento e
 												prevenção</a>
 										</li>
 									</ul>
@@ -1174,22 +1212,27 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="../modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo2/apresentacao.html"><strong>Boas vindas ao módulo
+													2</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | O registro da Mpox no
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 1</strong> | O
+												registro da Mpox no
 												sistema de informação em saúde</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Como realizar
+											<a href="../../modulo2/aula3/introducao.html"><strong>Aula 2</strong>
+												|</span> Como realizar
 												o processo de notificação da Mpox</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Aspectos
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 3</strong>
+												|</span> Aspectos
 												éticos no registro da Mpox com ênfase nos ambientes digitais</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula4.html"><strong>Aula 4</strong> |</span> O protagonismo
+											<a href="../../modulo2/aula2/introducao.html"><strong>Aula 4</strong>
+												|</span> O protagonismo
 												dos profissionais de Nível Médio no registro e informação sobre a
 												Mpox</a>
 								</div>
@@ -1206,19 +1249,24 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo3/apresentacao.html"><strong>Boas vindas ao módulo
+													3</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | revenção e o papel
-												dos profissionais de saúde na suspeita, encaminhamento e acompanhamento
-												de casos</a>
+											<a href="../../modulo3/aula1/introducao.html"><strong>Aula 1</strong> |
+												Prevenção e o
+												papel dos profissionais de saúde na suspeita, encaminhamento e
+												acompanhamento de casos</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Educação em
+											<a href="../../modulo3/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span> Educação
+												em
 												saúde </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> Educação
+											<a href="../../modulo3/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> Educação
 												popular em saúde e o planejamento de atividades educativas</a>
 										</li>
 									</ul>
@@ -1233,22 +1281,29 @@
 								<div class="list">
 									<ul class="list-group">
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1/introducao.html"><strong>Introdução</strong> </a>
+											<a href="../../modulo4/apresentacao.html"><strong>Boas vindas ao módulo
+													4</strong> </a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula1.html"><strong>Aula 1</strong> | Vigilância em
+											<a href="../../modulo4/aula1/introducao.html"><strong>Aula 1</strong> |
+												Vigilância em
 												Saúde</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula2.html"><strong>Aula 2</strong> |</span> Informações na
+											<a href="../../modulo4/aula2/introducao.html"><strong>Aula 2</strong>
+												|</span>
+												Informações na
 												gestão de risco da Mpox</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula3.html"><strong>Aula 3</strong> |</span> A vigilância
+											<a href="../../modulo4/aula3/introducao.html"><strong>Aula 3</strong>
+												|</span> A
+												vigilância
 												da Mpox no território</a>
 										</li>
 										<li class="list-group-item" list-style="none">
-											<a href="modulo1/aula4.html"><strong>Aula 4</strong> |</span> Ações
+											<a href="../../modulo4/aula4/introducao.html"><strong>Aula 4</strong>
+												|</span> Ações
 												educativas e comunicativas de vigilância em saúde</a>
 								</div>
 								</li>
