@@ -5,9 +5,11 @@
 .video {
 	position: relative;
 }
+
 .video .ratio {
 	margin-bottom: var(--fio-sys-spacing-margin-md);
 }
+
 .video iframe,
 .video video {
 	/* border: 1px solid #999ea5 !important;
@@ -16,9 +18,9 @@
 	z-index: 1; */
 
 	border: 1px solid #fff !important;
-    border-radius: 0.75rem;
-    background-color: #fff;
-    z-index: 1;
+	border-radius: 0.75rem;
+	background-color: #fff;
+	z-index: 1;
 }
 
 /* .video::before {
@@ -44,6 +46,7 @@
 		left: -10%;
 		top: 20px;
 	}
+
 	.video::after {
 		display: block;
 		right: -10%;
@@ -101,11 +104,11 @@ audio::-webkit-media-controls-panel {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	color:var(--fio-sys-color-accent-normal);
+	color: var(--fio-sys-color-accent-normal);
 }
 
 .media .media__transcription .transcription-button:hover .transcription-button-label {
-	color:var(--fio-sys-color-accent-dark);
+	color: var(--_button-text-color-primary);
 }
 
 .media .media__transcription .transcription-button[aria-expanded='true'] .transcription-button-label::after {
@@ -118,7 +121,7 @@ audio::-webkit-media-controls-panel {
 	background-color: var(--fio-sys-color-accent-normal);
 	border-radius: var(--fio-sys-size-radius-full);
 	content: 'keyboard_arrow_down';
-	color:var(--fio-sys-color-neutral-white);
+	color: var(--fio-sys-color-neutral-white);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -132,13 +135,13 @@ audio::-webkit-media-controls-panel {
 	width: 1rem;
 }
 
-.media .media__transcription .transcription-button:hover .transcription-button-label::after{
+.media .media__transcription .transcription-button:hover .transcription-button-label::after {
 	color: var(--fio-sys-color-accent-contrast);
-	background-color:var(--fio-sys-color-accent-dark);
+	background-color: var(--fio-sys-color-accent-dark);
 }
 
 .media .media__transcription .transcription-content {
-	background-color: var(--fio-sys-color-primary-extra-light);
+	background: linear-gradient(0deg, rgba(255, 127, 0, 0.3), rgba(255, 255, 255, 0.05)), url(../../../media/templates/bg-box-atencao.svg) no-repeat right;
 	padding: var(--fio-sys-size-padding-md);
 }
 
