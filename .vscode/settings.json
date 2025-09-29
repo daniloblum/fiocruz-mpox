@@ -1,5 +1,8 @@
 {
 	"liveServer.settings.port": 5503,
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "vscode.html-language-features"
+	"editor.defaultFormatter": "vscode.html-language-features",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
