@@ -238,6 +238,12 @@ section {
 	}
 }
 
+/* PAGE CONTENT */
+
+#page-content {
+    margin-top: 80px;
+}
+
 /* TÍTULOS */
 .heading__block {
 	margin-bottom: var(--fio-sys-spacing-vertical-lg);
