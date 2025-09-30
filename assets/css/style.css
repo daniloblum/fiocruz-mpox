@@ -1,44 +1,44 @@
 /* @import '-reference.css'; */
-@import '-reference-new.css';
+@import "-reference-new.css";
 /* @import '-system.css'; */
-@import '-system-new.css';
-@import '-component.css';
-@import 'fonts.css';
+@import "-system-new.css";
+@import "-component.css";
+@import "fonts.css";
 /* @import 'fonts/fonts.css'; */
 /* @import 'typography.css'; */
-@import 'typography-new.css';
-@import '../../sources/animate/animate.min.css';
-@import '../../sources/animate/aos/dist/aos.css';
-@import 'sidebar.css';
-@import 'header.css';
-@import 'footer.css';
-@import 'colors.css';
-@import 'animations.css';
-@import 'components/exercise.css';
-@import 'components/practicing.css';
-@import 'components/abas.css';
-@import 'components/accordion.css';
-@import 'components/buttons.css';
-@import 'components/card.css';
-@import 'components/destaques.css';
-@import 'components/flipcard.css';
-@import 'components/image-dropdown.css';
-@import 'components/olho-de-texto.css';
-@import 'components/quotation.css';
-@import 'components/boxes.css';
-@import 'components/list.css';
-@import 'components/popover.css';
-@import 'components/modal.css';
+@import "typography-new.css";
+@import "../../sources/animate/animate.min.css";
+@import "../../sources/animate/aos/dist/aos.css";
+@import "sidebar.css";
+@import "header.css";
+@import "footer.css";
+@import "colors.css";
+@import "animations.css";
+@import "components/exercise.css";
+@import "components/practicing.css";
+@import "components/abas.css";
+@import "components/accordion.css";
+@import "components/buttons.css";
+@import "components/card.css";
+@import "components/destaques.css";
+@import "components/flipcard.css";
+@import "components/image-dropdown.css";
+@import "components/olho-de-texto.css";
+@import "components/quotation.css";
+@import "components/boxes.css";
+@import "components/list.css";
+@import "components/popover.css";
+@import "components/modal.css";
 @import "components/swiper-bundle.min.css";
 @import "components/swiper.css";
-@import 'components/slider.css';
-@import 'components/tabela.css';
-@import 'components/timeline-vertical.css';
-@import 'components/timeline-zigzag.css';
-@import 'components/timeline-horizontal.css';
-@import 'components/video.css';
-@import 'components/media.css';
-@import 'components/exercise.css';
+@import "components/slider.css";
+@import "components/tabela.css";
+@import "components/timeline-vertical.css";
+@import "components/timeline-zigzag.css";
+@import "components/timeline-horizontal.css";
+@import "components/video.css";
+@import "components/media.css";
+@import "components/exercise.css";
 
 * {
 	margin: 0;
@@ -61,7 +61,7 @@
 }
 strong {
 	font-weight: 700;
-	font-family: 'Jost Bold', sans-serif;
+	font-family: "Jost Bold", sans-serif;
 }
 
 u {
@@ -122,16 +122,16 @@ body {
 
 .main .content {
 	margin-left: 0;
+	width: 100%;
 }
+
 @media (min-width: 992px) {
-	.main .content {
-		margin-left: 30%;
+	.main {
+		display: flex;
+		width: 100%;
 	}
 }
 @media (min-width: 1200px) {
-	.main .content {
-		margin-left: 20%;
-	}
 }
 
 @media (max-width: 991px) {
@@ -157,7 +157,7 @@ section {
 	max-width: 100%;
 	padding-top: 0px;
 	overflow: hidden;
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url('../../media/images/page-title-background.jpg');
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url("../../media/images/page-title-background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -166,19 +166,19 @@ section {
 }
 
 #page-title.mod1 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url('../../media/images/page-title-background-m1.jpg');
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url("../../media/images/page-title-background-m1.jpg");
 }
 
 #page-title.mod2 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url('../../media/images/page-title-background-m2.jpg');
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url("../../media/images/page-title-background-m2.jpg");
 }
 
 #page-title.mod3 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url('../../media/images/page-title-background-m3.jpg');
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url("../../media/images/page-title-background-m3.jpg");
 }
 
 #page-title.mod4 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url('../../media/images/page-title-background-m4.jpg');
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-background-light) 0%, transparent 40%), url("../../media/images/page-title-background-m4.jpg");
 }
 
 #page-title .container,
@@ -225,7 +225,6 @@ section {
 		font-size: var(--fio-sys-typography-head-xl-size);
 		line-height: var(--fio-sys-typography-head-sm-line-height);
 	}
-
 
 	#page-title .title .label {
 		font-family: var(--fio-sys-typography-label-family);
@@ -292,7 +291,7 @@ section .page-nav .fio-button {
 }
 
 .lightbox::after {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	right: 0;
