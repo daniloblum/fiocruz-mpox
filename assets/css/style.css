@@ -161,6 +161,8 @@ section {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
+	top:80px;
 }
 
 #page-title.mod1 {
@@ -233,6 +235,12 @@ section {
 		font-weight: var(--fio-sys-typography-label-weight);
 		display: block;
 	}
+}
+
+/* PAGE CONTENT */
+
+#page-content {
+    margin-top: 80px;
 }
 
 /* TÍTULOS */
