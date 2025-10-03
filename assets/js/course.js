@@ -77,7 +77,7 @@ const course = {
             { type: "link", icon: "lesson", title: "Tópico 2", path: "/modulo2/aula4/topico2.html" }
           ]
         },
-        { type: "link", icon: "activity", title: "Atividade", path: "/modulo2/atividade.html" },
+        // { type: "link", icon: "activity", title: "Atividade", path: "/modulo2/atividade.html" },
         { type: "link", icon: "closing", title: "Encerramento do módulo", path: "/modulo2/encerramento.html" }
       ]
     },
@@ -110,7 +110,7 @@ const course = {
             { type: "link", icon: "lesson", title: "Tópico 2", path: "/modulo3/aula3/topico2.html" }
           ]
         },
-        { type: "link", icon: "activity", title: "Atividade", path: "/modulo3/atividade.html" },
+        // { type: "link", icon: "activity", title: "Atividade", path: "/modulo3/atividade.html" },
         { type: "link", icon: "closing", title: "Encerramento do módulo", path: "/modulo3/encerramento.html" }
       ]
     },
@@ -151,7 +151,7 @@ const course = {
             { type: "link", icon: "lesson", title: "Tópico 2", path: "/modulo4/aula4/topico2.html" }
           ]
         },
-        { type: "link", icon: "activity", title: "Atividade", path: "/modulo4/atividade.html" },
+        // { type: "link", icon: "activity", title: "Atividade", path: "/modulo4/atividade.html" },
         { type: "link", icon: "closing", title: "Encerramento do módulo", path: "/modulo4/encerramento.html" }
       ]
     }
