@@ -16,7 +16,7 @@ html {
 	padding-left: 20px;
 }
 
-.header .nav .nav-item>a {
+.header .nav .nav-item > a {
 	padding-right: 0;
 }
 
@@ -29,7 +29,7 @@ html {
 .section-hero::after {
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -167,7 +167,7 @@ html {
 }
 
 .heading__block::after {
-	content: '';
+	content: "";
 	display: block;
 	width: 60px;
 	height: 2px;
@@ -184,6 +184,7 @@ main {
 	background-size: contain;
 	position: relative;
 	z-index: 2;
+	flex-direction: column;
 }
 
 section {
@@ -246,13 +247,12 @@ section {
 	font-size: 24px;
 	color: var(--fio-sys-color-neutral-white);
 	text-transform: uppercase;
-	font-family:
-		var(--fio-ref-typography-family-secondary-light);
+	font-family: var(--fio-ref-typography-family-secondary-light);
 }
 
 #course-program .card .card-header::after {
 	background-color: var(--fio-sys-color-primary-medium-contrast);
-	content: '';
+	content: "";
 	display: block;
 	height: 2px;
 	width: 40px;
@@ -268,19 +268,16 @@ section {
 	font-family: var(--fio-ref-typography-family-secondary-regular);
 	font-size: var(--fio-sys-typography-head-sm-size);
 	padding: var(--fio-sys-spacing-margin-sm) 0 var(--fio-sys-spacing-margin-lg);
-
 }
 
 #course-program .card-body .list-group-item {
 	padding-left: 0;
-
 }
 
 #course-program .card .card-body :last-child {
 	margin-bottom: 0;
 	color: var(--fio-sys-typography-head-color);
 }
-
 
 #course-program .card .card-footer {
 	background: none;
@@ -329,7 +326,6 @@ section {
 	border-bottom: none;
 }
 
-
 #course-program .modulo-grupo .modulo-item span {
 	color: var(--fio-sys-color-primary-medium);
 	text-align: center;
@@ -369,7 +365,6 @@ section {
 	#course-program .modulo-grupo .modulo-item span {
 		text-align: left;
 	}
-
 }
 
 /* 
