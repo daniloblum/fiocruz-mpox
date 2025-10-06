@@ -2,26 +2,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 
-  // --- Mobile toggle ---
-  const sidebarToggleOpen = document.querySelector(
-    ".mobile-toggle-open .mobile-toggle__button"
-  );
-  const sidebarToggleClose = document.querySelector(
-    ".mobile-toggle-close .mobile-toggle__button"
-  );
-  const sidebarShow = document.querySelector("#sidebar");
-
-  if (sidebarToggleOpen) {
-    sidebarToggleOpen.addEventListener("click", () => {
-      sidebarShow?.classList.add("show");
-    });
-  }
-  if (sidebarToggleClose) {
-    sidebarToggleClose.addEventListener("click", () => {
-      sidebarShow?.classList.remove("show");
-    });
-  }
-
   // --- Renderização da sidebar ---
   const sidebarRoot = document.getElementById("sidebar");
   if (!sidebarRoot) return;
@@ -215,24 +195,44 @@ document.addEventListener("DOMContentLoaded", () => {
   const hidebarSidebar = document.getElementById('sidebar');
   const hidebarPage = document.getElementById('page');
 
-  hidebarButton.addEventListener('click', function () {
+  // Check if the element was found before adding the event listener
+  if (hidebarButton) {
+    hidebarButton.addEventListener('click', function () {
 
-    if (!hidebarSidebar.classList.contains('hidebar--close')) {
+      if (!hidebarSidebar.classList.contains('hidebar--close')) {
 
-      hidebarButton.classList.add('hidebar-button--close')
-      hidebarSidebar.classList.add('hidebar--close')
-      hidebarPage.classList.add('hidebar-page--close')
-      console.log('barra aberta')
+        hidebarButton.classList.add('hidebar-button--close')
+        hidebarSidebar.classList.add('hidebar--close')
+        hidebarPage.classList.add('hidebar-page--close')
+        console.log('barra aberta')
 
-    } else {
+      } else {
 
-      hidebarButton.classList.remove('hidebar-button--close')
-      hidebarSidebar.classList.remove('hidebar--close')
-      hidebarPage.classList.remove('hidebar-page--close')
-      console.log('barra fechada')
+        hidebarButton.classList.remove('hidebar-button--close')
+        hidebarSidebar.classList.remove('hidebar--close')
+        hidebarPage.classList.remove('hidebar-page--close')
+        console.log('barra fechada')
 
-    }
+      }
 
-  })
+    });
+  }
+
+
+  // --- Mobile toggle ---
+  const sidebarToggleOpen = document.querySelector(".mobile-toggle-open .mobile-toggle__button");
+  const sidebarToggleClose = document.querySelector(".mobile-toggle-close .mobile-toggle__button");
+  const sidebarShow = document.getElementById("sidebar");
+
+  if (sidebarToggleOpen) {
+    sidebarToggleOpen.addEventListener("click", () => {
+      sidebarShow.classList.add("sidebar-show");
+    });
+  }
+  if (sidebarToggleClose) {
+    sidebarToggleClose.addEventListener("click", () => {
+      sidebarShow.classList.remove("sidebar-show");
+    });
+  }
 
 });

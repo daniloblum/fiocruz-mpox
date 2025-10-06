@@ -1,4 +1,5 @@
 const course = {
+  title: 'Curso | MPOX Vigilância, Informação e Educação em Saúde',
   modules: [
     {
       title: "Módulo 1: Conceitos básicos sobre a Mpox",

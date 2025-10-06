@@ -248,8 +248,8 @@
 }
 
 /* Open and Close Sidebar  */
-.show {
-	transform: translateX(0);
+.sidebar-show {
+	translate: 100%;
 }
 .prevent-scroll {
 	height: 100%;
