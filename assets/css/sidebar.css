@@ -94,6 +94,9 @@
 }
 
 /* Section accordion */
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item .accordion-button {
+	text-transform:none;
+}
 
 #sidebarAccordion {
 	gap: 16px;
