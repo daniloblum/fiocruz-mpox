@@ -79,8 +79,16 @@
 			<li class="nav-item desktop-toggle"><a href="../index.html" class="nav-link">Página inicial</a></li>
 			<li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
 			<li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">Bibliografia</a></li>
-			<li class="nav-item"><button class="fio-button fio-button-primary" data-bs-toggle="modal" data-bs-target="#modal-megamenu">Módulos</button></li>
-			<!-- <li class="nav-item desktop-toggle"><a href="#" class="fio-button fio-button-outline-primary">FAQ</a></li> -->
+			<li class="nav-item d-none d-sm-block"><button class="fio-button fio-button-primary" data-bs-toggle="modal" data-bs-target="#modal-megamenu">Módulos</button></li>
+
+			<li class="nav-item dropdown mobile-only">
+				<a href="#" class="nav-link" dropdown-toggle="" type="button" id="viewMore" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,10"><span class="material-symbols-rounded">more_vert</span></a>
+
+				<ul class="dropdown dropdown-menu" aria-labelledby="viewMore" style="">
+					<li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</button></li>
+					<li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">Bibliografia</button></li>
+				</ul>
+			</li>
 		</ul>
 	</header>
 	<div class="main">
