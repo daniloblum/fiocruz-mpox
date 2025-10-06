@@ -98,9 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </section>
       <section class="sidebar__section">
         <div class="sidebar__section-hidebar">
-          <a role="button" tabindex="0">
-            <span class="material-symbols-rounded">left_panel_close</span>
-          </a>
+          
         </div>
       </section>
       <section class="sidebar__section">
@@ -210,5 +208,31 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })();
 
+
+  // --- Hidebar ---
+
+  const hidebarButton = document.getElementById('hidebar-button');
+  const hidebarSidebar = document.getElementById('sidebar');
+  const hidebarPage = document.getElementById('page');
+
+  hidebarButton.addEventListener('click', function () {
+
+    if (!hidebarSidebar.classList.contains('hidebar--close')) {
+
+      hidebarButton.classList.add('hidebar-button--close')
+      hidebarSidebar.classList.add('hidebar--close')
+      hidebarPage.classList.add('hidebar-page--close')
+      console.log('barra aberta')
+
+    } else {
+
+      hidebarButton.classList.remove('hidebar-button--close')
+      hidebarSidebar.classList.remove('hidebar--close')
+      hidebarPage.classList.remove('hidebar-page--close')
+      console.log('barra fechada')
+
+    }
+
+  })
 
 });
