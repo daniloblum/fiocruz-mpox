@@ -1,5 +1,5 @@
 // sidebar.js - versão 1.3.1 (corrigida)
-// Base: v1.3 — corrige atualização do link ativo quando a rota muda por pushState, replaceState ou popstate
+// Autores: Aline Poly, Danilo Blum e Luciana Nunes
 
 document.addEventListener("DOMContentLoaded", () => {
   // --- Ajuste de altura da página (DESKTOP) ---
