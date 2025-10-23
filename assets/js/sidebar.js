@@ -182,21 +182,38 @@ document.addEventListener("DOMContentLoaded", () => {
   const updateActiveState = () => {
     const links = sidebarRoot.querySelectorAll(".link-item");
 
-    // Normaliza o pathname atual
+    // Prefixo base do projeto (ajuste se o nome da pasta mudar)
+    const basePath = "/fiocruz-mpox";
+
+    // Caminho atual normalizado
     let current = window.location.pathname;
 
-    // Remove /index.html ou .html final
+    // Garante que o caminho contenha o prefixo base
+    if (!current.startsWith(basePath)) {
+      current = basePath + current;
+    }
+
+    // Remove .html e /index.html do final
     current = current.replace(/(\/index)?\.html$/, "");
 
     links.forEach((link) => {
-      // Normaliza o href do link
       let linkPath = link.getAttribute("href") || "";
+
+      // Remove .html e /index.html também dos links
       linkPath = linkPath.replace(/(\/index)?\.html$/, "");
 
-      // Ajusta para sempre começar com "/"
-      if (!linkPath.startsWith("/")) linkPath = "/" + linkPath;
+      // Garante que o link comece com o prefixo base
+      if (!linkPath.startsWith(basePath)) {
+        // evita duplicar o prefixo se já existir
+        if (linkPath.startsWith("/")) {
+          linkPath = basePath + linkPath;
+        } else {
+          linkPath = basePath + "/" + linkPath;
+        }
+      }
 
-      if (current.endsWith(linkPath)) {
+      // Comparação final
+      if (current === linkPath) {
         link.classList.add("active");
 
         // Abre accordions ancestrais
@@ -204,7 +221,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (collapse && !collapse.classList.contains("show")) {
           const button = collapse
             .closest(".accordion-item")
-            ?.querySelector(".accordion-button"); button?.classList.remove("collapsed");
+            ?.querySelector(".accordion-button");
+          button?.classList.remove("collapsed");
           collapse.classList.add("show");
         }
       } else {
