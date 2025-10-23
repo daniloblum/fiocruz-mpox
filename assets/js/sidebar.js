@@ -156,15 +156,41 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // --- Atualiza visual do link ativo dinamicamente ---
+  // const updateActiveState = () => {
+  //   const links = sidebarRoot.querySelectorAll(".link-item");
+  //   const current = getCurrentPath();
+
+  //   links.forEach((link) => {
+  //     if (link.getAttribute("href") === current) {
+  //       link.classList.add("active");
+
+  //       // Abre accordions ancestrais
+  //       const collapse = link.closest(".accordion-collapse");
+  //       if (collapse && !collapse.classList.contains("show")) {
+  //         const button = collapse
+  //           .closest(".accordion-item")
+  //           ?.querySelector(".accordion-button");
+  //         button?.classList.remove("collapsed");
+  //         collapse.classList.add("show");
+  //       }
+  //     } else {
+  //       link.classList.remove("active");
+  //     }
+  //   });
+  // };
+
   const updateActiveState = () => {
     const links = sidebarRoot.querySelectorAll(".link-item");
-    const current = getCurrentPath();
+    const current = window.location.pathname;
 
     links.forEach((link) => {
-      if (link.getAttribute("href") === current) {
+      const linkPath = link.getAttribute("href");
+
+      // Verifica se o pathname termina com o href do link 
+      if (current.endsWith(linkPath)) {
         link.classList.add("active");
 
-        // Abre accordions ancestrais
+        // Abre accordions ancestrais 
         const collapse = link.closest(".accordion-collapse");
         if (collapse && !collapse.classList.contains("show")) {
           const button = collapse
