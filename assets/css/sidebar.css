@@ -95,7 +95,7 @@
 
 /* Section accordion */
 #sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item .accordion-button {
-	text-transform:none;
+	text-transform: none;
 }
 
 #sidebarAccordion {
@@ -277,21 +277,22 @@
 		font-size: 1rem;
 		width: 380px;
 		min-height: 100vh;
-		will-change: min-height;
+		will-change: min-height, margin-left;
 		z-index: 99;
 		position: relative;
 		transform: none;
 		overflow: visible;
 		box-shadow: 4px 0 0 0 var(--_sidebar-border);
-		transition: translate 0.25s ease-out;
+		transition: margin-left 0.25s ease-out;
 	}
 	#sidebar .sidebar__inner {
-		padding: 80px 0 16px 0;
+		padding: 120px 0 16px 0;
 		position: relative;
 		transform: translate(0, 0);
 		transform: translate3d(0, 0, 0);
 		will-change: position, transform;
 		min-height: 100vh;
+		transition: left 0.25s ease-out;
 	}
 
 	/* Section hidebar */
@@ -308,7 +309,7 @@
 		padding: 12px;
 		padding-left: 6px;
 		z-index: 99;
-		transition: 0.25s ease-out;
+		transition: left 0.25s ease-out;
 		width: 60px;
 		height: 60px;
 		display: flex;
@@ -327,15 +328,8 @@
 		color: var(--fio-sys-color-neutral-white);
 	}
 
-	#hidebar-button.hidebar-button--close {
-		left: 0;
-	}
 	#hidebar-button.hidebar-button--close:before {
 		content: "left_panel_open";
-	}
-
-	.hidebar--close {
-		translate: calc(-100% + 0px);
 	}
 
 	.hidebar-page--close {

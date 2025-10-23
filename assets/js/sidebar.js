@@ -1,53 +1,101 @@
-// sidebar.js - versão 1.2 (produção)
-document.addEventListener("DOMContentLoaded", () => {
+// sidebar.js - versão 1.3.1 (corrigida)
+// Base: v1.3 — corrige atualização do link ativo quando a rota muda por pushState, replaceState ou popstate
 
+document.addEventListener("DOMContentLoaded", () => {
+  // --- Ajuste de altura da página (DESKTOP) ---
+  (function () {
+    const sidebarEl = document.getElementById("sidebar");
+    const contentEl = document.getElementsByClassName("content")[0];
+    const pageTitleEl = document.getElementById("page-title");
+    const footerEl = document.getElementsByTagName("footer")[0];
+
+    if (!sidebarEl || !contentEl || !pageTitleEl || !footerEl) return;
+
+    const sectionsToDiscount = pageTitleEl.offsetHeight + footerEl.offsetHeight;
+
+    if (sidebarEl.offsetHeight > contentEl.offsetHeight) {
+      const pageContent = document.getElementById("page-content");
+      if (pageContent) {
+        pageContent.style.minHeight =
+          sidebarEl.offsetHeight - sectionsToDiscount + "px";
+      }
+    }
+  })();
+
+  // --- Mobile toggle ---
+  const sidebarToggleOpen = document.querySelector(
+    ".mobile-toggle-open .mobile-toggle__button"
+  );
+  const sidebarToggleClose = document.querySelector(
+    ".mobile-toggle-close .mobile-toggle__button"
+  );
+  const sidebarShow = document.querySelector("#sidebar");
+
+  if (sidebarToggleOpen) {
+    sidebarToggleOpen.addEventListener("click", () => {
+      sidebarShow?.classList.add("show");
+    });
+  }
+
+  if (sidebarToggleClose) {
+    sidebarToggleClose.addEventListener("click", () => {
+      sidebarShow?.classList.remove("show");
+    });
+  }
 
   // --- Renderização da sidebar ---
   const sidebarRoot = document.getElementById("sidebar");
+
   if (!sidebarRoot) return;
 
-  const currentPath = window.location.pathname;
-
-  function hasActiveChild(items) {
-    return items.some(
-      (item) =>
-        (item.type === "link" && item.path === currentPath) ||
-        (item.type === "accordion" && hasActiveChild(item.items))
-    );
+  function getCurrentPath() {
+    return window.location.pathname.replace(/\/$/, "");
   }
 
-  function renderItems(items, parentId, typeLevel = "module") {
-    return items
+  const hasActiveChild = (items) =>
+    items.some(
+      (item) =>
+        (item.type === "link" && item.path === getCurrentPath()) ||
+        (item.type === "accordion" && hasActiveChild(item.items))
+    );
+
+  const renderItems = (items, parentId, typeLevel = "module") =>
+    items
       .map((item, index) => {
         if (item.type === "link") {
           const iconClass = item.icon ? `icon-${item.icon}` : "";
-          return `<a href="${item.path}" class="list-group-item link-item ${iconClass} ${currentPath === item.path ? "active" : ""
-            }">${item.title}</a>`;
+          return `
+            <a href="${item.path}" 
+               class="list-group-item link-item ${iconClass} ${getCurrentPath() === item.path ? "active" : ""
+            }">
+              ${item.title}
+            </a>
+          `;
         }
 
         if (item.type === "accordion") {
           const accordionId = `${parentId}-${index}`;
-          const isActive = item.items.some(
-            (child) =>
-              (child.type === "link" && child.path === currentPath) ||
-              (child.type === "accordion" && hasActiveChild(child.items))
-          );
-
+          const isActive = hasActiveChild(item.items);
           const accordionClass =
             typeLevel === "module" ? "accordion-module" : "accordion-lesson";
 
           return `
             <div class="accordion-item ${accordionClass}">
               <h2 class="accordion-header" id="${accordionId}-header">
-                <button class="accordion-button ${isActive ? "" : "collapsed"}"
-                  type="button"
-                  data-bs-toggle="collapse"
+                <button class="accordion-button ${isActive ? "" : "collapsed"
+            }" type="button" 
+                  data-bs-toggle="collapse" 
                   data-bs-target="#${accordionId}">
                   ${item.title}
                 </button>
               </h2>
-              <div id="${accordionId}" class="accordion-collapse collapse ${isActive ? "show" : ""
-            }" ${typeLevel === "lesson" ? `data-bs-parent="#${parentId}"` : ""}>
+              <div id="${accordionId}" 
+                   class="accordion-collapse collapse ${isActive ? "show" : ""
+            }"
+                   ${typeLevel === "lesson"
+              ? `data-bs-parent="#${parentId}"`
+              : ""
+            }>
                 <div class="accordion-body list-group">
                   ${renderItems(item.items, accordionId, "lesson")}
                 </div>
@@ -59,179 +107,163 @@ document.addEventListener("DOMContentLoaded", () => {
         return `<span class="list-group-item disabled">Tipo desconhecido</span>`;
       })
       .join("");
-  }
 
-  // --- Inserir HTML da sidebar + módulos ---
-  sidebarRoot.innerHTML = `
-    <div class="sidebar__inner">
-      <section class="sidebar__section mobile-only">
-        <div class="sidebar__section-header">
-          <div class="course-name">
-            <h2>${course.title}</h2>
+  const renderSidebar = () => {
+    sidebarRoot.innerHTML = `
+      <div class="sidebar__inner">
+        <!-- Seção Mobile -->
+        <section class="sidebar__section mobile-only">
+          <div class="sidebar__section-header">
+            <div class="course-name">
+              <h2>${course.title}</h2>
+            </div>
+            <div class="mobile-toggle-close">
+              <a class="mobile-toggle__button" role="button" tabindex="0">
+                <span class="icon material-symbols-rounded">read_more</span>
+              </a>
+            </div>
           </div>
-          <div class="mobile-toggle-close">
-            <a class="mobile-toggle__button" role="button" tabindex="0">
-              <span class="icon material-symbols-rounded">read_more</span>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="sidebar__section">
-        <div class="sidebar__section-hidebar">
-          
-        </div>
-      </section>
-      <section class="sidebar__section">
-        <div class="sidebar__section-accordion">
-          <div class="accordion" id="sidebarAccordion">
-            ${course.modules
-      .map((module, moduleIndex) => {
-        const moduleId = `module-${moduleIndex}`;
-        const isActive = module.items.some(
-          (item) =>
-            (item.type === "link" && item.path === currentPath) ||
-            (item.type === "accordion" && hasActiveChild(item.items))
-        );
+        </section>
 
-        return `
-                  <div class="accordion-item accordion-module">
-                    <h2 class="accordion-header" id="${moduleId}-header">
-                      <button class="accordion-button ${isActive ? "" : "collapsed"
-          }" type="button" data-bs-toggle="collapse" data-bs-target="#${moduleId}">
-                        ${module.title}
-                      </button>
-                    </h2>
-                    <div id="${moduleId}" class="accordion-collapse collapse ${isActive ? "show" : ""
-          }" data-bs-parent="#sidebarAccordion">
-                      <div class="accordion-body list-group accordion" id="${moduleId}-lessons">
-                        ${renderItems(module.items, `${moduleId}-lessons`, "lesson")}
+        <!-- Botão de esconder sidebar -->
+        <!-- <section class="sidebar__section">
+          <div class="sidebar__section-hidebar">
+            <a id="hidebar-button" role="button" tabindex="0"></a>
+          </div>
+        </section> -->
+
+        <!-- Lista de módulos -->
+        <section class="sidebar__section">
+          <div class="sidebar__section-accordion">
+            <div class="accordion" id="sidebarAccordion">
+              ${course.modules
+        .map((module, moduleIndex) => {
+          const moduleId = `module-${moduleIndex}`;
+          const isActive = hasActiveChild(module.items);
+
+          return `
+                    <div class="accordion-item accordion-module">
+                      <h2 class="accordion-header" id="${moduleId}-header">
+                        <button class="accordion-button ${isActive ? "" : "collapsed"
+            }" 
+                          type="button" 
+                          data-bs-toggle="collapse" 
+                          data-bs-target="#${moduleId}">
+                          ${module.title}
+                        </button>
+                      </h2>
+                      <div id="${moduleId}" 
+                           class="accordion-collapse collapse ${isActive ? "show" : ""
+            }" 
+                           data-bs-parent="#sidebarAccordion">
+                        <div class="accordion-body list-group accordion" 
+                             id="${moduleId}-lessons">
+                          ${renderItems(
+              module.items,
+              `${moduleId}-lessons`,
+              "lesson"
+            )}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                `;
-      })
-      .join("")}
+                  `;
+        })
+        .join("")}
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
-  `;
+        </section>
+      </div>
+    `;
+  };
 
-  // --- Inicializa StickySidebar (script separado no HTML) ---
+  // --- Atualiza visual do link ativo dinamicamente ---
+  const updateActiveState = () => {
+    const links = sidebarRoot.querySelectorAll(".link-item");
+    const current = getCurrentPath();
+
+    links.forEach((link) => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+
+        // Abre accordions ancestrais
+        const collapse = link.closest(".accordion-collapse");
+        if (collapse && !collapse.classList.contains("show")) {
+          const button = collapse
+            .closest(".accordion-item")
+            ?.querySelector(".accordion-button");
+          button?.classList.remove("collapsed");
+          collapse.classList.add("show");
+        }
+      } else {
+        link.classList.remove("active");
+      }
+    });
+  };
+
+  // --- Render e inicializa ---
+  renderSidebar();
+  updateActiveState();
+
+  // --- Observa mudanças de rota (pushState / replaceState / popstate) ---
+  const observeNavigation = () => {
+    const _wrap = (type) => {
+      const orig = history[type];
+      return function () {
+        const rv = orig.apply(this, arguments);
+        // Aguarda o DOM atualizar antes de disparar o evento
+        setTimeout(() => window.dispatchEvent(new Event("locationchange")), 50);
+        return rv;
+      };
+    };
+
+    history.pushState = _wrap("pushState");
+    history.replaceState = _wrap("replaceState");
+
+    window.addEventListener("popstate", () =>
+      setTimeout(() => window.dispatchEvent(new Event("locationchange")), 50)
+    );
+
+    // Evento unificado para qualquer mudança de rota
+    window.addEventListener("locationchange", updateActiveState);
+  };
+
+  observeNavigation();
+
+  // --- StickySidebar ---
   if (typeof StickySidebar !== "undefined") {
     new StickySidebar("#sidebar", {
       topSpacing: 0,
       bottomSpacing: 0,
-      containerSelector: ".main",
+      containerSelector: ".content",
       innerWrapperSelector: ".sidebar__inner",
-      minWidth: 991,
     });
   }
 
-  // --- Ajuste de altura da página (DESKTOP) ---
-  // (function () {
-  //   let sidebarEl = document.getElementById("sidebar");
-  //   let contentEl = document.getElementsByClassName("content")[0];
-  //   let pageTitleEl = document.getElementById("page-title");
-  //   let footerEl = document.getElementsByTagName("footer")[0];
+  // --- Botão para recolher / expandir sidebar (DESKTOP) ---
+  const hidebarButton = document.getElementById("hidebar-button");
+  const pageWrapper = document.getElementById("page");
+  const sidebarInner = document.querySelector(".sidebar__inner");
 
-  //   if (!sidebarEl || !contentEl || !pageTitleEl || !footerEl) return;
+  if (hidebarButton && pageWrapper && sidebarInner) {
+    hidebarButton.addEventListener("click", () => {
+      const sidebarInnerPosition = window.getComputedStyle(sidebarInner).position;
+      const isFixed = sidebarInnerPosition === "fixed";
 
-  //   let sectionsToDiscount = pageTitleEl.offsetHeight + footerEl.offsetHeight;
-
-  //   if (sidebarEl.offsetHeight > contentEl.offsetHeight) {
-  //     let pageContent = document.getElementById("page-content");
-  //     if (pageContent) {
-  //       pageContent.style.minHeight =
-  //         sidebarEl.offsetHeight - sectionsToDiscount + "px";
-  //     }
-  //   }
-  // })();
-
-  (function () {
-
-    const sidebarEl = document.querySelector('#sidebar');
-    const pageTitleEl = document.querySelector('#page-title');
-    const pageContentEl = document.querySelector('#page-content');
-    const navTopicsEl = document.querySelector('#nav-topics');
-    const footerEl = document.querySelector('footer');
-
-    const sidebarHeight = sidebarEl.offsetHeight;
-    const pageTitleHeight = pageTitleEl.offsetHeight;
-    const pageContentHeight = pageContentEl.offsetHeight;
-    const navTopicsHeight = navTopicsEl.offsetHeight;
-    const footerHeight = footerEl.offsetHeight;
-
-    console.log(
-      "sidebar ", sidebarHeight,
-      "page-title ", pageTitleHeight,
-      "page-content ", pageContentHeight,
-      "nav-topics ", navTopicsHeight,
-      "footer ", footerHeight
-    )
-    console.log(pageTitleHeight + pageContentHeight + navTopicsHeight + footerHeight)
-
-    const compareToHeight = pageTitleHeight + pageContentHeight + navTopicsHeight + footerHeight
-
-    const sectionsToDiscount = pageTitleHeight + navTopicsHeight + footerHeight;
-
-    if (sidebarHeight > compareToHeight) {
-
-
-      pageContentEl.style.minHeight = sidebarHeight - sectionsToDiscount + 'px';
-      console.log("maior", pageContentEl.offsetHeight)
-
-      //($(".sidebar").height() - ($(".header").height() + 2 * $("footer").height()))
-    } else {
-      console.log("menor")
-
-    }
-  })();
-
-
-  // --- Hidebar ---
-
-  const hidebarButton = document.getElementById('hidebar-button');
-  const hidebarSidebar = document.getElementById('sidebar');
-  const hidebarPage = document.getElementById('page');
-
-  // Check if the element was found before adding the event listener
-  if (hidebarButton) {
-    hidebarButton.addEventListener('click', function () {
-
-      if (!hidebarSidebar.classList.contains('hidebar--close')) {
-
-        hidebarButton.classList.add('hidebar-button--close')
-        hidebarSidebar.classList.add('hidebar--close')
-        hidebarPage.classList.add('hidebar-page--close')
-        console.log('barra aberta')
-
+      if (!sidebarRoot.classList.contains("hide")) {
+        sidebarRoot.style.marginLeft = "-370px";
+        if (isFixed) sidebarInner.style.left = "-370px";
+        hidebarButton.style.left = "10px";
+        pageWrapper.style.marginLeft = "10px";
+        hidebarButton.classList.toggle("hidebar-button--close");
+        sidebarRoot.classList.add("hide");
       } else {
-
-        hidebarButton.classList.remove('hidebar-button--close')
-        hidebarSidebar.classList.remove('hidebar--close')
-        hidebarPage.classList.remove('hidebar-page--close')
-        console.log('barra fechada')
-
+        sidebarRoot.style.marginLeft = "0px";
+        if (isFixed) sidebarInner.style.left = "0px";
+        hidebarButton.style.left = "380px";
+        pageWrapper.style.marginLeft = "380px";
+        hidebarButton.classList.toggle("hidebar-button--close");
+        sidebarRoot.classList.remove("hide");
       }
-
-    });
-  }
-
-
-  // --- Mobile toggle ---
-  const sidebarToggleOpen = document.querySelector(".mobile-toggle-open .mobile-toggle__button");
-  const sidebarToggleClose = document.querySelector(".mobile-toggle-close .mobile-toggle__button");
-  const sidebarShow = document.getElementById("sidebar");
-
-  if (sidebarToggleOpen) {
-    sidebarToggleOpen.addEventListener("click", () => {
-      sidebarShow.classList.add("sidebar-show");
-    });
-  }
-  if (sidebarToggleClose) {
-    sidebarToggleClose.addEventListener("click", () => {
-      sidebarShow.classList.remove("sidebar-show");
     });
   }
 
