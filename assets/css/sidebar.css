@@ -1,7 +1,9 @@
 :root {
 	--hidebar-button-border: none;
 }
-
+#hidebar-button {
+	display: none;
+}
 #sidebar {
 	--_sidebar-desktop-size: 380px;
 	--_sidebar-mobile-size: 100%;
@@ -37,6 +39,7 @@
 	position: fixed;
 	transition: 0.5s ease-in-out;
 	transform: translateX(-100%);
+	scrollbar-width: none;
 }
 #sidebar .sidebar__inner {
 	background-color: var(--_sidebar-background-color);

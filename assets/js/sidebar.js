@@ -22,27 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })();
 
-  // --- Mobile toggle ---
-  const sidebarToggleOpen = document.querySelector(
-    ".mobile-toggle-open .mobile-toggle__button"
-  );
-  const sidebarToggleClose = document.querySelector(
-    ".mobile-toggle-close .mobile-toggle__button"
-  );
-  const sidebarShow = document.querySelector("#sidebar");
-
-  if (sidebarToggleOpen) {
-    sidebarToggleOpen.addEventListener("click", () => {
-      sidebarShow?.classList.add("show");
-    });
-  }
-
-  if (sidebarToggleClose) {
-    sidebarToggleClose.addEventListener("click", () => {
-      sidebarShow?.classList.remove("show");
-    });
-  }
-
   // --- Renderização da sidebar ---
   const sidebarRoot = document.getElementById("sidebar");
 
@@ -264,6 +243,27 @@ document.addEventListener("DOMContentLoaded", () => {
         hidebarButton.classList.toggle("hidebar-button--close");
         sidebarRoot.classList.remove("hide");
       }
+    });
+  }
+
+  // --- Mobile toggle ---
+  const sidebarToggleOpen = document.querySelector(
+    ".mobile-toggle-open .mobile-toggle__button"
+  );
+  const sidebarToggleClose = document.querySelector(
+    ".mobile-toggle-close .mobile-toggle__button"
+  );
+  // const sidebarShow = document.querySelector("#sidebar");
+
+  if (sidebarToggleOpen) {
+    sidebarToggleOpen.addEventListener("click", () => {
+      sidebarRoot.classList.add("sidebar-show");
+    });
+  }
+
+  if (sidebarToggleClose) {
+    sidebarToggleClose.addEventListener("click", () => {
+      sidebarRoot.classList.remove("sidebar-show");
     });
   }
 
