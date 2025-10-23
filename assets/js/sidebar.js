@@ -209,14 +209,18 @@ document.addEventListener("DOMContentLoaded", () => {
   observeNavigation();
 
   // --- StickySidebar ---
-  if (typeof StickySidebar !== "undefined") {
+
+  // --- StickySidebar (ativo apenas no desktop) ---
+  if (typeof StickySidebar !== "undefined" && window.innerWidth > 992) {
     new StickySidebar("#sidebar", {
       topSpacing: 0,
       bottomSpacing: 0,
       containerSelector: ".content",
       innerWrapperSelector: ".sidebar__inner",
     });
+    console.log("StickySidebar ativado (desktop)");
   }
+
 
   // --- Botão para recolher / expandir sidebar (DESKTOP) ---
   const hidebarButton = document.getElementById("hidebar-button");
@@ -247,23 +251,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // --- Mobile toggle ---
-  const sidebarToggleOpen = document.querySelector(
-    ".mobile-toggle-open .mobile-toggle__button"
-  );
-  const sidebarToggleClose = document.querySelector(
-    ".mobile-toggle-close .mobile-toggle__button"
-  );
-  // const sidebarShow = document.querySelector("#sidebar");
+  const sidebarToggleOpen = document.querySelector(".mobile-toggle-open .mobile-toggle__button");
+  const sidebarToggleClose = document.querySelector(".mobile-toggle-close .mobile-toggle__button");
+  const htmlPage = document.querySelector("html");
 
   if (sidebarToggleOpen) {
     sidebarToggleOpen.addEventListener("click", () => {
       sidebarRoot.classList.add("sidebar-show");
+      htmlPage.classList.add('html-overflow');
     });
   }
 
   if (sidebarToggleClose) {
     sidebarToggleClose.addEventListener("click", () => {
       sidebarRoot.classList.remove("sidebar-show");
+      htmlPage.classList.remove('html-overflow');
     });
   }
 

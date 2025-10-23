@@ -261,6 +261,9 @@
 	height: 100%;
 	overflow: hidden;
 }
+.html-overflow {
+	overflow: hidden;
+}
 
 .touch-enable {
 	touch-action: inherit;
