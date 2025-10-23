@@ -181,22 +181,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const updateActiveState = () => {
     const links = sidebarRoot.querySelectorAll(".link-item");
-    const current = window.location.pathname;
+
+    // Normaliza o pathname atual
+    let current = window.location.pathname;
+
+    // Remove /index.html ou .html final
+    current = current.replace(/(\/index)?\.html$/, "");
 
     links.forEach((link) => {
-      const linkPath = link.getAttribute("href");
+      // Normaliza o href do link
+      let linkPath = link.getAttribute("href") || "";
+      linkPath = linkPath.replace(/(\/index)?\.html$/, "");
 
-      // Verifica se o pathname termina com o href do link 
+      // Ajusta para sempre começar com "/"
+      if (!linkPath.startsWith("/")) linkPath = "/" + linkPath;
+
       if (current.endsWith(linkPath)) {
         link.classList.add("active");
 
-        // Abre accordions ancestrais 
+        // Abre accordions ancestrais
         const collapse = link.closest(".accordion-collapse");
         if (collapse && !collapse.classList.contains("show")) {
           const button = collapse
             .closest(".accordion-item")
-            ?.querySelector(".accordion-button");
-          button?.classList.remove("collapsed");
+            ?.querySelector(".accordion-button"); button?.classList.remove("collapsed");
           collapse.classList.add("show");
         }
       } else {
