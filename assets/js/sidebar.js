@@ -1,5 +1,5 @@
-// sidebar.js - versão 1.3.2 (corrigida)
-// Autores: Aline Poly, Danilo Blum e Luciana Nunes
+// sidebar.js - versão 1.3.1 (corrigida)
+// Autores: Aline Polycarpo, Danilo Blum, Luciana Nunes
 
 document.addEventListener("DOMContentLoaded", () => {
   // --- Ajuste de altura da página (DESKTOP) ---
@@ -24,21 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- Renderização da sidebar ---
   const sidebarRoot = document.getElementById("sidebar");
+
   if (!sidebarRoot) return;
 
-  // --- Normaliza caminho de URL ---
-  const normalizePath = (path) => {
-    const a = document.createElement("a");
-    a.href = path;
-    return a.pathname.replace(/\/$/, "");
-  };
-
-  const getCurrentPath = () => normalizePath(window.location.pathname);
+  function getCurrentPath() {
+    return window.location.pathname.replace(/\/$/, "");
+  }
 
   const hasActiveChild = (items) =>
     items.some(
       (item) =>
-        (item.type === "link" && normalizePath(item.path) === getCurrentPath()) ||
+        (item.type === "link" && item.path === getCurrentPath()) ||
         (item.type === "accordion" && hasActiveChild(item.items))
     );
 
@@ -49,7 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
           const iconClass = item.icon ? `icon-${item.icon}` : "";
           return `
             <a href="${item.path}" 
-               class="list-group-item link-item ${iconClass} ${normalizePath(item.path) === getCurrentPath() ? "active" : ""}">
+               class="list-group-item link-item ${iconClass} ${getCurrentPath() === item.path ? "active" : ""
+            }">
               ${item.title}
             </a>
           `;
@@ -64,16 +61,20 @@ document.addEventListener("DOMContentLoaded", () => {
           return `
             <div class="accordion-item ${accordionClass}">
               <h2 class="accordion-header" id="${accordionId}-header">
-                <button class="accordion-button ${isActive ? "" : "collapsed"}" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#${accordionId}">
+                <button class="accordion-button ${isActive ? "" : "collapsed"
+            }" type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#${accordionId}">
                   ${item.title}
                 </button>
               </h2>
               <div id="${accordionId}" 
-                   class="accordion-collapse collapse ${isActive ? "show" : ""}"
-                   ${typeLevel === "lesson" ? `data-bs-parent="#${parentId}"` : ""}>
+                   class="accordion-collapse collapse ${isActive ? "show" : ""
+            }"
+                   ${typeLevel === "lesson"
+              ? `data-bs-parent="#${parentId}"`
+              : ""
+            }>
                 <div class="accordion-body list-group">
                   ${renderItems(item.items, accordionId, "lesson")}
                 </div>
@@ -104,41 +105,49 @@ document.addEventListener("DOMContentLoaded", () => {
         </section>
 
         <!-- Botão de esconder sidebar -->
-        <section class="sidebar__section">
+        <!-- <section class="sidebar__section">
           <div class="sidebar__section-hidebar">
             <a id="hidebar-button" role="button" tabindex="0"></a>
           </div>
-        </section>
+        </section> -->
 
         <!-- Lista de módulos -->
         <section class="sidebar__section">
           <div class="sidebar__section-accordion">
             <div class="accordion" id="sidebarAccordion">
               ${course.modules
-                .map((module, moduleIndex) => {
-                  const moduleId = `module-${moduleIndex}`;
-                  const isActive = hasActiveChild(module.items);
-                  return `
+        .map((module, moduleIndex) => {
+          const moduleId = `module-${moduleIndex}`;
+          const isActive = hasActiveChild(module.items);
+
+          return `
                     <div class="accordion-item accordion-module">
                       <h2 class="accordion-header" id="${moduleId}-header">
-                        <button class="accordion-button ${isActive ? "" : "collapsed"}" 
-                                type="button" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#${moduleId}">
+                        <button class="accordion-button ${isActive ? "" : "collapsed"
+            }" 
+                          type="button" 
+                          data-bs-toggle="collapse" 
+                          data-bs-target="#${moduleId}">
                           ${module.title}
                         </button>
                       </h2>
                       <div id="${moduleId}" 
-                           class="accordion-collapse collapse ${isActive ? "show" : ""}" 
+                           class="accordion-collapse collapse ${isActive ? "show" : ""
+            }" 
                            data-bs-parent="#sidebarAccordion">
-                        <div class="accordion-body list-group accordion" id="${moduleId}-lessons">
-                          ${renderItems(module.items, `${moduleId}-lessons`, "lesson")}
+                        <div class="accordion-body list-group accordion" 
+                             id="${moduleId}-lessons">
+                          ${renderItems(
+              module.items,
+              `${moduleId}-lessons`,
+              "lesson"
+            )}
                         </div>
                       </div>
                     </div>
                   `;
-                })
-                .join("")}
+        })
+        .join("")}
             </div>
           </div>
         </section>
@@ -149,31 +158,24 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Atualiza visual do link ativo dinamicamente ---
   const updateActiveState = () => {
     const links = sidebarRoot.querySelectorAll(".link-item");
-    const currentPath = getCurrentPath();
+    const current = getCurrentPath();
 
     links.forEach((link) => {
-      const linkPath = normalizePath(link.getAttribute("href"));
-
-      if (linkPath === currentPath) {
+      if (link.getAttribute("href") === current) {
         link.classList.add("active");
 
-        // Abre todos os accordions ancestrais
-        let collapse = link.closest(".accordion-collapse");
-        while (collapse) {
-          const button = collapse.closest(".accordion-item")?.querySelector(".accordion-button");
-          if (button) button.classList.remove("collapsed");
+        // Abre accordions ancestrais
+        const collapse = link.closest(".accordion-collapse");
+        if (collapse && !collapse.classList.contains("show")) {
+          const button = collapse
+            .closest(".accordion-item")
+            ?.querySelector(".accordion-button");
+          button?.classList.remove("collapsed");
           collapse.classList.add("show");
-          collapse = collapse.closest(".accordion-collapse");
         }
       } else {
         link.classList.remove("active");
       }
-    });
-
-    // Fecha outros accordions sem links ativos
-    const allCollapses = sidebarRoot.querySelectorAll(".accordion-collapse");
-    allCollapses.forEach((c) => {
-      if (!c.querySelector(".link-item.active")) c.classList.remove("show");
     });
   };
 
@@ -187,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const orig = history[type];
       return function () {
         const rv = orig.apply(this, arguments);
+        // Aguarda o DOM atualizar antes de disparar o evento
         setTimeout(() => window.dispatchEvent(new Event("locationchange")), 50);
         return rv;
       };
@@ -199,10 +202,13 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => window.dispatchEvent(new Event("locationchange")), 50)
     );
 
+    // Evento unificado para qualquer mudança de rota
     window.addEventListener("locationchange", updateActiveState);
   };
 
   observeNavigation();
+
+  // --- StickySidebar ---
 
   // --- StickySidebar (ativo apenas no desktop) ---
   if (typeof StickySidebar !== "undefined" && window.innerWidth > 992) {
@@ -214,6 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     console.log("StickySidebar ativado (desktop)");
   }
+
 
   // --- Botão para recolher / expandir sidebar (DESKTOP) ---
   const hidebarButton = document.getElementById("hidebar-button");
@@ -251,14 +258,15 @@ document.addEventListener("DOMContentLoaded", () => {
   if (sidebarToggleOpen) {
     sidebarToggleOpen.addEventListener("click", () => {
       sidebarRoot.classList.add("sidebar-show");
-      htmlPage.classList.add("html-overflow");
+      htmlPage.classList.add('html-overflow');
     });
   }
 
   if (sidebarToggleClose) {
     sidebarToggleClose.addEventListener("click", () => {
       sidebarRoot.classList.remove("sidebar-show");
-      htmlPage.classList.remove("html-overflow");
+      htmlPage.classList.remove('html-overflow');
     });
   }
+
 });
