@@ -172,6 +172,7 @@ const modalInfos = {
 					<div class="mb-5">
 						<p class="mb-1">Mario Moreira</p>
 						<p class="small text-muted"><em>Presidente</em></p>
+
 						<p class="mb-1">Marly Cruz</p>
 						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
 					</div>
@@ -182,12 +183,16 @@ const modalInfos = {
 
 						<p class="mb-1">Ana Cristina da Matta Furniel</p>
 						<p class="small text-muted"><em>Coordenadora geral</em></p>
+
 						<p class="mb-1">Rosane Mendes</p>
 						<p class="small text-muted"><em>Coordenadora adjunta</em></p>
+
 						<p class="mb-1">Renata Bernardes David</p>
 						<p class="small text-muted"><em>Gerente de produção</em></p>
+
 						<p class="mb-1">Juliana Dutra</p>
 						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
+
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
 					
@@ -198,39 +203,64 @@ const modalInfos = {
 						
 						<p class="mb-1">Aline Polycarpo</p>
 						<p class="small text-muted"><em>Designer de Interface e Interação</em></p>
+
 						<p class="mb-1">Danilo Blum</p>
 						<p class="small text-muted"><em>Designer de Interface e Front-end</em></p>
+
 						<p class="mb-1">Luciana Nunes</p>
 						<p class="small text-muted"><em>Designer de Interface e Interação</em></p>
+					
 						
 						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
 						
+						<p class="mb-1">Cynthia Macedo Dias</p>
+						<p class="small text-muted"><em>Locução</em></p>
+
+						<p class="mb-1">Francisco de Assis Menezes Vignolo Lucas</p>
+						<p class="small text-muted"><em>Animação, videografismo, edição, sonorização e locução</em></p>
+
+						<p class="mb-1">Hugo Rodrigues Marins</p>
+						<p class="small text-muted"><em>Mixagem e edição de som</em></p>
+
 						<p class="mb-1">Teo Venerando</p>
 						<p class="small text-muted"><em>Edição audiovisual</em></p>
 
 						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
-						
+
 						<p class="mb-1">Maria Clara Pontes</p>
-						<p class="small text-muted"><em>Designer Educacional</em></p>
+						<p class="small text-muted"><em>Desenhista instrucional</em></p>
+
 						<p class="mb-1">Carmélia Brito</p>
 						<p class="small text-muted"><em>Bibliotecária</em></p>
+
 						<p class="mb-1">Natália Rasina</p>
 						<p class="small text-muted"><em>Audiodescrição</em></p>
-						<p class="mb-1">Janaina Vieira</p>
+
+						<p class="mb-1">Maria Angélica Marcondes Drska</p>
 						<p class="small text-muted"><em>Revisão de Português</em></p>
 						
 						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
 					
 						<p class="mb-1">Bruno Alexandre de Oliveira</p>
 						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
 						<p class="mb-1">Eduardo Xavier da Silva</p>
 						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
 						<p class="mb-1">Adriano Lourenço</p>
 						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+
 						<p class="mb-1">Orlando Terra</p>
 						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+
 						<p class="mb-1">Fábio Carneiro</p>
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+
+						<p class="mb-1">Flávia Garcia de Carvalho</p>
+						<p class="small text-muted"><em>Direção de arte</em></p>
+
+						<p class="mb-1">Francisco de Assis Menezes Vignolo Lucas</p>
+						<p class="small text-muted"><em>Ilustração</em></p>
 					</div>
 
 					<span class="h5 mb-3 d-block">Coordenação do projeto</span>
