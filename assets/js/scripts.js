@@ -105,36 +105,36 @@ imageToLightbox.forEach(image => {
 const imageToLightboxWithScroll = document.querySelectorAll(".lightbox-scroll");
 
 imageToLightboxWithScroll.forEach((imageScroll) => {
-  imageScroll.addEventListener("click", () => {
-    if (!imageScroll.classList.contains("lightbox-scroll--show")) {
-      const getImageScroll = imageScroll.querySelector("img");
-      const getImageScrollSrc = getImageScroll.getAttribute("src");
-      const imageLightboxScroll = document.createElement("div");
+	imageScroll.addEventListener("click", () => {
+		if (!imageScroll.classList.contains("lightbox-scroll--show")) {
+			const getImageScroll = imageScroll.querySelector("img");
+			const getImageScrollSrc = getImageScroll.getAttribute("src");
+			const imageLightboxScroll = document.createElement("div");
 
-      imageLightboxScroll.classList.add("lightbox-scroll__image");
+			imageLightboxScroll.classList.add("lightbox-scroll__image");
 
-      document.body.appendChild(imageLightboxScroll);
-      imageLightboxScroll.innerHTML = `<img src="${getImageScrollSrc}"/>`;
-      console.log(getImageScrollSrc);
+			document.body.appendChild(imageLightboxScroll);
+			imageLightboxScroll.innerHTML = `<img src="${getImageScrollSrc}"/>`;
+			console.log(getImageScrollSrc);
 
-      imageScroll.classList.add("lightbox-scroll--show");
+			imageScroll.classList.add("lightbox-scroll--show");
 
-      document.body.style.overflow = "hidden";
-      document.body.style.userSelect = "none";
+			document.body.style.overflow = "hidden";
+			document.body.style.userSelect = "none";
 
-      closeLightboxScroll(imageLightboxScroll);
-    }
+			closeLightboxScroll(imageLightboxScroll);
+		}
 
-    function closeLightboxScroll(s) {
-      const lightboxScrollOpen = document.querySelector(".lightbox-scroll__image");
-      s.addEventListener("click", () => {
-        document.body.removeChild(s);
-        imageScroll.classList.remove("lightbox-scroll--show");
-        document.body.style.overflow = "auto";
-        document.body.style.userSelect = "auto";
-      });
-    }
-  });
+		function closeLightboxScroll(s) {
+			const lightboxScrollOpen = document.querySelector(".lightbox-scroll__image");
+			s.addEventListener("click", () => {
+				document.body.removeChild(s);
+				imageScroll.classList.remove("lightbox-scroll--show");
+				document.body.style.overflow = "auto";
+				document.body.style.userSelect = "auto";
+			});
+		}
+	});
 });
 
 // Boxes - inserir o título de acordo com o atributo
@@ -600,64 +600,6 @@ const modalInfos = {
                                     <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BORGES JÚNIOR, V.; GRELLE, C. E. V. Qual a relação entre conservação da natureza e doenças tropicais? <strong>Jornal O eco</strong>, 2023. Disponível em: <a href='https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/' target='_blank' rel="noopener noreferrer">https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/</a>.</li>
 
                                     <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M; PEREIRA, E. M. <strong>Território, Participação e Comunicação Popular em Saúde.</strong> Material Didático do Programa de Formação de Agentes Educadoras e Educadores Populares de Saúde. 2024. (No Prelo)</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"></li>
                                 </ul>
                             </div>
                         </div>
