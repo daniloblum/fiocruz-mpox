@@ -31,12 +31,33 @@ document.addEventListener("DOMContentLoaded", () => {
     return window.location.pathname.replace(/\/$/, "");
   }
 
+  function getBasePath() {
+    const pathParts = window.location.pathname.split("/").filter(Boolean);
+
+    // Detecta se o primeiro segmento parece um módulo (ex: "modulo1", "modulo2", etc.)
+    const isModule = /^modulo\d+/i.test(pathParts[0]);
+
+    // Se o primeiro segmento for um módulo, significa que estamos na raiz (sem pasta base)
+    if (isModule) {
+      return "";
+    }
+
+    // Caso contrário, assume que o primeiro segmento é a pasta base (ex: "fiocruz-mpox")
+    return pathParts.length > 0 ? "/" + pathParts[0] : "";
+  }
+
+
   const hasActiveChild = (items) =>
     items.some(
-      (item) =>
-        (item.type === "link" && item.path === getCurrentPath()) ||
-        (item.type === "accordion" && hasActiveChild(item.items))
+      (item) => {
+        const fullPath = getBasePath() + item.path;
+        return (
+          (item.type === "link" && fullPath === getCurrentPath()) ||
+          (item.type === "accordion" && hasActiveChild(item.items))
+        );
+      }
     );
+
 
   const renderItems = (items, parentId, typeLevel = "module") =>
     items
@@ -44,11 +65,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (item.type === "link") {
           const iconClass = item.icon ? `icon-${item.icon}` : "";
           return `
-            <a href="${item.path}" 
-               class="list-group-item link-item ${iconClass} ${getCurrentPath() === item.path ? "active" : ""
-            }">
-              ${item.title}
-            </a>
+            <a href="${getBasePath() + item.path}" 
+   class="list-group-item link-item ${iconClass} ${getCurrentPath() === getBasePath() + item.path ? "active" : ""}">
+  ${item.title}
+</a>
           `;
         }
 
@@ -156,64 +176,12 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // --- Atualiza visual do link ativo dinamicamente ---
-  // const updateActiveState = () => {
-  //   const links = sidebarRoot.querySelectorAll(".link-item");
-  //   const current = getCurrentPath();
-
-  //   links.forEach((link) => {
-  //     if (link.getAttribute("href") === current) {
-  //       link.classList.add("active");
-
-  //       // Abre accordions ancestrais
-  //       const collapse = link.closest(".accordion-collapse");
-  //       if (collapse && !collapse.classList.contains("show")) {
-  //         const button = collapse
-  //           .closest(".accordion-item")
-  //           ?.querySelector(".accordion-button");
-  //         button?.classList.remove("collapsed");
-  //         collapse.classList.add("show");
-  //       }
-  //     } else {
-  //       link.classList.remove("active");
-  //     }
-  //   });
-  // };
-
   const updateActiveState = () => {
     const links = sidebarRoot.querySelectorAll(".link-item");
-
-    // Prefixo base do projeto (ajuste se o nome da pasta mudar)
-    const basePath = "/fiocruz-mpox";
-
-    // Caminho atual normalizado
-    let current = window.location.pathname;
-
-    // Garante que o caminho contenha o prefixo base
-    if (!current.startsWith(basePath)) {
-      current = basePath + current;
-    }
-
-    // Remove .html e /index.html do final
-    current = current.replace(/(\/index)?\.html$/, "");
+    const current = getCurrentPath();
 
     links.forEach((link) => {
-      let linkPath = link.getAttribute("href") || "";
-
-      // Remove .html e /index.html também dos links
-      linkPath = linkPath.replace(/(\/index)?\.html$/, "");
-
-      // Garante que o link comece com o prefixo base
-      if (!linkPath.startsWith(basePath)) {
-        // evita duplicar o prefixo se já existir
-        if (linkPath.startsWith("/")) {
-          linkPath = basePath + linkPath;
-        } else {
-          linkPath = basePath + "/" + linkPath;
-        }
-      }
-
-      // Comparação final
-      if (current === linkPath) {
+      if (link.getAttribute("href") === current) {
         link.classList.add("active");
 
         // Abre accordions ancestrais
