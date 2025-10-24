@@ -188,10 +188,10 @@ const modalInfos = {
 						<p class="small text-muted"><em>Coordenadora adjunta</em></p>
 
 						<p class="mb-1">Renata Bernardes David</p>
-						<p class="small text-muted"><em>Gerente de produção</em></p>
+						<p class="small text-muted"><em>Coordenadora de produção</em></p>
 
 						<p class="mb-1">Juliana Dutra</p>
-						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
+						<p class="small text-muted"><em>Gerente de produção</em></p>
 
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
