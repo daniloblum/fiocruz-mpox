@@ -49,10 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const hasActiveChild = (items) =>
     items.some(
-      (item) =>
-        (item.type === "link" && item.path === getCurrentPath()) ||
-        (item.type === "accordion" && hasActiveChild(item.items))
+      (item) => {
+        const fullPath = getBasePath() + item.path;
+        return (
+          (item.type === "link" && fullPath === getCurrentPath()) ||
+          (item.type === "accordion" && hasActiveChild(item.items))
+        );
+      }
     );
+
 
   const renderItems = (items, parentId, typeLevel = "module") =>
     items
