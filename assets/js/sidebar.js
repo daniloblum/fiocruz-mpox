@@ -34,16 +34,16 @@ document.addEventListener("DOMContentLoaded", () => {
   function getBasePath() {
     const pathParts = window.location.pathname.split("/").filter(Boolean);
 
-    // Detecta se o primeiro segmento parece um módulo (ex: "modulo1", "modulo2", etc.)
-    const isModule = /^modulo\d+/i.test(pathParts[0]);
+    // Encontra o índice da primeira pasta que parece um módulo (ex: "modulo1", "modulo2", etc.)
+    const moduleIndex = pathParts.findIndex((part) => /^modulo\d+/i.test(part));
 
-    // Se o primeiro segmento for um módulo, significa que estamos na raiz (sem pasta base)
-    if (isModule) {
-      return "";
+    // Se encontrou um módulo, retorna tudo que vem antes dele como basePath
+    if (moduleIndex > 0) {
+      return "/" + pathParts.slice(0, moduleIndex).join("/");
     }
 
-    // Caso contrário, assume que o primeiro segmento é a pasta base (ex: "fiocruz-mpox")
-    return pathParts.length > 0 ? "/" + pathParts[0] : "";
+    // Se não encontrou módulo, não há base (raiz)
+    return "";
   }
 
 
