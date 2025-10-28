@@ -1,4 +1,4 @@
-// sidebar.js - versão 1.3.1 (corrigida)
+// sidebar.js - versão 1.4 (corrigida)
 // Autores: Aline Polycarpo, Danilo Blum, Luciana Nunes
 
 document.addEventListener("DOMContentLoaded", () => {
